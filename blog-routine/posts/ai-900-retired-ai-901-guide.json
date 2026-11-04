@@ -1,0 +1,93 @@
+{
+  "slug": "ai-900-retired-ai-901-guide",
+  "category": "career-skills",
+  "title": "AI-900 Is Retired: What AI-901 Means for Beginners",
+  "h1": "AI-900 Is Retired: What the New AI-901 Exam Means for Beginners",
+  "description": "Microsoft retired AI-900 on June 30, 2026. AI-901 now earns Azure AI Fundamentals, and it expects basic Python. See what changed and who should take it now.",
+  "published": "2026-11-04",
+  "modified": "2026-11-04",
+  "read_min": 8,
+  "card_summary": "Many lists still recommend AI-900, but you can no longer book it. What AI-901 tests, why it now needs basic Python, and how to prepare.",
+  "lead": "You can no longer take Microsoft's AI-900 exam: Microsoft retired it on June 30, 2026 and replaced it with AI-901, which now earns the same Microsoft Certified: Azure AI Fundamentals certification. The big change is that AI-901 is no longer a \"what is AI\" exam for anyone. Microsoft now expects basic Python and spends more than half the exam on building small AI apps with Microsoft Foundry. If you already passed AI-900, you do not need to do anything.",
+  "takeaways": [
+    "AI-900 was retired on June 30, 2026. AI-901 is the exam that now earns Microsoft Certified: Azure AI Fundamentals.",
+    "Microsoft lists basic Python syntax and programming concepts as expected knowledge for AI-901. AI-900 needed no coding.",
+    "Implementing AI solutions with Microsoft Foundry is 55 to 60% of AI-901, so hands-on practice matters more than flashcards.",
+    "If you already hold Azure AI Fundamentals from AI-900, Microsoft says no action is required, and fundamentals certifications do not expire.",
+    "Many 2026 \"best AI certification\" lists still recommend AI-900. Check the exam code before you buy any course or practice test."
+  ],
+  "sections": [
+    {
+      "id": "what-happened",
+      "h2": "What happened to the AI-900 exam?",
+      "html": "<p>Microsoft retired it. In its <a href=\"https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft-certified-azure-ai-fundamentals-certification/4494127\" rel=\"noopener\">April 15, 2026 announcement</a>, Microsoft said Exam AI-901 replaces Exam AI-900, which was being retired on June 30, 2026. That date has passed, so AI-901 is now the exam you book.</p>\n<p>The certification name stays the same: Microsoft Certified: Azure AI Fundamentals. Only the exam behind it changed. That is why so many people get confused. They search for the certification, land on an older article or video that teaches AI-900, and do not notice the exam code.</p>\n<div class=\"callout\">Quick check before you pay for any course, book or practice test: it should say <strong>AI-901</strong> and match Microsoft's skills list dated April 15, 2026. Material written only for AI-900 will miss most of the new exam.</div>"
+    },
+    {
+      "id": "what-changed",
+      "h2": "What is different about AI-901?",
+      "html": "<p>AI-901 moves from describing AI to building with it. Microsoft's own comparison table in the announcement sums it up like this:</p>\n<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Area</th><th>AI-900 (retired)</th><th>AI-901 (current)</th></tr></thead><tbody>\n<tr><th>Audience</th><td>Nontechnical or technical beginners</td><td>Technical beginners planning to build AI solutions</td></tr>\n<tr><th>Focus</th><td>\"What is AI?\"</td><td>\"How do I build an AI app by using Foundry?\"</td></tr>\n<tr><th>Python needed</th><td>None</td><td>Basic Python syntax and programming concepts</td></tr>\n</tbody></table></div>\n<p>The official <a href=\"https://learn.microsoft.com/credentials/certifications/resources/study-guides/ai-901\" rel=\"noopener\">AI-901 study guide</a> splits the exam into two parts:</p>\n<ul>\n<li><strong>Identify AI concepts and capabilities (40 to 45%):</strong> responsible AI principles, how generative AI models work, choosing and configuring models, and common workloads such as text analysis, speech, computer vision and information extraction.</li>\n<li><strong>Implement AI solutions by using Microsoft Foundry (55 to 60%):</strong> writing system and user prompts, deploying a model in the Foundry portal, building a lightweight chat client with the Foundry SDK, creating and testing a single agent, and building small apps for text, speech, vision and document extraction.</li>\n</ul>\n<p>The study guide also says you should be familiar with REST APIs, SDKs and CLIs, and that you need a score of 700 or more to pass.</p>"
+    },
+    {
+      "id": "python",
+      "h2": "Do you need to know Python for AI-901?",
+      "html": "<p>Yes, at a basic level. The study guide's audience profile says you need \"knowledge of Python coding syntax and programming techniques\" and should be familiar with Azure resources. You do not need to be a developer, but you should be able to read a short Python script and understand what it does.</p>\n<p>In practice, basic means you are comfortable with:</p>\n<ul>\n<li>variables, strings, lists and dictionaries</li>\n<li>if statements and loops</li>\n<li>calling a function and reading what it returns</li>\n<li>installing a package and running a script from the terminal</li>\n</ul>\n<p>This is my teaching view rather than a Microsoft definition, but it matches what the Foundry tasks in the study guide involve: small client apps that send a prompt and handle the response. If none of that list is familiar, spend two to four weeks on Python first. It will make AI-901 far easier, and the Python is useful on its own.</p>"
+    },
+    {
+      "id": "already-passed",
+      "h2": "Is an AI-900 certification still valid?",
+      "html": "<p>Yes. Microsoft's announcement says that if you already hold the certification, no action is required, and that taking AI-901 will not change the name of your existing credential. Microsoft's <a href=\"https://learn.microsoft.com/credentials/support/credential-expiration-policy\" rel=\"noopener\">credential expiration policy</a> also states that fundamentals certifications do not expire.</p>\n<p>So there is no need to retake anything. Taking AI-901 anyway only makes sense if you want the hands-on Foundry skills it covers, not to keep your certification alive.</p>"
+    },
+    {
+      "id": "cost",
+      "h2": "How much does AI-901 cost, and is it free?",
+      "html": "<p>The exam is paid. The <a href=\"https://learn.microsoft.com/certifications/azure-ai-fundamentals\" rel=\"noopener\">Azure AI Fundamentals certification page</a> says the price is based on the country or region where the exam is proctored, and does not include taxes, so you see your real price when you schedule.</p>\n<p>The preparation can be free. The study guide points to a free Practice Assessment on Microsoft's AI Skills Navigator (you need to sign in) and an exam sandbox where you can try the exam interface before test day.</p>\n<p>One thing to watch: discount offers do not always apply everywhere. The AI-901 beta discount in Microsoft's announcement, for example, was limited to the first 300 people and was not available in Turkey, Pakistan, India or China. Always read the country rules on an offer before you plan around it.</p>"
+    },
+    {
+      "id": "who-should-take-it",
+      "h2": "Who should take AI-901 now?",
+      "html": "<p>AI-901 is a good fit if you want to build with AI, not just talk about it. Here is how I would decide, based on where you are starting from.</p>\n<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Your situation</th><th>What to do</th></tr></thead><tbody>\n<tr><th>You can write basic Python and want a Microsoft AI certification</th><td>Take AI-901. Practice in the Foundry portal, not just with notes.</td></tr>\n<tr><th>You have never coded</th><td>Learn basic Python first, then AI-901. For a quick no-code start, a <a href=\"blog-free-ai-courses-with-certificates\">free beginner AI badge</a> is a better first step.</td></tr>\n<tr><th>You already passed AI-900</th><td>Nothing required. Take AI-901 only if you want the hands-on skills.</td></tr>\n<tr><th>You are halfway through an AI-900 course</th><td>Keep the concept parts, then switch to the AI-901 study guide for the Foundry half.</td></tr>\n</tbody></table></div>\n<h3>A 4-week plan if you already know basic Python</h3>\n<p>This is my suggested plan, not an official Microsoft schedule. Adjust it to your pace.</p>\n<ol>\n<li><strong>Week 1:</strong> Read the study guide line by line. Cover responsible AI and the AI workloads part of domain 1.</li>\n<li><strong>Week 2:</strong> In Foundry, deploy a model, write system and user prompts, and build a small chat client with the SDK.</li>\n<li><strong>Week 3:</strong> Build one small app each for text analysis, speech and vision, then try information extraction from a document.</li>\n<li><strong>Week 4:</strong> Take the free Practice Assessment, review weak areas against the study guide, and try the exam sandbox before you book.</li>\n</ol>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I still book the AI-900 exam?",
+      "a": "No. Microsoft retired AI-900 on June 30, 2026. AI-901 is now the exam that earns Microsoft Certified: Azure AI Fundamentals, so book that instead."
+    },
+    {
+      "q": "Is AI-901 harder than AI-900?",
+      "a": "For people who cannot code, yes. AI-900 needed no coding, while Microsoft lists basic Python as expected knowledge for AI-901 and gives 55 to 60% of the exam to building solutions in Microsoft Foundry. If you can already write simple Python, the jump is manageable with hands-on practice."
+    },
+    {
+      "q": "Does the Azure AI Fundamentals certification expire?",
+      "a": "No. Microsoft's credential expiration policy says fundamentals certifications do not expire. Role-based associate and expert certifications are the ones that need yearly renewal."
+    }
+  ],
+  "sources": [
+    {
+      "title": "New Microsoft Certified: Azure AI Fundamentals certification (Microsoft Tech Community, April 15, 2026)",
+      "url": "https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft-certified-azure-ai-fundamentals-certification/4494127"
+    },
+    {
+      "title": "Study guide for Exam AI-901: Microsoft Azure AI Fundamentals (Microsoft Learn)",
+      "url": "https://learn.microsoft.com/credentials/certifications/resources/study-guides/ai-901"
+    },
+    {
+      "title": "Microsoft Certified: Azure AI Fundamentals (Microsoft Learn)",
+      "url": "https://learn.microsoft.com/certifications/azure-ai-fundamentals"
+    },
+    {
+      "title": "Credential expiration policy (Microsoft Learn)",
+      "url": "https://learn.microsoft.com/credentials/support/credential-expiration-policy"
+    }
+  ],
+  "related": [
+    {
+      "title": "Free AI courses with certificates: which ones are really free",
+      "href": "blog-free-ai-courses-with-certificates"
+    },
+    {
+      "title": "All career skills guides",
+      "href": "blog#career-skills"
+    }
+  ]
+}
