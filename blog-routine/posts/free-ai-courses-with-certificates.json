@@ -1,0 +1,102 @@
+{
+  "slug": "free-ai-courses-with-certificates",
+  "category": "free-courses",
+  "title": "Free AI Courses With Certificates: What Is Really Free",
+  "h1": "Free AI Courses With Certificates: Which Ones Are Really Free in 2026",
+  "description": "Google, IBM and Harvard all offer AI courses, but only some give a free certificate or badge. See which are really free, what each takes, and which to start.",
+  "published": "2026-11-04",
+  "modified": "2026-11-04",
+  "read_min": 8,
+  "card_summary": "Google's free Generative AI badge, IBM's free AI badge and Harvard's free CS50 AI certificate, compared with the paid Google AI Essentials certificate.",
+  "lead": "Three well-known AI courses give you a credential for free: Google's Generative AI Fundamentals skill badge, IBM's Getting Started with Artificial Intelligence badge, and the free CS50 Certificate for Harvard's CS50 AI course. Google AI Essentials, the one most people mean when they say \"Google AI certificate\", is not free: after a 7-day trial it costs $49 a month in the US and Canada. Below is what each option gives you, what it takes to earn, and which one to start with.",
+  "takeaways": [
+    "\"Free course\" and \"free certificate\" are not the same thing. Check what the credential costs, not just the lessons.",
+    "Google's Generative AI Fundamentals skill badge is no-cost and Google says it takes as little as 120 minutes.",
+    "IBM's Getting Started with Artificial Intelligence badge is free, but you need 80% or more on every assessment.",
+    "Harvard's CS50 AI gives a free CS50 Certificate if you score at least 70% on each project. It is the hardest option and the strongest proof of skill.",
+    "Google AI Essentials costs $49 a month in the US and Canada after a 7-day free trial, and Google says the price may be lower in other countries."
+  ],
+  "sections": [
+    {
+      "id": "free-vs-certificate",
+      "h2": "What is the difference between a free course and a free certificate?",
+      "html": "<p>A free course lets you watch and read the lessons at no cost. A free certificate or badge means the proof that you finished also costs nothing. Many \"free AI course\" lists mix the two up, which is why people sign up, finish the videos and then hit a payment screen.</p>\n<p>When you look at any AI course, sort it into one of these four levels:</p>\n<ol>\n<li><strong>Free to learn, paid credential.</strong> The lessons are free or on a trial, but the certificate needs payment.</li>\n<li><strong>Free badge.</strong> A digital badge, usually shared through a site like Credly or a profile page, that you can add to LinkedIn.</li>\n<li><strong>Free certificate of completion.</strong> A certificate from the course provider that says you met the requirements.</li>\n<li><strong>Paid or verified certificate.</strong> Includes an identity check or a subscription, and costs money.</li>\n</ol>\n<p>None of the free options below are accredited qualifications or industry certifications like CompTIA Security+. They show that you learned the basics. That still helps on a CV or LinkedIn, especially early on, as long as you describe them honestly.</p>"
+    },
+    {
+      "id": "comparison",
+      "h2": "Which AI courses actually give a free credential?",
+      "html": "<p>Of the four best-known beginner options, three give a credential at no cost. This table puts them side by side, using only what each provider's own page says.</p>\n<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Course</th><th>Credential</th><th>Cost of credential</th><th>What it takes</th></tr></thead><tbody>\n<tr><th>Google: Generative AI Fundamentals</th><td>Skill badge</td><td>No cost</td><td>3 short courses and a final quiz, \"as little as 120 minutes\"</td></tr>\n<tr><th>IBM SkillsBuild: Getting Started with Artificial Intelligence</th><td>Digital badge on Credly</td><td>Free</td><td>Complete the course set and score 80% or more on all assessments</td></tr>\n<tr><th>Harvard: CS50's Introduction to Artificial Intelligence with Python</th><td>Free CS50 Certificate</td><td>Free (verified edX certificate is paid)</td><td>Submit every project and score at least 70% on each</td></tr>\n<tr><th>Google AI Essentials (on Coursera)</th><td>Certificate from Google</td><td>$49 a month in the US and Canada after a 7-day trial</td><td>Self-paced course of under 5 hours</td></tr>\n</tbody></table></div>\n<p>Sources for each row are linked in the sections below and listed at the end of this guide.</p>"
+    },
+    {
+      "id": "google-ai-essentials",
+      "h2": "Is Google AI Essentials free?",
+      "html": "<p>No. Google's <a href=\"https://grow.google/enroll-certificates/ai-essentials-low\" rel=\"noopener\">AI Essentials enrollment page</a> says the course runs on Coursera, and in the US and Canada \"the subscription cost is $49 USD per month after an initial 7-day free trial period.\" The same page says the cost may be lower in other countries where the program is offered, so check the price Coursera shows for your country.</p>\n<p>The course itself is short. Google describes it as self-paced and under 5 hours, and it ends with a certificate from Google that you can share with employers.</p>\n<p>A practical tip: because the content is under 5 hours, a focused learner can often get through it inside the 7-day trial. If you try this, read Coursera's trial terms before you start, put a reminder in your phone for day 6, and cancel if you do not want to keep paying. If you want a no-cost credential from Google with no trial clock, the skill badge in the next section is the better start.</p>"
+    },
+    {
+      "id": "google-skill-badge",
+      "h2": "How do you earn Google's free Generative AI Fundamentals badge?",
+      "html": "<p>You take three short courses and pass a final quiz. Google Cloud announced it in a 2023 post titled <a href=\"https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-generative-ai-skill-badge\" rel=\"noopener\">\"Highlight your generative AI skills by earning the new no-cost skill badge\"</a>, which says no technical skills or prior knowledge are needed.</p>\n<p>The three courses are:</p>\n<ol>\n<li>Introduction to Generative AI</li>\n<li>Introduction to Large Language Models</li>\n<li>Introduction to Responsible AI</li>\n</ol>\n<p>Google says it can take as little as 120 minutes. The post names the platform as Google Cloud Skills Boost. When we checked the old Skills Boost course address while writing this guide, it redirected to Google's newer Google Skills site (skills.google), so expect to land there.</p>\n<p>This is the quickest credential on the list. It covers what generative AI is and how large language models work at a concept level. It will not teach you to build anything, so think of it as a first step.</p>"
+    },
+    {
+      "id": "ibm-badge",
+      "h2": "How do you get IBM's free AI badge?",
+      "html": "<p>You register on IBM SkillsBuild, complete the Getting Started with Artificial Intelligence course set, and score 80% or more on every assessment. The badge's <a href=\"https://www.credly.com/org/ibm/badge/getting-started-with-artificial-intelligence\" rel=\"noopener\">Credly page</a> lists the cost as free, the level as foundational, and the issuer as IBM.</p>\n<p>The 80% pass mark is the part people miss. If you rush the videos you can fail an assessment and have to go back, so take short notes as you go. The Credly page also says the badge is only available to registered users, so sign up on SkillsBuild before you start rather than watching the lessons elsewhere.</p>\n<p>Compared with Google's badge, this one asks a bit more of you because of the assessments, and it carries IBM's name. Doing both is reasonable. They overlap, but each adds a recognizable badge to your profile.</p>"
+    },
+    {
+      "id": "cs50-ai",
+      "h2": "Is Harvard's CS50 AI certificate really free?",
+      "html": "<p>Yes, the CS50 Certificate is free, but it is far harder to earn than the badges above. The course's <a href=\"https://cs50.harvard.edu/ai/2024/certificate\" rel=\"noopener\">certificate page</a> says you are eligible for a free CS50 Certificate if you score at least 70% on each of the course's projects. A verified certificate through edX is a separate, paid option.</p>\n<p>The <a href=\"https://cs50.harvard.edu/ai/2023/faqs\" rel=\"noopener\">CS50 AI FAQ</a> adds three things worth knowing before you start:</p>\n<ul>\n<li>You must register with edX even for the free certificate. Choose the free or audit option when you sign up.</li>\n<li>Both the free and verified certificates are not accredited academic offerings from Harvard.</li>\n<li>The FAQ estimates 10 to 20 hours for each week's problem sets.</li>\n</ul>\n<p>The full name is CS50's Introduction to Artificial Intelligence with Python, and the projects are programming work. If you have never written code, a project course like this is a very hard first step. If you can already write basic Python, this is the most valuable option here, because the projects show you can build things, not just that you watched lessons.</p>"
+    },
+    {
+      "id": "which-to-pick",
+      "h2": "Which free AI course should you start with?",
+      "html": "<p>Start with the one that matches your goal and your time. This is my own suggestion, not a ranking from any of the providers.</p>\n<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Your goal</th><th>Start with</th><th>Why</th></tr></thead><tbody>\n<tr><th>Understand AI basics this weekend</th><td>Google Generative AI Fundamentals badge</td><td>Shortest path to a free credential, no coding</td></tr>\n<tr><th>Add a recognizable badge to LinkedIn</th><td>Google badge, then IBM badge</td><td>Two free badges from two big names, both beginner level</td></tr>\n<tr><th>Use AI tools at work with a Google certificate</th><td>Google AI Essentials</td><td>Paid, but short and practical; try to finish inside the trial</td></tr>\n<tr><th>Prove you can build with AI</th><td>CS50 AI</td><td>Free certificate tied to real programming projects</td></tr>\n</tbody></table></div>\n<h3>A simple 2-week plan for beginners</h3>\n<ol>\n<li><strong>Days 1 to 2:</strong> Earn the Google Generative AI Fundamentals badge.</li>\n<li><strong>Days 3 to 7:</strong> Register on IBM SkillsBuild and complete Getting Started with Artificial Intelligence, taking notes for the assessments.</li>\n<li><strong>Days 8 to 10:</strong> Add both badges to LinkedIn, with one line each on what you learned.</li>\n<li><strong>Days 11 to 14:</strong> Use one AI tool for a real task, such as summarizing a long article or drafting a study plan, and write a short post about what worked and what did not.</li>\n</ol>\n<p>Step 4 matters most. A badge says you studied. A small piece of real work says you can use it.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I get the Google AI Essentials certificate for free?",
+      "a": "Not normally. Google's enrollment page lists $49 a month in the US and Canada after a 7-day free trial, and says prices may be lower in other countries. Because the course is under 5 hours, some learners finish inside the trial, but check the trial terms and cancel in time if you do not want to pay."
+    },
+    {
+      "q": "Do I need to know coding for these AI courses?",
+      "a": "Not for the Google skill badge or the IBM badge; Google says its badge needs no technical skills. CS50 AI is different: it is built around programming projects in Python, so it suits people who can already write some code."
+    },
+    {
+      "q": "Are free AI badges worth adding to LinkedIn or a CV?",
+      "a": "Yes, as long as you describe them honestly as introductory badges or a course certificate, not as an accredited qualification. They work best next to something you made, like a small project or a write-up of how you used an AI tool."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google AI Essentials: enrollment and pricing (Grow with Google)",
+      "url": "https://grow.google/enroll-certificates/ai-essentials-low"
+    },
+    {
+      "title": "Highlight your generative AI skills by earning the new no-cost skill badge (Google Cloud Blog, 2023)",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-generative-ai-skill-badge"
+    },
+    {
+      "title": "Getting Started with Artificial Intelligence badge (IBM on Credly)",
+      "url": "https://www.credly.com/org/ibm/badge/getting-started-with-artificial-intelligence"
+    },
+    {
+      "title": "CS50 AI: CS50 Certificate (Harvard)",
+      "url": "https://cs50.harvard.edu/ai/2024/certificate"
+    },
+    {
+      "title": "CS50 AI: Frequently asked questions (Harvard)",
+      "url": "https://cs50.harvard.edu/ai/2023/faqs"
+    }
+  ],
+  "related": [
+    {
+      "title": "All free course and certificate guides",
+      "href": "blog#free-courses"
+    },
+    {
+      "title": "How we check prices and course rules (editorial policy)",
+      "href": "editorial-policy"
+    }
+  ]
+}
