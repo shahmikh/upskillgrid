@@ -15,7 +15,7 @@ Follow the SEO skill in `blog-routine/seo/` every time.
    - Lead answers the question in the first 2 sentences. 3 to 5 takeaways. Question-style H2s that open with a direct answer. Exactly 3 FAQ items. 2 to 6 sources, each also linked inline.
    - 900 to 1,800 words. Never pad.
    - No invented statistics, studies, quotes, reviews or success stories. No first-person anecdotes that are not plainly true.
-   - Confirmed author facts only: Preply Super Tutor, top 15% of computer science tutors on Preply, mechatronics engineering background, teaches Python, Java, AP/IB CS, Security+ and CCNA.
+   - Confirmed author facts only: Preply Super Tutor, top 10% of computer science tutors on Preply, Oxford University Press trained, mechatronics engineering background, teaches IGCSE, GCSE, Cambridge AS & A Level, IB (SL & HL) and AP (CSA & CSP) Computer Science, Python and Java. Do not use the old "top 15%" figure.
    - No banned filler (see build.py), no em or en dashes, US English.
    - At least 2 related links (other posts or `blog#<category>`). Add one link to the new post from an older relevant post.
 7. **Build.** `python3 blog-routine/build.py`. Fix every `[ERROR]` and rerun.

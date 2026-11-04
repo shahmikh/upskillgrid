@@ -139,8 +139,9 @@ PERSON = {
     "@type": "Person", "@id": PERSON_ID, "name": "Syed Shahmikh Ali", "url": SITE + "/about",
     "image": SITE + "/headshot.jpg", "jobTitle": "Computer science tutor and founder of UpskillGrid",
     "sameAs": [LINKEDIN, PERSONAL_SITE],
-    "knowsAbout": ["Artificial intelligence tools", "Python", "Java", "CompTIA Security+", "Cisco CCNA",
-                   "Computer science education"],
+    "knowsAbout": ["Artificial intelligence tools", "Python", "Java", "IGCSE Computer Science", "GCSE Computer Science",
+                   "Cambridge AS and A Level Computer Science", "IB Computer Science", "AP Computer Science A",
+                   "AP Computer Science Principles"],
 }
 ORG = {
     "@type": "Organization", "@id": ORG_ID, "name": BRAND, "url": SITE + "/", "logo": SITE + "/logo.png",
@@ -151,7 +152,7 @@ AUTHOR_BOX = """<aside class="author-box">
   <img src="headshot.jpg" alt="Syed Shahmikh Ali" width="72" height="72" loading="lazy">
   <div>
     <p class="author-name">About the author</p>
-    <p><a href="about">Syed Shahmikh Ali</a> is a Preply Super Tutor, in the top 15% of computer science tutors on Preply, with a mechatronics engineering background. He teaches Python, Java, AP and IB computer science, Security+ and CCNA one to one, and started UpskillGrid to give learners straight answers about AI tools and free courses.</p>
+    <p><a href="about">Syed Shahmikh Ali</a> is a Preply Super Tutor, in the top 10% of computer science tutors on Preply, and Oxford University Press trained, with a mechatronics engineering background. He teaches IGCSE, GCSE, Cambridge AS and A Level, IB (SL and HL) and AP (CSA and CSP) Computer Science, plus Python and Java, one to one, and started UpskillGrid to give learners straight answers about AI tools and free courses.</p>
     <p class="post-note">Editorial note: this guide is checked against the sources listed above. Prices and course terms change, so confirm on the official page before you pay. Spot a mistake? Tell us through the <a href="contact">contact page</a> and we will fix it.</p>
   </div>
 </aside>"""
@@ -384,7 +385,7 @@ def simple(title, desc, path, h1, intro, inner, ld=None, eyebrow=""):
 def build_about():
     inner = """<img src="headshot.jpg" alt="Syed Shahmikh Ali" width="160" height="160" style="border-radius:50%;margin-bottom:20px">
 <h2>Who runs UpskillGrid</h2>
-<p>UpskillGrid is run by <strong>Syed Shahmikh Ali</strong>. I studied mechatronics engineering and now teach computer science and IT one to one. On Preply I am a Super Tutor and in the top 15% of computer science tutors. I teach Python, Java, AP and IB computer science, CompTIA Security+ and Cisco CCNA.</p>
+<p>UpskillGrid is run by <strong>Syed Shahmikh Ali</strong>. I studied mechatronics engineering and now teach computer science one to one. On Preply I am a Super Tutor and in the top 10% of computer science tutors, and I am Oxford University Press trained. I teach IGCSE, GCSE, Cambridge AS and A Level, IB (SL and HL) and AP (CSA and CSP) Computer Science, plus Python and Java.</p>
 <p>Students ask me the same questions every week: which AI tool should I use, is this course really free, will this certificate help me get a job. UpskillGrid is where I answer those questions properly, once, with sources.</p>
 <h2>What you will find here</h2>
 <ul>
