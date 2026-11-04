@@ -355,7 +355,8 @@ def build_home(posts):
                         "publisher": {"@id": ORG_ID}, "inLanguage": "en"}]
     return page("UpskillGrid: AI Tools, Tech How-Tos and Free Courses",
                 "Plain-English guides to AI tools, tech how-tos and free courses with certificates. Every guide is checked against official sources and says what is really free.",
-                "", body, active="home", ld=ld)
+                "", body, active="home", ld=ld,
+                extra='<meta name="msvalidate.01" content="74529FF230CC0899F13C13FE522F66E1">\n')
 
 
 def build_blog(posts):
