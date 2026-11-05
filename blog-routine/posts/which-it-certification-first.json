@@ -1,0 +1,93 @@
+{
+  "slug": "which-it-certification-first",
+  "category": "career-skills",
+  "title": "Which IT Certification First? A+, Network+, Security+, CCNA",
+  "h1": "Which IT Certification Should You Get First: A+, Network+, Security+ or CCNA?",
+  "description": "A+, Network+, Security+ or CCNA first? Compare what each covers, the experience recommended, and which to start with for help desk, networking or security.",
+  "published": "2026-11-05",
+  "modified": "2026-11-05",
+  "read_min": 9,
+  "card_summary": "A simple way to choose your first IT certification based on the job you want, plus the CCNA change coming on February 3, 2027.",
+  "lead": "If you are new to IT, start with CompTIA A+ if you want a help desk or IT support job, and with CCNA if you already know you want networking and can study hard for a few months. Security+ is usually not the best first step for a complete beginner, because CompTIA itself recommends Network+ and two years of IT experience before it. The right choice depends on the job you want, not on which certificate sounds most impressive.",
+  "takeaways": [
+    "A+ is the entry point CompTIA designs for IT support specialist and help desk roles, and it needs two exams: Core 1 and Core 2.",
+    "Security+ has no formal prerequisites, but CompTIA recommends Network+ and about two years of security-focused IT experience first.",
+    "CCNA is one 120-minute Cisco exam that costs US$300 on Cisco's page and goes deep into networking.",
+    "Cisco's last day for the current CCNA v1.1 exam is February 2, 2027. CCNA v2.0 starts on February 3, 2027.",
+    "Pick by the job you want: support, networking or security. Each path can lead to the others later."
+  ],
+  "sections": [
+    {
+      "id": "quick-answer",
+      "h2": "Which IT certification should a complete beginner get first?",
+      "html": "<p>For most complete beginners, A+ is the safest first certification. CompTIA's <a href=\"https://www.comptia.org/certifications/a\" rel=\"noopener\">A+ page</a> says passing Core 1 and Core 2 prepares you for roles like IT support specialist and help desk technician, and builds the knowledge needed to go on to Network+ and Security+. It covers hardware, operating systems, basic networking, security and troubleshooting, which is the base everything else sits on.</p>\n<p>The exception is when you already know what you want. If networking is your goal and you are ready for a harder exam, CCNA can be your first certification. Choose the certificate that matches a specific job, not the one with the most famous name.</p>"
+    },
+    {
+      "id": "comparison",
+      "h2": "How do A+, Network+, Security+ and CCNA compare?",
+      "html": "<p>Here is what each provider says about its own exam. Prices for CompTIA exams vary by country, so check CompTIA's site for yours.</p>\n<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Certification</th><th>Exams</th><th>Experience the provider recommends</th><th>Leads toward</th></tr></thead><tbody>\n<tr><th>CompTIA A+ (V15)</th><td>2 exams (220-1201 and 220-1202), up to 90 questions and 90 minutes each</td><td>12 months of hands-on experience in an IT support role</td><td>IT support specialist, help desk technician</td></tr>\n<tr><th>CompTIA Network+</th><td>1 exam</td><td>Usually taken after A+; CompTIA names it as a next step once you have A+</td><td>Junior network support and administration</td></tr>\n<tr><th>CompTIA Security+</th><td>1 exam, up to 90 questions in 90 minutes</td><td>Network+ and two years of IT administration with a security focus</td><td>Entry security roles, security-focused admin work</td></tr>\n<tr><th>Cisco CCNA (200-301)</th><td>1 exam, 120 minutes, US$300</td><td>Cisco's exam page lists no prerequisites</td><td>Network engineering and administration</td></tr>\n</tbody></table></div>\n<p>\"Recommended experience\" is advice, not a rule. You can book any of these exams without it. It is a signal of how hard the provider expects the exam to feel without real-world practice.</p>"
+    },
+    {
+      "id": "aplus",
+      "h2": "Is CompTIA A+ worth it as a first certification?",
+      "html": "<p>Yes, if you want an IT support or help desk job, or if you have no IT background at all. A+ is broad rather than deep, which is exactly what a first certification should be.</p>\n<p>Two details from CompTIA's A+ page that people miss:</p>\n<ul>\n<li><strong>You must pass both exams, from the same version.</strong> The current version is V15. Core 1 is 220-1201, and CompTIA says Core 1 and Core 2 must be taken from the same version, with no mixing.</li>\n<li><strong>The passing score for Core 1 is 675 on a scale of 900.</strong> Each exam has up to 90 questions in 90 minutes, including drag-and-drop and performance-based questions where you do a task instead of picking an answer.</li>\n</ul>\n<p>Because there are two exams, A+ costs two vouchers. If budget is tight and you are certain you want networking, that is one reason some people skip straight to CCNA.</p>"
+    },
+    {
+      "id": "security-plus",
+      "h2": "Can you start with Security+ without any experience?",
+      "html": "<p>You can, but it is usually not the best first step. CompTIA's guide <a href=\"https://comptia.org/en-us/blog/how-do-i-get-my-comptia-security-certification\" rel=\"noopener\">\"How do I get my CompTIA Security+ certification?\"</a> says there are no prerequisites, but recommends at least two years of IT administration experience with a security focus and earning Network+ first.</p>\n<p>The reason is practical. Security+ assumes you already understand how networks, operating systems and user accounts work, then asks how to protect them. Without that base, you end up memorizing terms you cannot picture. That is why networking knowledge first makes Security+ much easier to study.</p>\n<p>If security is your goal and you are starting from zero, a sensible order is A+ (or equivalent self-study), then Network+ or CCNA, then Security+.</p>"
+    },
+    {
+      "id": "ccna",
+      "h2": "Should you take CCNA before or after February 2027?",
+      "html": "<p>If you can be ready by February 2, 2027, take the current version. Cisco's <a href=\"https://cisco.com/site/us/en/learn/training-certifications/exams/ccna.html\" rel=\"noopener\">CCNA exam page</a> lists the 200-301 exam as 120 minutes, in English and Japanese, for US$300 or Cisco Learning Credits. Cisco's Learning blog post <a href=\"https://blogs.cisco.com/learning/stay-on-track-get-certified-before-the-ccna-refresh\" rel=\"noopener\">\"Stay on track: get certified before the CCNA refresh\"</a> gives the key dates:</p>\n<ul>\n<li>The last day to test on CCNA v1.1 is <strong>February 2, 2027</strong>.</li>\n<li>CCNA v2.0 goes live on <strong>February 3, 2027</strong>.</li>\n</ul>\n<p>Cisco says v2.0 adds more practical assessments and troubleshooting tasks, with security and AI woven through, but is not a complete overhaul. Its own advice is to take the current exam now rather than wait.</p>\n<div class=\"callout\">Planning tip: count the weeks you have before February 2, 2027. If your study plan does not fit, prepare for v2.0 from the start instead of switching halfway. Whichever version you pick, make sure your book, course and practice tests match it.</div>"
+    },
+    {
+      "id": "decision",
+      "h2": "How do you choose the right first certification for you?",
+      "html": "<p>Start from the job you want. This is the framework I use when students ask me where to start.</p>\n<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Your situation</th><th>Start with</th><th>Then</th></tr></thead><tbody>\n<tr><th>No IT background, want any IT job</th><td>A+</td><td>Network+ or CCNA</td></tr>\n<tr><th>Want help desk or IT support work soon</th><td>A+</td><td>Network+</td></tr>\n<tr><th>Want networking, can study 10+ hours a week</th><td>CCNA</td><td>Security+ or a cloud certification</td></tr>\n<tr><th>Want cybersecurity, starting from zero</th><td>A+ or equivalent study</td><td>Network+ or CCNA, then Security+</td></tr>\n<tr><th>Already work in IT with some networking</th><td>Security+</td><td>A specialist security certification</td></tr>\n</tbody></table></div>\n<h3>A simple checklist before you pay for any exam</h3>\n<ol>\n<li>Write down the job title you are aiming for and check three real job ads for it. Note which certifications they mention.</li>\n<li>Download the official exam objectives and check you understand at least the headings.</li>\n<li>Check the exam version and make sure your study material matches it.</li>\n<li>Set a test date, then work backwards to a weekly study plan.</li>\n<li>Do at least one timed practice test before you book.</li>\n</ol>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is A+ or Security+ better for a beginner?",
+      "a": "A+ is usually better for a true beginner. CompTIA builds A+ for IT support and help desk roles, while it recommends Network+ and two years of security-focused IT experience before Security+."
+    },
+    {
+      "q": "Can I take CCNA without A+ or Network+?",
+      "a": "Yes. Cisco's CCNA exam page lists no prerequisites, and many people take CCNA as their first certification. It is a deeper networking exam than A+, so expect to study longer and practice with labs."
+    },
+    {
+      "q": "Will my CCNA still count if I take the old version before February 2027?",
+      "a": "Yes. Passing CCNA v1.1 by February 2, 2027 earns you the CCNA certification, and Cisco's own advice is to take the current exam rather than wait. The version change only affects which exam you sit."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CompTIA A+ Core 1 (V15): exam details (CompTIA)",
+      "url": "https://www.comptia.org/certifications/a"
+    },
+    {
+      "title": "How do I get my CompTIA Security+ certification? (CompTIA)",
+      "url": "https://comptia.org/en-us/blog/how-do-i-get-my-comptia-security-certification"
+    },
+    {
+      "title": "200-301 CCNA exam page (Cisco)",
+      "url": "https://cisco.com/site/us/en/learn/training-certifications/exams/ccna.html"
+    },
+    {
+      "title": "Stay on track: get certified before the CCNA refresh (Cisco Learning blog, July 2026)",
+      "url": "https://blogs.cisco.com/learning/stay-on-track-get-certified-before-the-ccna-refresh"
+    }
+  ],
+  "related": [
+    {
+      "title": "AI-900 is retired: what the new AI-901 exam means for beginners",
+      "href": "blog-ai-900-retired-ai-901-guide"
+    },
+    {
+      "title": "Free AI courses with certificates: which ones are really free",
+      "href": "blog-free-ai-courses-with-certificates"
+    }
+  ]
+}
