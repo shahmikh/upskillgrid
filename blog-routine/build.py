@@ -454,7 +454,7 @@ def build_privacy():
 <p>You can opt out of personalized advertising by visiting Google’s <a href="https://adssettings.google.com" rel="noopener">Ads Settings</a>. You can also opt out of some third-party vendors’ use of cookies for personalized advertising at <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info</a>. To learn how Google uses information from sites that use its services, see <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use our services</a>.</p>
 <p>Where the law requires it, for example in the EEA and the UK, you will be asked for consent before personalized ads or non-essential cookies are used.</p>
 <h2>Analytics</h2>
-<p>If we add analytics to measure which guides are useful, we will update this page to name the tool and what it collects.</p>
+<p>We use <a href="https://www.cloudflare.com/web-analytics/" rel="noopener">Cloudflare Web Analytics</a> to count visits and see which guides are useful. It does not use cookies, does not track you across other websites, and does not build a profile of you. It records basic page-view data such as the page visited, the referring site, browser type, country, and page load speed. Cloudflare’s handling of this data is described in its <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">privacy policy</a>.</p>
 <h2>Links to other sites</h2>
 <p>Guides link to official course and product pages. Those sites have their own privacy policies, which we do not control.</p>
 <h2>Children</h2>
