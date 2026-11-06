@@ -424,15 +424,59 @@ def render_tool(t):
     return page(t["title"], t["description"], path, body, active="tools", ld=ld)
 
 
+TOOL_GROUPS = [
+    ("exam", "Exam score calculators", "Turn practice test points into an estimated final score.", "ic-indigo"),
+    ("grades", "Grade and GPA converters", "Convert grades between systems for applications.", "ic-green"),
+    ("study", "Study planners", "Plan revision around your exam dates.", "ic-amber"),
+]
+COMING_SOON = [
+    ("exam", "IB Points Calculator", "Add up 6 subjects plus TOK and EE points.", "45"),
+    ("grades", "UCAS Tariff Points Calculator", "A Level, IB and BTEC grades to UCAS points.", "UC"),
+    ("grades", "GPA Converter", "Percentages and UK grades to a 4.0 GPA.", "4.0"),
+    ("study", "Exam Countdown Planner", "Turn an exam date and topic list into a daily plan.", "D-"),
+]
+
+
+def tool_tile(t, ic="ic-indigo"):
+    tags = "".join('<span class="tt-tag">%s</span>' % esc(x) for x in t.get("tags", []))
+    return """<a href="{slug}" class="tool-tile" data-search="{search}"><span class="tt-icon {ic}">{icon}</span><span class="tt-body"><span class="tt-name">{name}</span><span class="tt-desc">{desc}</span><span class="tt-tags">{tags}</span></span><span class="tt-go" aria-hidden="true">Open &rarr;</span></a>""".format(
+        slug=t["slug"], ic=ic, icon=esc(t.get("icon", "")), name=esc(t.get("name", t["h1"])), desc=esc(t.get("tagline", t["card_summary"])),
+        tags=tags, search=esc((t.get("name", "") + " " + " ".join(t.get("tags", [])) + " " + t["h1"]).lower()))
+
+
+def soon_tile(name, desc, icon, ic):
+    return """<div class="tool-tile is-soon" data-search="{search}"><span class="tt-icon {ic}">{icon}</span><span class="tt-body"><span class="tt-name">{name}</span><span class="tt-desc">{desc}</span></span><span class="tt-go">Coming soon</span></div>""".format(
+        name=esc(name), desc=esc(desc), icon=esc(icon), ic=ic, search=esc(name.lower()))
+
+
 def tool_card(t):
-    return """<a href="{slug}" class="card tool-card"><span class="pill">Free tool</span><h3>{h1}</h3><p>{summary}</p><span class="meta">Updated {date}</span></a>""".format(
-        slug=t["slug"], h1=esc(t["h1"]), summary=esc(t["card_summary"]), date=human_date(t["modified"]))
+    return tool_tile(t)
 
 
 def build_tools(tools):
-    cards = "".join(tool_card(t) for t in tools)
-    body = """<section class="page-hero"><div class="container"><p class="eyebrow">Free tools</p><h1>Free tools for students and learners</h1><p>Calculators and planners built by a computer science tutor. Each tool explains how it works and links to the official rules it uses.</p></div></section>
-<section class="section"><div class="container"><div class="cards">%s</div><p class="empty-note" style="margin-top:28px">More tools are on the way. Want one built? Tell us on the <a href="contact">contact page</a>.</p></div></section>""" % cards
+    blocks = []
+    for gid, gname, gblurb, ic in TOOL_GROUPS:
+        live = [tool_tile(t, ic) for t in tools if t.get("group") == gid]
+        soon = [soon_tile(n, d, i, ic) for g, n, d, i in COMING_SOON if g == gid]
+        if not live and not soon:
+            continue
+        blocks.append("""<div class="tool-group" id="{id}"><div class="tg-head"><h2>{name}</h2><p>{blurb}</p></div><div class="tool-grid">{tiles}</div></div>""".format(
+            id=gid, name=esc(gname), blurb=esc(gblurb), tiles="".join(live + soon)))
+    chips = "".join('<a class="tg-chip" href="#%s">%s</a>' % (g[0], esc(g[1])) for g in TOOL_GROUPS)
+    body = """<section class="tools-hero"><div class="container">
+  <p class="eyebrow">Free tools</p>
+  <h1>Free tools for students</h1>
+  <p>Score calculators, grade converters and planners, built by a computer science tutor. No sign-up, and each tool shows how it works.</p>
+  <div class="tools-search"><input type="search" id="tool-q" placeholder="Search tools, e.g. AP, GPA, UCAS" aria-label="Search tools"></div>
+  <div class="tg-chips">{chips}</div>
+</div></section>
+<section class="section tools-section"><div class="container">{blocks}<p class="tools-empty" hidden>No tool matches that yet. <a href="contact">Ask us to build it</a>.</p>
+<p class="tools-ask">Need a tool we do not have? <a href="contact">Tell us what to build next</a>.</p></div></section>
+<script>
+(function(){{var q=document.getElementById('tool-q');if(!q)return;q.addEventListener('input',function(){{var v=q.value.trim().toLowerCase(),any=false;
+document.querySelectorAll('.tool-group').forEach(function(g){{var shown=0;g.querySelectorAll('.tool-tile').forEach(function(t){{var ok=!v||t.dataset.search.indexOf(v)>-1;t.hidden=!ok;if(ok)shown++;}});g.hidden=!shown;if(shown)any=true;}});
+document.querySelector('.tools-empty').hidden=any;}});}})();
+</script>""".format(chips=chips, blocks="".join(blocks))
     ld = [ORG, {"@type": "CollectionPage", "name": "UpskillGrid free tools", "url": SITE + "/tools",
                 "mainEntity": {"@type": "ItemList", "itemListElement": [
                     {"@type": "ListItem", "position": i + 1, "url": SITE + "/" + t["slug"]} for i, t in enumerate(tools)]}}]
@@ -451,7 +495,7 @@ def build_home(posts, tools=()):
         toolsec = """<section class="section">
   <div class="container">
     <div class="section-head"><p class="eyebrow">Free tools</p><h2>Calculators that show their working</h2></div>
-    <div class="cards">%s</div>
+    <div class="tool-grid">%s</div>
     <p style="margin-top:20px"><a href="tools">See all free tools</a></p>
   </div>
 </section>

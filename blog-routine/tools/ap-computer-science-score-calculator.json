@@ -101,5 +101,13 @@
   }
  ],
  "widget": "apcalc",
- "script": "ap-score-calculator.js"
+ "script": "ap-score-calculator.js",
+ "name": "AP Computer Science Score Calculator",
+ "tagline": "Estimate your 1 to 5 score for AP CSA or AP CSP from practice test points.",
+ "group": "exam",
+ "icon": "5",
+ "tags": [
+  "AP CSA",
+  "AP CSP"
+ ]
 }
