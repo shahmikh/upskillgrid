@@ -1,0 +1,105 @@
+{
+ "slug": "ap-computer-science-score-calculator",
+ "title": "AP Computer Science Score Calculator 2027 (CSA, CSP)",
+ "h1": "AP Computer Science score calculator for CSA and CSP",
+ "description": "Free AP Computer Science score calculator for CSA and CSP. Enter your practice test points to estimate your 1 to 5 score for the May 2027 exams.",
+ "published": "2026-11-06",
+ "modified": "2026-11-06",
+ "read_min": 7,
+ "card_summary": "Enter your multiple-choice and free-response points from a practice test and see your estimated AP score for CSA or CSP.",
+ "lead": "Pick your exam, enter your practice test results, and the calculator shows your estimated AP score from 1 to 5. It uses the official section weights for the current exams: for AP Computer Science A, 42 multiple-choice questions worth 55% and 4 free-response questions worth 45%; for AP Computer Science Principles, 70 multiple-choice questions worth 70% and the Create task plus written response worth 30%.",
+ "takeaways": [
+  "AP CSA composite = (multiple choice correct ÷ 42 × 55) + (free-response points ÷ 25 × 45).",
+  "AP CSP composite = (multiple choice correct ÷ 70 × 70) + (Section II points ÷ 6 × 30).",
+  "College Board does not publish the 1 to 5 cut points, so the score bands here are estimates. Treat any result within 3 points of a cut point as a coin flip.",
+  "In 2026, about 25% of AP CSA students and about 10% of AP CSP students earned a 5."
+ ],
+ "sections": [
+  {
+   "id": "csa-scoring",
+   "h2": "How is the AP Computer Science A exam scored?",
+   "html": "<p>The AP CSA exam has two sections of 1 hour 30 minutes each. Section I is 42 multiple-choice questions worth 55% of your score, and Section II is 4 free-response questions worth 45%, according to the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam\" rel=\"noopener\">College Board AP CSA exam page</a>. The four free-response questions always follow the same pattern: methods and control structures, class design, data analysis with an ArrayList, and a 2D array.</p><p>The free-response questions are not all worth the same. In the <a href=\"https://apcentral.collegeboard.org/media/pdf/ap26-sg-computer-science-a.pdf\" rel=\"noopener\">2026 AP CSA scoring guidelines</a>, Question 1 and Question 2 were worth 7 points each, Question 3 was worth 5 points and Question 4 was worth 6 points, so 25 points in total.</p><p>The calculator turns both sections into one composite out of 100:</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Section</th><th>Raw points</th><th>Weight</th><th>Example</th></tr></thead><tbody><tr><td>Multiple choice</td><td>out of 42</td><td>55%</td><td>30 correct = 30 ÷ 42 × 55 = 39.3</td></tr><tr><td>Free response</td><td>out of 25</td><td>45%</td><td>17 points = 17 ÷ 25 × 45 = 30.6</td></tr><tr><td>Composite</td><td></td><td>100</td><td>39.3 + 30.6 = 69.9, an estimated 4</td></tr></tbody></table></div><p>The 2027 AP CSA exam is on Wednesday, May 12, 2027, and it is fully digital in the Bluebook app.</p>"
+  },
+  {
+   "id": "csp-scoring",
+   "h2": "How is AP Computer Science Principles scored?",
+   "html": "<p>AP CSP has two parts. Section I is 70 multiple-choice questions in 120 minutes, worth 70% of your score. Section II is worth 30% and combines the Create performance task you build during the year with 2 written-response questions answered on exam day, as described on the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam\" rel=\"noopener\">College Board AP CSP exam page</a>.</p><p>Section II is marked on six rows, and each row is worth 0 or 1 point. The <a href=\"https://apcentral.collegeboard.org/media/pdf/ap26-sg-computer-science-principles.pdf\" rel=\"noopener\">2026 AP CSP scoring guidelines</a> list them as: the video, the program requirements, Written Response 1 on program design, function and purpose, and Written Response 2(a), 2(b) and 2(c) on algorithm development, errors and testing, and data and procedural abstraction. That makes 6 points, scaled to 30.</p><p>So 50 multiple-choice answers correct plus 5 of the 6 rows gives 50 + (5 ÷ 6 × 30) = 75, an estimated 4. For 2027, the Create task is due by 11:59 PM ET on April 30, 2027, and the end-of-course exam is on May 14, 2027. College Board says the course is being redesigned for the 2027 to 2028 school year, so later exams may change.</p>"
+  },
+  {
+   "id": "cut-points",
+   "h2": "What score do you need for a 5 on AP Computer Science?",
+   "html": "<p>Nobody outside College Board knows the exact answer before scores come out. College Board sets the composite cut points for each exam every year and does not publish a conversion table for the current format. This calculator uses the estimated bands below, based on older released conversions and recent score distributions:</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>AP score</th><th>AP CSA composite (estimate)</th><th>AP CSP composite (estimate)</th></tr></thead><tbody><tr><td>5</td><td>77 to 100</td><td>84 to 100</td></tr><tr><td>4</td><td>60 to 76</td><td>71 to 83</td></tr><tr><td>3</td><td>47 to 59</td><td>56 to 70</td></tr><tr><td>2</td><td>37 to 46</td><td>42 to 55</td></tr><tr><td>1</td><td>0 to 36</td><td>0 to 41</td></tr></tbody></table></div><p>The practical rule: aim for a composite at least 5 points above the line you need. If you need a 4 in CSA, plan for around 65, not 60.</p>"
+  },
+  {
+   "id": "distributions",
+   "h2": "How many students get a 5 in AP CSA and AP CSP?",
+   "html": "<p>These are the 2026 results College Board published on its score distribution pages for <a href=\"https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-a\" rel=\"noopener\">AP Computer Science A</a> and <a href=\"https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-principles\" rel=\"noopener\">AP Computer Science Principles</a>:</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Exam (2026)</th><th>5</th><th>4</th><th>3</th><th>2</th><th>1</th><th>3 or higher</th></tr></thead><tbody><tr><td>AP Computer Science A</td><td>25%</td><td>26%</td><td>15%</td><td>11%</td><td>23%</td><td>66%</td></tr><tr><td>AP Computer Science Principles</td><td>10%</td><td>23%</td><td>30%</td><td>21%</td><td>16%</td><td>63%</td></tr></tbody></table></div><p>CSP is often called the easier course, yet far fewer students earn a 5 there than in CSA. A 5 in CSP needs very few multiple-choice mistakes and all, or nearly all, of the Section II rows.</p>"
+  },
+  {
+   "id": "accuracy",
+   "h2": "How accurate is this AP score calculator?",
+   "html": "<p>The section weights and point totals come straight from College Board, so the composite is exact for the points you enter. The step from composite to a 1 to 5 score is an estimate, because the real cut points move a few points each year.</p><p>Two things make your estimate better:</p><ul><li><strong>Use a full, timed practice test.</strong> A score from half a test or untimed practice will flatter you.</li><li><strong>Mark free responses honestly against the official rubric.</strong> College Board notes that free-response questions from before the 2025 to 2026 AP CSA revision do not fully match the current exam, and older CSA questions were usually out of 9 points. If you practise with an older question, convert your points to the current scale before you enter them.</li></ul>"
+  },
+  {
+   "id": "raise-score",
+   "h2": "How can you raise your AP Computer Science score?",
+   "html": "<p>These are the habits I see make the biggest difference with my AP students:</p><ul><li><strong>CSA: never leave a free-response question blank.</strong> Points are awarded for separate parts of the solution, so a correct method header, a working loop and a correct return statement can earn points even when the full answer is wrong.</li><li><strong>CSA: practise 2D array traversal until it is automatic.</strong> Row by row and column by column loops appear every year.</li><li><strong>CSA: trace code on paper for multiple choice.</strong> Most mistakes come from guessing what a loop does instead of writing down each variable.</li><li><strong>CSP: treat each Section II row as its own target.</strong> Each row is 0 or 1, so read the scoring guidelines and make sure your video, code and written responses clearly meet every row.</li><li><strong>Both: answer every multiple-choice question.</strong> Your score counts correct answers, so a blank and a wrong guess both earn zero.</li></ul><p>If you are working toward a tech career after AP, our guide on <a href=\"blog-which-it-certification-first\">which IT certification to get first</a> covers the next step.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is there a penalty for guessing on AP Computer Science exams?",
+   "a": "No. Multiple-choice scores count only correct answers, so a wrong guess costs you nothing. Answer every question, even if you have to guess at the end."
+  },
+  {
+   "q": "What is a good AP Computer Science score?",
+   "a": "A 3 is a pass and some colleges give credit for it. Many colleges ask for a 4 or 5 for credit in a computer science course, so check the AP credit policy of each college you are applying to."
+  },
+  {
+   "q": "Can I use old AP CSA practice questions with this calculator?",
+   "a": "Yes, but convert the points first. Free-response questions from before the 2025 to 2026 revision were usually out of 9, while current ones are worth 7, 7, 5 and 6. Work out your percentage on the old question and apply it to the current point value."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AP Computer Science A exam format, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam"
+  },
+  {
+   "title": "2026 AP Computer Science A scoring guidelines (PDF), College Board",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap26-sg-computer-science-a.pdf"
+  },
+  {
+   "title": "AP Computer Science Principles exam format, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam"
+  },
+  {
+   "title": "2026 AP Computer Science Principles scoring guidelines (PDF), College Board",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap26-sg-computer-science-principles.pdf"
+  },
+  {
+   "title": "AP Computer Science A score distributions, College Board",
+   "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-a"
+  },
+  {
+   "title": "AP Computer Science Principles score distributions, College Board",
+   "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-principles"
+  }
+ ],
+ "related": [
+  {
+   "href": "tools",
+   "title": "All free tools on UpskillGrid"
+  },
+  {
+   "href": "blog-which-it-certification-first",
+   "title": "Which IT certification should you get first?"
+  },
+  {
+   "href": "about",
+   "title": "About the author, an AP Computer Science tutor"
+  }
+ ],
+ "widget": "apcalc",
+ "script": "ap-score-calculator.js"
+}

@@ -20,6 +20,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PUB = ROOT / "public"
 POSTS = ROOT / "blog-routine" / "posts"
+TOOLS = ROOT / "blog-routine" / "tools"
 SITE = "https://upskillgrid.com"
 BRAND = "UpskillGrid"
 PERSON_ID = SITE + "/about#person"
@@ -65,6 +66,7 @@ def header(active=""):
         a("blog#free-courses", "Free Courses", "free-courses"),
         a("blog#career-skills", "Career Skills", "career-skills"),
         a("blog", "All Guides", "blog"),
+        a("tools", "Free Tools", "tools"),
         a("about", "About", "about"),
     ])
     return """<a class="skip-link" href="#main">Skip to content</a>
@@ -82,7 +84,7 @@ FOOTER = """<footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div><h4>UpskillGrid</h4><p>Practical guides on AI tools, tech how-tos, free courses and career skills. Every guide is checked against official sources and dated.</p></div>
-      <div><h4>Guides</h4><ul><li><a href="blog#ai-tools">AI Tools</a></li><li><a href="blog#how-to">How-To Guides</a></li><li><a href="blog#free-courses">Free Courses</a></li><li><a href="blog#career-skills">Career Skills</a></li></ul></div>
+      <div><h4>Guides</h4><ul><li><a href="blog#ai-tools">AI Tools</a></li><li><a href="blog#how-to">How-To Guides</a></li><li><a href="blog#free-courses">Free Courses</a></li><li><a href="blog#career-skills">Career Skills</a></li><li><a href="tools">Free Tools</a></li></ul></div>
       <div><h4>Site</h4><ul><li><a href="about">About</a></li><li><a href="contact">Contact</a></li><li><a href="editorial-policy">Editorial policy</a></li></ul></div>
       <div><h4>Legal</h4><ul><li><a href="privacy">Privacy policy</a></li><li><a href="terms">Terms of use</a></li></ul></div>
     </div>
@@ -169,7 +171,7 @@ def all_posts():
                   reverse=True)
 
 
-STATIC_PAGES = ["about", "contact", "privacy", "terms", "editorial-policy", "blog"]
+STATIC_PAGES = ["about", "contact", "privacy", "terms", "editorial-policy", "blog", "tools"]
 
 
 def target_exists(href, slugs):
@@ -179,6 +181,8 @@ def target_exists(href, slugs):
     if f in STATIC_PAGES:
         return True
     if f.startswith("blog-") and f[5:] in slugs:
+        return True
+    if f in TOOL_SLUGS:
         return True
     return (PUB / f).exists()
 
@@ -319,11 +323,139 @@ def card(p):
         date=human_date(p["modified"]))
 
 
+# ---------------------------------------------------------------- tools
+
+TOOL_SLUGS = {p.stem for p in TOOLS.glob("*.json")} if TOOLS.exists() else set()
+
+WIDGETS = {
+    "apcalc": """<div class="calc" id="apcalc">
+  <div class="calc-tabs" role="tablist" aria-label="Choose your exam">
+    <button type="button" role="tab" data-exam="csa" aria-selected="true">AP CSA <span class="calc-tabfull">(Computer Science A)</span></button>
+    <button type="button" role="tab" data-exam="csp" aria-selected="false">AP CSP <span class="calc-tabfull">(Principles)</span></button>
+  </div>
+  <div class="calc-body">
+    <div class="calc-inputs"><noscript><p>Turn on JavaScript to use the calculator. The scoring method is explained below.</p></noscript></div>
+    <div class="calc-result" aria-live="polite">
+      <p class="eyebrow">Estimated AP score</p>
+      <div class="calc-score">-</div>
+      <div class="calc-label"></div>
+      <div class="calc-comp"></div>
+      <p class="calc-split"></p>
+      <div class="calc-bar"><div class="calc-fill"></div><div class="calc-marks"></div></div>
+      <p class="calc-note"></p>
+      <p class="calc-disclaim">Estimate only. Weights are official; 1 to 5 cut points are our estimates.</p>
+    </div>
+  </div>
+</div>""",
+}
+
+
+def load_tool(slug):
+    return json.loads((TOOLS / (slug + ".json")).read_text(encoding="utf-8"))
+
+
+def all_tools():
+    return sorted((load_tool(s) for s in TOOL_SLUGS), key=lambda x: (x["published"], x["slug"]), reverse=True)
+
+
+def validate_tool(t, slugs):
+    errs, warns, words = validate(dict(t, category="how-to"), slugs)
+    if t.get("widget") not in WIDGETS:
+        errs.append("unknown widget: %s" % t.get("widget"))
+    if not (PUB / t.get("script", "")).is_file():
+        errs.append("script file missing: %s" % t.get("script"))
+    return errs, warns, words
+
+
+def render_tool(t):
+    path = t["slug"]
+    url = SITE + "/" + path
+    toc = "".join('<li><a href="#%s">%s</a></li>' % (s["id"], esc(s["h2"])) for s in t["sections"])
+    toc += '<li><a href="#faq">Frequently asked questions</a></li><li><a href="#sources">Sources</a></li>'
+    sections = "".join('\n    <h2 id="%s">%s</h2>\n    %s\n' % (s["id"], esc(s["h2"]), s["html"]) for s in t["sections"])
+    faq = "".join('\n      <details class="faq-item"><summary>%s</summary><p>%s</p></details>' % (esc(f["q"]), f["a"])
+                  for f in t["faq"])
+    sources = "".join('<li><a href="%s" rel="noopener">%s</a></li>' % (esc(s["url"]), esc(s["title"])) for s in t["sources"])
+    related = "".join('<li><a href="%s">%s</a></li>' % (esc(r["href"]), esc(r["title"])) for r in t["related"])
+    takeaways = "".join("<li>%s</li>" % x for x in t["takeaways"])
+    ld = [
+        PERSON, ORG,
+        {"@type": "WebApplication", "name": t["h1"], "url": url, "description": t["description"],
+         "applicationCategory": "EducationalApplication", "operatingSystem": "Any", "browserRequirements": "Requires JavaScript",
+         "isAccessibleForFree": True, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+         "author": {"@id": PERSON_ID}, "publisher": {"@id": ORG_ID}, "datePublished": t["published"],
+         "dateModified": t["modified"], "inLanguage": "en"},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
+            {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": SITE + "/tools"},
+            {"@type": "ListItem", "position": 3, "name": t["h1"], "item": url}]},
+        {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": f["q"],
+                                             "acceptedAnswer": {"@type": "Answer", "text": plain(f["a"])}} for f in t["faq"]]},
+    ]
+    body = """<section class="page-hero">
+  <div class="container">
+    <p class="crumbs"><a href="/">Home</a> / <a href="tools">Free Tools</a></p>
+    <p class="eyebrow">Free tool · Updated {modh}</p>
+    <h1>{h1}</h1>
+    <p class="post-byline">Built by <a href="about">Syed Shahmikh Ali</a>, AP Computer Science tutor · Published {pubh}</p>
+  </div>
+</section>
+<div class="container"><div class="calc-wrap">{widget}</div></div>
+<article class="container">
+  <div class="prose" style="padding-top:8px">
+    <p class="post-lead">{lead}</p>
+    <div class="takeaways"><h2>Key takeaways</h2><ul>{takeaways}</ul></div>
+    <nav class="toc" aria-label="Contents"><p class="toc-title">On this page</p><ol>{toc}</ol></nav>
+{sections}
+    <h2 id="faq">Frequently asked questions</h2>
+    <div class="faq-list">{faq}
+    </div>
+    <h2 id="sources">Sources</h2>
+    <ul class="post-sources">{sources}</ul>
+    <h2>Related</h2>
+    <ul class="post-sources">{related}</ul>
+    {author}
+  </div>
+</article>
+<script src="{script}" defer></script>""".format(
+        modh=human_date(t["modified"]), pubh=human_date(t["published"]), h1=esc(t["h1"]), widget=WIDGETS[t["widget"]],
+        lead=t["lead"], takeaways=takeaways, toc=toc, sections=sections, faq=faq, sources=sources, related=related,
+        author=AUTHOR_BOX, script=t["script"])
+    return page(t["title"], t["description"], path, body, active="tools", ld=ld)
+
+
+def tool_card(t):
+    return """<a href="{slug}" class="card tool-card"><span class="pill">Free tool</span><h3>{h1}</h3><p>{summary}</p><span class="meta">Updated {date}</span></a>""".format(
+        slug=t["slug"], h1=esc(t["h1"]), summary=esc(t["card_summary"]), date=human_date(t["modified"]))
+
+
+def build_tools(tools):
+    cards = "".join(tool_card(t) for t in tools)
+    body = """<section class="page-hero"><div class="container"><p class="eyebrow">Free tools</p><h1>Free tools for students and learners</h1><p>Calculators and planners built by a computer science tutor. Each tool explains how it works and links to the official rules it uses.</p></div></section>
+<section class="section"><div class="container"><div class="cards">%s</div><p class="empty-note" style="margin-top:28px">More tools are on the way. Want one built? Tell us on the <a href="contact">contact page</a>.</p></div></section>""" % cards
+    ld = [ORG, {"@type": "CollectionPage", "name": "UpskillGrid free tools", "url": SITE + "/tools",
+                "mainEntity": {"@type": "ItemList", "itemListElement": [
+                    {"@type": "ListItem", "position": i + 1, "url": SITE + "/" + t["slug"]} for i, t in enumerate(tools)]}}]
+    return page("Free Tools for Students: Calculators and Planners",
+                "Free tools for students from UpskillGrid, including an AP Computer Science score calculator. Each tool explains its method and links to official sources.",
+                "tools", body, active="tools", ld=ld)
+
+
 # ---------------------------------------------------------------- static pages
 
-def build_home(posts):
+def build_home(posts, tools=()):
     tiles = "".join("""<a class="tile" href="blog#{id}"><div class="tile-icon {ic}">{icon}</div><h3>{name}</h3><p>{blurb}</p></a>""".format(
         id=c[0], name=esc(c[1]), blurb=esc(c[2]), ic=c[3], icon=c[4]) for c in CATEGORIES)
+    toolsec = ""
+    if tools:
+        toolsec = """<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Free tools</p><h2>Calculators that show their working</h2></div>
+    <div class="cards">%s</div>
+    <p style="margin-top:20px"><a href="tools">See all free tools</a></p>
+  </div>
+</section>
+""" % "".join(tool_card(t) for t in tools[:3])
     latest = "".join(card(p) for p in posts[:6]) or '<p class="empty-note">The first guides are on their way.</p>'
     body = """<section class="hero">
   <div class="container">
@@ -345,12 +477,12 @@ def build_home(posts):
     <div class="cards">{latest}</div>
   </div>
 </section>
-<section class="section">
+{toolsec}<section class="section">
   <div class="container">
     <div class="section-head"><p class="eyebrow">How we work</p><h2>Checked, dated and honest about cost</h2>
     <p>Each guide links to the official pages it relies on, shows when it was last updated, and separates “free to learn” from “free certificate”. If something costs money, we say so up front. Read our <a href="editorial-policy">editorial policy</a>.</p></div>
   </div>
-</section>""".format(tiles=tiles, latest=latest)
+</section>""".format(tiles=tiles, latest=latest, toolsec=toolsec)
     ld = [ORG, PERSON, {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": BRAND,
                         "publisher": {"@id": ORG_ID}, "inLanguage": "en"}]
     return page("UpskillGrid: AI Tools, Tech How-Tos and Free Courses",
@@ -504,12 +636,15 @@ def write(name, s):
     (PUB / name).write_text(clean_links(s), encoding="utf-8")
 
 
-def build_sitemap(posts):
+def build_sitemap(posts, tools=()):
     today = datetime.date.today().isoformat()
     newest = max([p["modified"][:10] for p in posts], default=today)
     urls = [("", newest), ("blog", newest), ("about", None), ("contact", None), ("editorial-policy", None),
             ("privacy", None), ("terms", None)]
     urls += [("blog-" + p["slug"], p["modified"][:10]) for p in posts]
+    if tools:
+        urls += [("tools", max(t["modified"][:10] for t in tools))]
+        urls += [(t["slug"], t["modified"][:10]) for t in tools]
     lm_file = ROOT / "blog-routine" / "static_lastmod.json"
     static_lm = json.loads(lm_file.read_text()) if lm_file.exists() else {}
     rows = []
@@ -546,13 +681,27 @@ def main():
             failed = True
         else:
             print("[ok] %s: %d words" % (p["slug"], words))
+    tools = all_tools()
+    for t in tools:
+        errs, warns, words = validate_tool(t, slugs)
+        for w in warns:
+            print("[warn] tool %s: %s" % (t["slug"], w))
+        for e in errs:
+            print("[ERROR] tool %s: %s" % (t["slug"], e))
+        if errs:
+            failed = True
+        else:
+            print("[ok] tool %s: %d words" % (t["slug"], words))
     if failed:
         sys.exit(1)
     if check_only:
         return
     for p in posts:
         write("blog-%s.html" % p["slug"], render_post(p))
-    write("index.html", build_home(posts))
+    for t in tools:
+        write("%s.html" % t["slug"], render_tool(t))
+    write("tools.html", build_tools(tools))
+    write("index.html", build_home(posts, tools))
     write("blog.html", build_blog(posts))
     write("about.html", build_about())
     write("contact.html", build_contact())
@@ -560,9 +709,9 @@ def main():
     write("privacy.html", build_privacy())
     write("terms.html", build_terms())
     write("404.html", build_404())
-    build_sitemap(posts)
+    build_sitemap(posts, tools)
     (PUB / "robots.txt").write_text(ROBOTS, encoding="utf-8")
-    print("[ok] site built: %d posts, sitemap and robots.txt written" % len(posts))
+    print("[ok] site built: %d posts, %d tools, sitemap and robots.txt written" % (len(posts), len(tools)))
 
 
 if __name__ == "__main__":

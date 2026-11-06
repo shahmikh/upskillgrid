@@ -27,3 +27,9 @@ Follow the SEO skill in `blog-routine/seo/` every time.
 - If validation fails after 3 honest attempts or a key fact cannot be verified, do not publish. Note it under "Skipped" and tell the owner.
 - Do not add AdSense code or ads.txt until the owner has an approved AdSense publisher ID.
 - Never edit `wrangler.jsonc`.
+
+## Free tools
+- Tools live in `blog-routine/tools/<slug>.json` (same fields as a post, plus `widget` and `script`). The page is built at `/<slug>` and listed on `/tools`, the home page and the sitemap.
+- The widget HTML lives in `WIDGETS` in build.py and its script in `public/<script>.js`. Test the calculator logic with Playwright before publishing.
+- Weights and point values must come from the official source. Anything not published (for example AP 1 to 5 cut points) must be labelled as an estimate on the page.
+- Tool ideas next: AP score calculators for more subjects, IB points calculator, UCAS tariff points calculator, GPA converter, study planner.
