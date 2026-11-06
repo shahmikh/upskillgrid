@@ -424,59 +424,109 @@ def render_tool(t):
     return page(t["title"], t["description"], path, body, active="tools", ld=ld)
 
 
+ICONS = {
+    "calc": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h4"/></svg>',
+    "cap": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>',
+    "swap": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4 3 8l4 4"/><path d="M3 8h14"/><path d="m17 20 4-4-4-4"/><path d="M21 16H7"/></svg>',
+    "cal": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/></svg>',
+    "code": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>',
+    "bits": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="6" height="16" rx="3"/><path d="M15 4h3v16M15 20h6"/></svg>',
+    "timer": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 2h6"/></svg>',
+    "sum": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 7V4H6l6 8-6 8h12v-3"/></svg>',
+}
+
 TOOL_GROUPS = [
-    ("exam", "Exam score calculators", "Turn practice test points into an estimated final score.", "ic-indigo"),
-    ("grades", "Grade and GPA converters", "Convert grades between systems for applications.", "ic-green"),
-    ("study", "Study planners", "Plan revision around your exam dates.", "ic-amber"),
+    ("exam", "Exam Calculators", "Practice points to a final score", "g-indigo", "calc", "AP CS Score Calculator"),
+    ("grades", "Grade Converters", "Grades and points between systems", "g-green", "swap", "UCAS Points"),
+    ("study", "Study Planners", "Plans built around your exam date", "g-amber", "cal", "Exam Countdown"),
+    ("cs", "Computer Science", "Quick helpers for CS students", "g-rose", "code", "Binary Converter"),
 ]
+GROUP = {g[0]: g for g in TOOL_GROUPS}
 COMING_SOON = [
-    ("exam", "IB Points Calculator", "Add up 6 subjects plus TOK and EE points.", "45"),
-    ("grades", "UCAS Tariff Points Calculator", "A Level, IB and BTEC grades to UCAS points.", "UC"),
-    ("grades", "GPA Converter", "Percentages and UK grades to a 4.0 GPA.", "4.0"),
-    ("study", "Exam Countdown Planner", "Turn an exam date and topic list into a daily plan.", "D-"),
+    ("exam", "IB Points Calculator", "Add up 6 subjects plus TOK and EE points to get your total out of 45.", "sum"),
+    ("grades", "UCAS Tariff Points Calculator", "Turn A Level, IB and BTEC grades into UCAS points.", "cap"),
+    ("grades", "GPA Converter", "Convert percentages and UK grades to a 4.0 GPA.", "swap"),
+    ("study", "Exam Countdown Planner", "Enter your exam date and topics, get a day-by-day plan.", "cal"),
+    ("study", "Pomodoro Study Timer", "Focus timer with breaks, made for revision sessions.", "timer"),
+    ("cs", "Binary, Hex and Decimal Converter", "Convert numbers between bases with the working shown.", "bits"),
 ]
 
 
-def tool_tile(t, ic="ic-indigo"):
-    tags = "".join('<span class="tt-tag">%s</span>' % esc(x) for x in t.get("tags", []))
-    return """<a href="{slug}" class="tool-tile" data-search="{search}"><span class="tt-icon {ic}">{icon}</span><span class="tt-body"><span class="tt-name">{name}</span><span class="tt-desc">{desc}</span><span class="tt-tags">{tags}</span></span><span class="tt-go" aria-hidden="true">Open &rarr;</span></a>""".format(
-        slug=t["slug"], ic=ic, icon=esc(t.get("icon", "")), name=esc(t.get("name", t["h1"])), desc=esc(t.get("tagline", t["card_summary"])),
-        tags=tags, search=esc((t.get("name", "") + " " + " ".join(t.get("tags", [])) + " " + t["h1"]).lower()))
+def tool_tile(t):
+    g = GROUP[t.get("group", "exam")]
+    tags = "".join('<span class="tc-tag">%s</span>' % esc(x) for x in t.get("tags", []))
+    return """<a href="{slug}" class="th-card" data-cat="{cat}" data-catname="{catname}" data-name="{name}" data-search="{search}"><span class="tc-top"><span class="tc-icon {gc}">{icon}</span><span class="tc-badge">Live</span></span><span class="tc-name">{name}</span><span class="tc-cat {gc}-t">{catname}</span><span class="tc-desc">{desc}</span><span class="tc-tags">{tags}</span><span class="tc-go">Open tool <span aria-hidden="true">&rarr;</span></span></a>""".format(
+        slug=t["slug"], cat=g[0], catname=esc(g[1]), gc=g[3], icon=ICONS.get(t.get("icon_svg", g[4]), ""),
+        name=esc(t.get("name", t["h1"])), desc=esc(t.get("tagline", t["card_summary"])), tags=tags,
+        search=esc((t.get("name", "") + " " + " ".join(t.get("tags", [])) + " " + t["h1"] + " " + g[1]).lower()))
 
 
-def soon_tile(name, desc, icon, ic):
-    return """<div class="tool-tile is-soon" data-search="{search}"><span class="tt-icon {ic}">{icon}</span><span class="tt-body"><span class="tt-name">{name}</span><span class="tt-desc">{desc}</span></span><span class="tt-go">Coming soon</span></div>""".format(
-        name=esc(name), desc=esc(desc), icon=esc(icon), ic=ic, search=esc(name.lower()))
+def soon_tile(gid, name, desc, icon):
+    g = GROUP[gid]
+    return """<div class="th-card is-soon" data-cat="{cat}" data-catname="{catname}" data-name="{name}" data-search="{search}"><span class="tc-top"><span class="tc-icon {gc}">{icon}</span><span class="tc-badge tc-badge--soon">Coming soon</span></span><span class="tc-name">{name}</span><span class="tc-cat {gc}-t">{catname}</span><span class="tc-desc">{desc}</span><a class="tc-go tc-go--soon" href="contact">Want this sooner? Tell us</a></div>""".format(
+        cat=gid, catname=esc(g[1]), gc=g[3], icon=ICONS[icon], name=esc(name), desc=esc(desc),
+        search=esc((name + " " + g[1]).lower()))
 
 
 def tool_card(t):
     return tool_tile(t)
 
 
+QUICK_AP = """<section class="section th-try"><div class="container"><div class="qa" id="quick-ap" data-score="3">
+  <div class="qa-text">
+    <p class="eyebrow">Try it right here</p>
+    <h2>How close are you to a 5 in AP Computer Science?</h2>
+    <p>Drag the sliders to your practice test percentages for a quick estimate. For an exact breakdown with every free-response question, open the full calculator.</p>
+    <div class="qa-switch" role="group" aria-label="Exam"><button type="button" data-qa-exam="csa" aria-pressed="true">AP CSA</button><button type="button" data-qa-exam="csp" aria-pressed="false">AP CSP</button></div>
+    <label class="qa-row"><span>Multiple choice <b id="qa-mc-out">70%</b></span><input type="range" id="qa-mc" min="0" max="100" value="70"></label>
+    <label class="qa-row"><span><span class="qa-part">Free response</span> <b id="qa-fr-out">60%</b></span><input type="range" id="qa-fr" min="0" max="100" value="60"></label>
+    <a class="btn btn--green" href="ap-computer-science-score-calculator">Open the full calculator</a>
+  </div>
+  <div class="qa-dial" aria-live="polite">
+    <svg viewBox="0 0 120 120" class="qa-ring"><circle cx="60" cy="60" r="48" class="qa-ring-bg"/><circle cx="60" cy="60" r="48" class="qa-ring-fg"/></svg>
+    <div class="qa-center"><span class="qa-small">Estimated</span><span class="qa-score">3</span><span class="qa-comp"></span></div>
+  </div>
+</div></div></section>"""
+
+
 def build_tools(tools):
-    blocks = []
-    for gid, gname, gblurb, ic in TOOL_GROUPS:
-        live = [tool_tile(t, ic) for t in tools if t.get("group") == gid]
-        soon = [soon_tile(n, d, i, ic) for g, n, d, i in COMING_SOON if g == gid]
-        if not live and not soon:
-            continue
-        blocks.append("""<div class="tool-group" id="{id}"><div class="tg-head"><h2>{name}</h2><p>{blurb}</p></div><div class="tool-grid">{tiles}</div></div>""".format(
-            id=gid, name=esc(gname), blurb=esc(gblurb), tiles="".join(live + soon)))
-    chips = "".join('<a class="tg-chip" href="#%s">%s</a>' % (g[0], esc(g[1])) for g in TOOL_GROUPS)
-    body = """<section class="tools-hero"><div class="container">
-  <p class="eyebrow">Free tools</p>
-  <h1>Free tools for students</h1>
-  <p>Score calculators, grade converters and planners, built by a computer science tutor. No sign-up, and each tool shows how it works.</p>
-  <div class="tools-search"><input type="search" id="tool-q" placeholder="Search tools, e.g. AP, GPA, UCAS" aria-label="Search tools"></div>
-  <div class="tg-chips">{chips}</div>
+    live_n = len(tools)
+    soon_n = len(COMING_SOON)
+    cat_cards = []
+    for gid, gname, gblurb, gc, icon, featured in TOOL_GROUPS:
+        n_live = sum(1 for t in tools if t.get("group") == gid)
+        n_all = n_live + sum(1 for c in COMING_SOON if c[0] == gid)
+        cat_cards.append("""<a href="#all-tools" class="th-cat {gc}-bg" data-jump-cat="{gid}"><span class="thc-icon">{icon}</span><span class="thc-count">{n} tool{pl}</span><span class="thc-name">{name}</span><span class="thc-blurb">{blurb}</span><span class="thc-feat"><span>{fl}</span><b>{feat}</b></span></a>""".format(
+            gc=gc, gid=gid, icon=ICONS[icon], n=n_all, pl="" if n_all == 1 else "s", name=esc(gname), blurb=esc(gblurb), feat=esc(featured),
+            fl="Featured" if n_live else "Next up"))
+    tabs = '<button type="button" class="th-tab" data-cat="all" aria-pressed="true">All tools</button>' + "".join(
+        '<button type="button" class="th-tab" data-cat="%s" aria-pressed="false"><span class="th-tab-ic">%s</span>%s</button>' % (g[0], ICONS[g[4]], esc(g[1])) for g in TOOL_GROUPS)
+    grid = "".join(tool_tile(t) for t in tools) + "".join(soon_tile(*c) for c in COMING_SOON)
+    body = """<section class="th-hero">
+  <span class="th-shape s1"></span><span class="th-shape s2"></span><span class="th-shape s3"></span><span class="th-shape s4"></span><span class="th-shape s5"></span>
+  <div class="container th-hero-in">
+    <p class="eyebrow">Free tools · No sign-up</p>
+    <h1>Free tools that make studying <mark>simpler</mark></h1>
+    <p class="th-sub">Score calculators, grade converters and study planners, built by a computer science tutor. Every tool shows its working.</p>
+    <form class="th-search" id="th-search" role="search" autocomplete="off">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" id="th-q" placeholder="Search tools: AP, GPA, UCAS, binary..." aria-label="Search tools" role="combobox" aria-controls="th-suggest" aria-expanded="false">
+      <button type="submit" class="btn btn--primary">Search</button>
+      <ul id="th-suggest" class="th-suggest" role="listbox" hidden></ul>
+    </form>
+    <p class="th-try-chips">Popular: <button type="button" data-fill="AP">AP score</button><button type="button" data-fill="UCAS">UCAS points</button><button type="button" data-fill="GPA">GPA</button><button type="button" data-fill="binary">Binary</button></p>
+    <div class="th-cats">{cats}</div>
+  </div>
+</section>
+{quick}
+<section class="section th-all" id="all-tools"><div class="container">
+  <div class="th-head"><h2>All tools</h2><p>{live} live · {soon} on the way</p></div>
+  <div class="th-tabs" role="group" aria-label="Filter tools">{tabs}</div>
+  <div class="th-grid">{grid}</div>
+  <p class="th-empty" hidden>No tool matches that yet. <a href="contact">Ask us to build it</a>.</p>
 </div></section>
-<section class="section tools-section"><div class="container">{blocks}<p class="tools-empty" hidden>No tool matches that yet. <a href="contact">Ask us to build it</a>.</p>
-<p class="tools-ask">Need a tool we do not have? <a href="contact">Tell us what to build next</a>.</p></div></section>
-<script>
-(function(){{var q=document.getElementById('tool-q');if(!q)return;q.addEventListener('input',function(){{var v=q.value.trim().toLowerCase(),any=false;
-document.querySelectorAll('.tool-group').forEach(function(g){{var shown=0;g.querySelectorAll('.tool-tile').forEach(function(t){{var ok=!v||t.dataset.search.indexOf(v)>-1;t.hidden=!ok;if(ok)shown++;}});g.hidden=!shown;if(shown)any=true;}});
-document.querySelector('.tools-empty').hidden=any;}});}})();
-</script>""".format(chips=chips, blocks="".join(blocks))
+<section class="cta-band"><div class="container"><p class="eyebrow">Your idea</p><h2>Need a tool for your exam or course?</h2><a href="contact" class="btn btn--green">Request a tool</a></div></section>
+<script src="tools-hub.js" defer></script>""".format(cats="".join(cat_cards), quick=QUICK_AP if tools else "", live=live_n, soon=soon_n, tabs=tabs, grid=grid)
     ld = [ORG, {"@type": "CollectionPage", "name": "UpskillGrid free tools", "url": SITE + "/tools",
                 "mainEntity": {"@type": "ItemList", "itemListElement": [
                     {"@type": "ListItem", "position": i + 1, "url": SITE + "/" + t["slug"]} for i, t in enumerate(tools)]}}]
@@ -495,7 +545,7 @@ def build_home(posts, tools=()):
         toolsec = """<section class="section">
   <div class="container">
     <div class="section-head"><p class="eyebrow">Free tools</p><h2>Calculators that show their working</h2></div>
-    <div class="tool-grid">%s</div>
+    <div class="th-grid">%s</div>
     <p style="margin-top:20px"><a href="tools">See all free tools</a></p>
   </div>
 </section>
