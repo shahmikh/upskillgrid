@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prompt Writing Basics: 6 Patterns That Work in Any AI</title>
+<meta name="description" content="Six prompt patterns recommended by OpenAI, Google and Anthropic that work in ChatGPT, Gemini and Claude, with copy-and-paste examples for students.">
+<meta name="theme-color" content="#0F172A">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://upskillgrid.com/blog-prompt-writing-basics">
+<link rel="preload" href="fonts/plus-jakarta-sans-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<meta property="og:site_name" content="UpskillGrid">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Prompt Writing Basics: 6 Patterns That Work in Any AI">
+<meta property="og:description" content="Six prompt patterns recommended by OpenAI, Google and Anthropic that work in ChatGPT, Gemini and Claude, with copy-and-paste examples for students.">
+<meta property="og:url" content="https://upskillgrid.com/blog-prompt-writing-basics">
+<meta property="og:image" content="https://upskillgrid.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Prompt Writing Basics: 6 Patterns That Work in Any AI">
+<meta name="twitter:description" content="Six prompt patterns recommended by OpenAI, Google and Anthropic that work in ChatGPT, Gemini and Claude, with copy-and-paste examples for students.">
+<meta name="twitter:image" content="https://upskillgrid.com/og-image.png">
+<meta property="article:published_time" content="2026-11-07">
+<meta property="article:modified_time" content="2026-11-07">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://upskillgrid.com/about#person",
+      "name": "Syed Shahmikh Ali",
+      "url": "https://upskillgrid.com/about",
+      "image": "https://upskillgrid.com/headshot.jpg",
+      "jobTitle": "Computer science tutor and founder of UpskillGrid",
+      "sameAs": [
+        "https://www.linkedin.com/in/syed-shahmikh-ali-6b962b201/",
+        "https://shahmikh.com"
+      ],
+      "knowsAbout": [
+        "Artificial intelligence tools",
+        "Python",
+        "Java",
+        "IGCSE Computer Science",
+        "GCSE Computer Science",
+        "Cambridge AS and A Level Computer Science",
+        "IB Computer Science",
+        "AP Computer Science A",
+        "AP Computer Science Principles"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://upskillgrid.com/#org",
+      "name": "UpskillGrid",
+      "url": "https://upskillgrid.com/",
+      "logo": "https://upskillgrid.com/logo.png",
+      "email": "hello@upskillgrid.com",
+      "founder": {
+        "@id": "https://upskillgrid.com/about#person"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Prompt Writing Basics: 6 Patterns That Work in Any AI",
+      "description": "Six prompt patterns recommended by OpenAI, Google and Anthropic that work in ChatGPT, Gemini and Claude, with copy-and-paste examples for students.",
+      "image": [
+        "https://upskillgrid.com/og-image.png"
+      ],
+      "datePublished": "2026-11-07",
+      "dateModified": "2026-11-07",
+      "author": {
+        "@id": "https://upskillgrid.com/about#person"
+      },
+      "publisher": {
+        "@id": "https://upskillgrid.com/#org"
+      },
+      "inLanguage": "en",
+      "articleSection": "How-To Guides",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://upskillgrid.com/blog-prompt-writing-basics"
+      },
+      "citation": [
+        "https://help.openai.com/en/articles/6654000-prompt-engineering-guide",
+        "https://www.marketingaiinstitute.com/blog/chatgpt-prompt?hs_amp=true",
+        "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/prompts/prompt-design-strategies",
+        "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/multishot-prompting",
+        "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://upskillgrid.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://upskillgrid.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Prompt Writing Basics: 6 Patterns That Work in Any AI",
+          "item": "https://upskillgrid.com/blog-prompt-writing-basics"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do these prompts work in ChatGPT, Gemini and Claude?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. OpenAI, Google and Anthropic each recommend clear instructions, examples, a stated format, reference text and step-by-step reasoning in their official guides, so the same patterns work across all three."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should a prompt be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As long as it needs to be to remove guesswork. A one-line question is fine for simple facts, while tasks like marking an answer or making flashcards work better with a role, an example and a clear format."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it cheating to use AI for homework?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your school's rules, so check them. Using AI to explain topics, quiz you or check your working is usually allowed and helps you learn. Submitting AI-written work as your own usually is not."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="/" class="brand"><img src="logo.svg" width="34" height="34" alt=""><span class="brand-text">Upskill<b>Grid</b></span></a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary"><a href="/">Home</a><a href="blog#ai-tools">AI Tools</a><a href="blog#how-to" class="is-active">How-To</a><a href="blog#free-courses">Free Courses</a><a href="blog#career-skills">Career Skills</a><a href="blog">All Guides</a><a href="tools">Free Tools</a><a href="about">About</a></nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span></button>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <p class="crumbs"><a href="/">Home</a> / <a href="blog#how-to">How-To Guides</a></p>
+    <p class="eyebrow">How-To Guides · 7 min read</p>
+    <h1>Prompt writing basics: 6 patterns that work in any AI chatbot</h1>
+    <p class="post-byline">By <a href="about">Syed Shahmikh Ali</a> · Published 7 November 2026 · Updated 7 November 2026</p>
+  </div>
+</section>
+<article class="container">
+  <div class="prose">
+    <p class="post-lead">The six prompt patterns that work in almost any AI chatbot are: be specific about the task and your situation, give the AI a role, show an example of the answer you want, state the format and length, paste the reference text you want it to use, and ask it to work step by step. OpenAI, Google and Anthropic all recommend versions of these in their official prompting guides. Each pattern below has a copy-and-paste example.</p>
+    <div class="takeaways"><h2>Key takeaways</h2><ul><li>Most weak answers come from vague prompts. Say who you are, what you need and what a good answer looks like.</li><li>Examples are one of the most reliable ways to control format and tone. Google recommends including them in prompts, and Anthropic suggests 3 to 5.</li><li>Pasting your own notes or syllabus and telling the AI to answer only from them cuts down invented answers.</li><li>For maths, coding and multi-step questions, ask the AI to show its working step by step.</li><li>Do not add pressure or flattery. Google's own checklist says to remove it from prompts.</li></ul></div>
+    <nav class="toc" aria-label="Contents"><p class="toc-title">In this guide</p><ol><li><a href="#be-specific">1. Why should your prompt be specific?</a></li><li><a href="#give-a-role">2. Does giving the AI a role help?</a></li><li><a href="#show-examples">3. Why should you show the AI an example?</a></li><li><a href="#format">4. How do you control the format and length?</a></li><li><a href="#reference-text">5. How do you stop AI from making things up?</a></li><li><a href="#step-by-step">6. When should you ask the AI to think step by step?</a></li><li><a href="#template">What is a good prompt template to copy?</a></li><li><a href="#faq">Frequently asked questions</a></li><li><a href="#sources">Sources</a></li></ol></nav>
+
+    <h2 id="be-specific">1. Why should your prompt be specific?</h2>
+    <p>A chatbot cannot see your situation, so a short prompt gets a generic answer. Google's <a href="https://ai.google.dev/gemini-api/docs/prompting-strategies" rel="noopener">Gemini prompting guide</a> calls clear and specific instructions an effective way to shape the model's response. OpenAI's <a href="https://help.openai.com/en/articles/6654000-prompt-engineering-guide" rel="noopener">prompt engineering best practices</a> make the same point and advise cutting vague, "fluffy" descriptions.</p><p>Compare these two prompts:</p><pre><code>Explain recursion.</code></pre><pre><code>I am a Year 11 student taking IGCSE Computer Science. I understand loops and functions but not recursion.
+Explain recursion in under 200 words, using a factorial example in Python.
+Then give me 3 short practice questions, without the answers.</code></pre><p>The second one says who you are, what you already know, how long the answer should be and what you want next. It gets you an answer pitched at your level and practice questions to test yourself.</p>
+
+    <h2 id="give-a-role">2. Does giving the AI a role help?</h2>
+    <p>Yes, a role tells the AI what kind of expert to be and what tone to use. Google Cloud's <a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/prompts/prompt-design-strategies" rel="noopener">prompt design guide</a> lists the persona as a standard part of a prompt, with the example "You are a math tutor here to help students with their math homework."</p><p>Roles work best when you also say what the role should do. This one is useful before any exam:</p><pre><code>Act as an IB Computer Science examiner.
+Mark my answer below out of 4, show which marking points I earned and which I missed, then tell me one change that would gain the missing mark.
+
+Question: [paste]
+My answer: [paste]</code></pre>
+
+    <h2 id="show-examples">3. Why should you show the AI an example?</h2>
+    <p>Showing one or two examples of the answer you want is often stronger than describing it. These are called few-shot prompts. Google's guide recommends always including few-shot examples and says prompts without them are likely to be less effective. Anthropic's guide to <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/multishot-prompting" rel="noopener">using examples</a> suggests 3 to 5 relevant, varied examples for best results.</p><pre><code>Turn my notes into flashcards in this format.
+
+Example 1
+Note: A variable stores a value that can change.
+Card: Q: What is a variable? | A: A named store for a value that can change.
+
+Example 2
+Note: A constant stores a value that cannot change while the program runs.
+Card: Q: What is a constant? | A: A named value that stays the same while the program runs.
+
+Now do the same for these notes:
+[paste notes]</code></pre><p>The AI copies your pattern for the rest of the notes, so every card comes out in the same format.</p>
+
+    <h2 id="format">4. How do you control the format and length?</h2>
+    <p>Say exactly what shape you want: a table, five bullet points, a 150-word paragraph, code with comments. Google's guide lists constraints and response format as parts of a prompt, with examples such as limiting how long a summary should be and asking for a table or bulleted list.</p><p>Useful phrases to add at the end of any prompt:</p><ul><li>"Answer in under 100 words."</li><li>"Give the answer as a table with columns for term, meaning and example."</li><li>"Use simple English for a 15-year-old."</li><li>"Do not give me the answer. Give me a hint first."</li></ul>
+
+    <h2 id="reference-text">5. How do you stop AI from making things up?</h2>
+    <p>Paste the text you want it to use and tell it to answer only from that text. OpenAI's guide lists "provide reference text" as one of its six strategies and compares it to a sheet of notes that helps a student do better on a test, as summarised by the <a href="https://www.marketingaiinstitute.com/blog/chatgpt-prompt?hs_amp=true" rel="noopener">Marketing AI Institute</a>. Putting the text between triple quotes keeps it separate from your instructions.</p><pre><code>Answer using only the text between the triple quotes. If the answer is not in the text, say &quot;Not in the text&quot;.
+
+&quot;&quot;&quot;
+[paste your syllabus section, article or class notes]
+&quot;&quot;&quot;
+
+Question: [your question]</code></pre><p>This is the safest way to use AI for revision, because the answers come from your actual syllabus or class notes instead of the model's memory.</p>
+
+    <h2 id="step-by-step">6. When should you ask the AI to think step by step?</h2>
+    <p>Ask for step-by-step working on anything a person would need to think through: maths, physics, code, trace tables or decisions with several factors. Anthropic's guide to <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought" rel="noopener">chain of thought prompting</a> says breaking a problem into steps leads to more accurate answers, and that the reasoning has to be written out for this to work. OpenAI's guide likewise recommends splitting complex tasks into simpler subtasks.</p><pre><code>Solve this step by step. First list what the question gives you, then show each step of working, then give the final answer on its own line.
+
+[paste problem]</code></pre><p>A bonus for students: when the working is visible, you can spot exactly where the AI, or you, went wrong.</p>
+
+    <h2 id="template">What is a good prompt template to copy?</h2>
+    <p>Put the six patterns together and you get a template that works for homework help, revision, essays and code. Fill in only the lines you need:</p><pre><code>Role: Act as [who should answer: tutor, examiner, editor].
+Task: [one clear sentence of what you want].
+Context: [who you are, your level, what you already know].
+Reference: [paste notes or text between triple quotes, if any].
+Format: [table / 5 bullet points / under 150 words / code with comments].
+Example: [one sample of what a good answer looks like].
+Steps: [think step by step / check your answer before replying].</code></pre><p>Two habits make any template better. First, treat the first answer as a draft and reply with what to change. Second, skip pressure and flattery: Google's checklist says to remove emotional appeals, flattery and artificial pressure from prompts. If you want to use these prompts to organise your revision, our guide on <a href="blog-how-to-use-ai-to-make-a-study-plan">using AI to make a study plan</a> shows how.</p>
+
+    <h2 id="faq">Frequently asked questions</h2>
+    <div class="faq-list">
+      <details class="faq-item"><summary>Do these prompts work in ChatGPT, Gemini and Claude?</summary><p>Yes. OpenAI, Google and Anthropic each recommend clear instructions, examples, a stated format, reference text and step-by-step reasoning in their official guides, so the same patterns work across all three.</p></details>
+      <details class="faq-item"><summary>How long should a prompt be?</summary><p>As long as it needs to be to remove guesswork. A one-line question is fine for simple facts, while tasks like marking an answer or making flashcards work better with a role, an example and a clear format.</p></details>
+      <details class="faq-item"><summary>Is it cheating to use AI for homework?</summary><p>It depends on your school's rules, so check them. Using AI to explain topics, quiz you or check your working is usually allowed and helps you learn. Submitting AI-written work as your own usually is not.</p></details>
+    </div>
+    <h2 id="sources">Sources</h2>
+    <ul class="post-sources"><li><a href="https://help.openai.com/en/articles/6654000-prompt-engineering-guide" rel="noopener">Best practices for prompt engineering with the OpenAI API, OpenAI Help Center</a></li><li><a href="https://www.marketingaiinstitute.com/blog/chatgpt-prompt?hs_amp=true" rel="noopener">The official ChatGPT prompt engineering guide from OpenAI is here, Marketing AI Institute</a></li><li><a href="https://ai.google.dev/gemini-api/docs/prompting-strategies" rel="noopener">Prompt design strategies, Google AI for Developers</a></li><li><a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/prompts/prompt-design-strategies" rel="noopener">Prompt design strategies, Google Cloud</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/multishot-prompting" rel="noopener">Use examples (multishot prompting), Anthropic</a></li><li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought" rel="noopener">Let Claude think (chain of thought prompting), Anthropic</a></li></ul>
+    <h2>Related reading</h2>
+    <ul class="post-sources"><li><a href="blog-how-to-use-ai-to-make-a-study-plan">How to use AI to make a study plan you will follow</a></li><li><a href="blog-free-ai-courses-with-certificates">Free AI courses with certificates</a></li><li><a href="tools">Free tools for students</a></li></ul>
+    <aside class="author-box">
+  <img src="headshot.jpg" alt="Syed Shahmikh Ali" width="72" height="72" loading="lazy">
+  <div>
+    <p class="author-name">About the author</p>
+    <p><a href="about">Syed Shahmikh Ali</a> is a Preply Super Tutor, in the top 10% of computer science tutors on Preply, and Oxford University Press trained, with a mechatronics engineering background. He teaches IGCSE, GCSE, Cambridge AS and A Level, IB (SL and HL) and AP (CSA and CSP) Computer Science, plus Python and Java, one to one, and started UpskillGrid to give learners straight answers about AI tools and free courses.</p>
+    <p class="post-note">Editorial note: this guide is checked against the sources listed above. Prices and course terms change, so confirm on the official page before you pay. Spot a mistake? Tell us through the <a href="contact">contact page</a> and we will fix it.</p>
+  </div>
+</aside>
+  </div>
+</article>
+<section class="cta-band">
+  <div class="container">
+    <p class="eyebrow">Keep going</p>
+    <h2>More free, checked guides on AI tools and tech skills</h2>
+    <a href="blog" class="btn btn--green">Browse all guides</a>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>UpskillGrid</h4><p>Practical guides on AI tools, tech how-tos, free courses and career skills. Every guide is checked against official sources and dated.</p></div>
+      <div><h4>Guides</h4><ul><li><a href="blog#ai-tools">AI Tools</a></li><li><a href="blog#how-to">How-To Guides</a></li><li><a href="blog#free-courses">Free Courses</a></li><li><a href="blog#career-skills">Career Skills</a></li><li><a href="tools">Free Tools</a></li></ul></div>
+      <div><h4>Site</h4><ul><li><a href="about">About</a></li><li><a href="contact">Contact</a></li><li><a href="editorial-policy">Editorial policy</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="privacy">Privacy policy</a></li><li><a href="terms">Terms of use</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 UpskillGrid. All rights reserved.</span><span>Run by <a href="about">Syed Shahmikh Ali</a></span></div>
+  </div>
+</footer>
+<script src="main.js" defer></script>
+</body>
+</html>

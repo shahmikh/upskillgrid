@@ -1,0 +1,110 @@
+{
+ "slug": "prompt-writing-basics",
+ "category": "how-to",
+ "title": "Prompt Writing Basics: 6 Patterns That Work in Any AI",
+ "h1": "Prompt writing basics: 6 patterns that work in any AI chatbot",
+ "description": "Six prompt patterns recommended by OpenAI, Google and Anthropic that work in ChatGPT, Gemini and Claude, with copy-and-paste examples for students.",
+ "published": "2026-11-07",
+ "modified": "2026-11-07",
+ "read_min": 7,
+ "card_summary": "Six prompt patterns that OpenAI, Google and Anthropic all recommend, with copy-and-paste examples you can use in any chatbot.",
+ "lead": "The six prompt patterns that work in almost any AI chatbot are: be specific about the task and your situation, give the AI a role, show an example of the answer you want, state the format and length, paste the reference text you want it to use, and ask it to work step by step. OpenAI, Google and Anthropic all recommend versions of these in their official prompting guides. Each pattern below has a copy-and-paste example.",
+ "takeaways": [
+  "Most weak answers come from vague prompts. Say who you are, what you need and what a good answer looks like.",
+  "Examples are one of the most reliable ways to control format and tone. Google recommends including them in prompts, and Anthropic suggests 3 to 5.",
+  "Pasting your own notes or syllabus and telling the AI to answer only from them cuts down invented answers.",
+  "For maths, coding and multi-step questions, ask the AI to show its working step by step.",
+  "Do not add pressure or flattery. Google's own checklist says to remove it from prompts."
+ ],
+ "sections": [
+  {
+   "id": "be-specific",
+   "h2": "1. Why should your prompt be specific?",
+   "html": "<p>A chatbot cannot see your situation, so a short prompt gets a generic answer. Google's <a href=\"https://ai.google.dev/gemini-api/docs/prompting-strategies\" rel=\"noopener\">Gemini prompting guide</a> calls clear and specific instructions an effective way to shape the model's response. OpenAI's <a href=\"https://help.openai.com/en/articles/6654000-prompt-engineering-guide\" rel=\"noopener\">prompt engineering best practices</a> make the same point and advise cutting vague, \"fluffy\" descriptions.</p><p>Compare these two prompts:</p><pre><code>Explain recursion.</code></pre><pre><code>I am a Year 11 student taking IGCSE Computer Science. I understand loops and functions but not recursion.\nExplain recursion in under 200 words, using a factorial example in Python.\nThen give me 3 short practice questions, without the answers.</code></pre><p>The second one says who you are, what you already know, how long the answer should be and what you want next. It gets you an answer pitched at your level and practice questions to test yourself.</p>"
+  },
+  {
+   "id": "give-a-role",
+   "h2": "2. Does giving the AI a role help?",
+   "html": "<p>Yes, a role tells the AI what kind of expert to be and what tone to use. Google Cloud's <a href=\"https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/prompts/prompt-design-strategies\" rel=\"noopener\">prompt design guide</a> lists the persona as a standard part of a prompt, with the example \"You are a math tutor here to help students with their math homework.\"</p><p>Roles work best when you also say what the role should do. This one is useful before any exam:</p><pre><code>Act as an IB Computer Science examiner.\nMark my answer below out of 4, show which marking points I earned and which I missed, then tell me one change that would gain the missing mark.\n\nQuestion: [paste]\nMy answer: [paste]</code></pre>"
+  },
+  {
+   "id": "show-examples",
+   "h2": "3. Why should you show the AI an example?",
+   "html": "<p>Showing one or two examples of the answer you want is often stronger than describing it. These are called few-shot prompts. Google's guide recommends always including few-shot examples and says prompts without them are likely to be less effective. Anthropic's guide to <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/multishot-prompting\" rel=\"noopener\">using examples</a> suggests 3 to 5 relevant, varied examples for best results.</p><pre><code>Turn my notes into flashcards in this format.\n\nExample 1\nNote: A variable stores a value that can change.\nCard: Q: What is a variable? | A: A named store for a value that can change.\n\nExample 2\nNote: A constant stores a value that cannot change while the program runs.\nCard: Q: What is a constant? | A: A named value that stays the same while the program runs.\n\nNow do the same for these notes:\n[paste notes]</code></pre><p>The AI copies your pattern for the rest of the notes, so every card comes out in the same format.</p>"
+  },
+  {
+   "id": "format",
+   "h2": "4. How do you control the format and length?",
+   "html": "<p>Say exactly what shape you want: a table, five bullet points, a 150-word paragraph, code with comments. Google's guide lists constraints and response format as parts of a prompt, with examples such as limiting how long a summary should be and asking for a table or bulleted list.</p><p>Useful phrases to add at the end of any prompt:</p><ul><li>\"Answer in under 100 words.\"</li><li>\"Give the answer as a table with columns for term, meaning and example.\"</li><li>\"Use simple English for a 15-year-old.\"</li><li>\"Do not give me the answer. Give me a hint first.\"</li></ul>"
+  },
+  {
+   "id": "reference-text",
+   "h2": "5. How do you stop AI from making things up?",
+   "html": "<p>Paste the text you want it to use and tell it to answer only from that text. OpenAI's guide lists \"provide reference text\" as one of its six strategies and compares it to a sheet of notes that helps a student do better on a test, as summarised by the <a href=\"https://www.marketingaiinstitute.com/blog/chatgpt-prompt?hs_amp=true\" rel=\"noopener\">Marketing AI Institute</a>. Putting the text between triple quotes keeps it separate from your instructions.</p><pre><code>Answer using only the text between the triple quotes. If the answer is not in the text, say &quot;Not in the text&quot;.\n\n&quot;&quot;&quot;\n[paste your syllabus section, article or class notes]\n&quot;&quot;&quot;\n\nQuestion: [your question]</code></pre><p>This is the safest way to use AI for revision, because the answers come from your actual syllabus or class notes instead of the model's memory.</p>"
+  },
+  {
+   "id": "step-by-step",
+   "h2": "6. When should you ask the AI to think step by step?",
+   "html": "<p>Ask for step-by-step working on anything a person would need to think through: maths, physics, code, trace tables or decisions with several factors. Anthropic's guide to <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought\" rel=\"noopener\">chain of thought prompting</a> says breaking a problem into steps leads to more accurate answers, and that the reasoning has to be written out for this to work. OpenAI's guide likewise recommends splitting complex tasks into simpler subtasks.</p><pre><code>Solve this step by step. First list what the question gives you, then show each step of working, then give the final answer on its own line.\n\n[paste problem]</code></pre><p>A bonus for students: when the working is visible, you can spot exactly where the AI, or you, went wrong.</p>"
+  },
+  {
+   "id": "template",
+   "h2": "What is a good prompt template to copy?",
+   "html": "<p>Put the six patterns together and you get a template that works for homework help, revision, essays and code. Fill in only the lines you need:</p><pre><code>Role: Act as [who should answer: tutor, examiner, editor].\nTask: [one clear sentence of what you want].\nContext: [who you are, your level, what you already know].\nReference: [paste notes or text between triple quotes, if any].\nFormat: [table / 5 bullet points / under 150 words / code with comments].\nExample: [one sample of what a good answer looks like].\nSteps: [think step by step / check your answer before replying].</code></pre><p>Two habits make any template better. First, treat the first answer as a draft and reply with what to change. Second, skip pressure and flattery: Google's checklist says to remove emotional appeals, flattery and artificial pressure from prompts. If you want to use these prompts to organise your revision, our guide on <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">using AI to make a study plan</a> shows how.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Do these prompts work in ChatGPT, Gemini and Claude?",
+   "a": "Yes. OpenAI, Google and Anthropic each recommend clear instructions, examples, a stated format, reference text and step-by-step reasoning in their official guides, so the same patterns work across all three."
+  },
+  {
+   "q": "How long should a prompt be?",
+   "a": "As long as it needs to be to remove guesswork. A one-line question is fine for simple facts, while tasks like marking an answer or making flashcards work better with a role, an example and a clear format."
+  },
+  {
+   "q": "Is it cheating to use AI for homework?",
+   "a": "It depends on your school's rules, so check them. Using AI to explain topics, quiz you or check your working is usually allowed and helps you learn. Submitting AI-written work as your own usually is not."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Best practices for prompt engineering with the OpenAI API, OpenAI Help Center",
+   "url": "https://help.openai.com/en/articles/6654000-prompt-engineering-guide"
+  },
+  {
+   "title": "The official ChatGPT prompt engineering guide from OpenAI is here, Marketing AI Institute",
+   "url": "https://www.marketingaiinstitute.com/blog/chatgpt-prompt?hs_amp=true"
+  },
+  {
+   "title": "Prompt design strategies, Google AI for Developers",
+   "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+  },
+  {
+   "title": "Prompt design strategies, Google Cloud",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/prompts/prompt-design-strategies"
+  },
+  {
+   "title": "Use examples (multishot prompting), Anthropic",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/multishot-prompting"
+  },
+  {
+   "title": "Let Claude think (chain of thought prompting), Anthropic",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan you will follow"
+  },
+  {
+   "href": "blog-free-ai-courses-with-certificates",
+   "title": "Free AI courses with certificates"
+  },
+  {
+   "href": "tools",
+   "title": "Free tools for students"
+  }
+ ]
+}
