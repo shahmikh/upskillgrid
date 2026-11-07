@@ -330,3 +330,4 @@ a.th-card:hover .tc-go span{display:inline-block;transform:translateX(4px);trans
 .ib-target{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#fff;font-weight:600;font-size:.9rem;margin-top:8px}
 .ib-target select{background:#1E293B;color:#fff;border-color:#334155}
 @media (max-width:760px){.ibc .calc-body{grid-template-columns:1fr}.ib-row{grid-template-columns:24px 1fr auto auto;gap:8px}.ib-group{font-size:.85rem}}
+.prose pre{background:var(--ink);color:#E2E8F0;border-radius:var(--r-md);padding:18px 20px;overflow-x:auto;margin:0 0 1.4rem;font-size:.9rem;line-height:1.6;white-space:pre-wrap}.prose pre code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:none;color:inherit;padding:0}

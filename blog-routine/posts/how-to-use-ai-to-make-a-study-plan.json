@@ -1,0 +1,96 @@
+{
+ "slug": "how-to-use-ai-to-make-a-study-plan",
+ "category": "how-to",
+ "title": "How to Use AI to Make a Study Plan You Will Follow",
+ "h1": "How to use AI to make a study plan you will actually follow",
+ "description": "Use any AI chatbot to build a study plan based on spaced practice and self-testing. Includes a copy-and-paste prompt, a weekly review prompt and an example.",
+ "published": "2026-11-04",
+ "modified": "2026-11-04",
+ "read_min": 7,
+ "card_summary": "A copy-and-paste prompt that turns any AI chatbot into a study planner, built on the two study methods research rates highest.",
+ "lead": "To make a study plan with AI, give the chatbot your exam date, your full topic list, your weakest topics and the hours you really have, then ask it to spread each topic over several short sessions that start with self-testing. Turn each session into an if-then plan (\"If it is 5 pm on Monday, then I do 40 minutes of trace tables at my desk\") and ask the AI to rebuild the plan every week from what actually happened. The copy-and-paste prompts are below.",
+ "takeaways": [
+  "Research rates spaced practice and self-testing as the most effective study methods, and rereading and highlighting as low value.",
+  "AI is good at the scheduling. You still decide the topics, using your syllabus and past papers.",
+  "Write each session as an if-then plan with a time and place. If-then plans had a medium-to-large effect on reaching goals across 94 studies.",
+  "Plan a free catch-up slot every week and review the plan weekly. That is what stops a plan from collapsing after one bad day."
+ ],
+ "sections": [
+  {
+   "id": "why-plans-fail",
+   "h2": "Why do most study plans fail?",
+   "html": "<p>Most study plans fail for two reasons: they are built around the wrong study methods, and they never say exactly when each session will happen.</p><p>On methods, a major 2013 review led by John Dunlosky rated ten common study techniques. Practice testing and distributed (spaced) practice got the highest rating, while rereading, highlighting and summarising, which most students rely on, were rated low, as the <a href=\"https://www.psychologicalscience.org/news/releases/which-study-strategies-make-the-grade.html\" rel=\"noopener\">Association for Psychological Science reported</a>. A plan full of \"read chapter 4\" sessions can feel productive and still leave you unable to answer exam questions.</p><p>On timing, \"study networks this week\" is a wish, not a plan. Without a set time and place, the session keeps sliding to tomorrow.</p>"
+  },
+  {
+   "id": "what-to-build-on",
+   "h2": "Which study methods should an AI study plan use?",
+   "html": "<p>Ask the AI to build your plan around the methods with the strongest evidence. The <a href=\"https://www.learningscientists.org/blog/2016/8/18-1\" rel=\"noopener\">Learning Scientists</a>, a group of cognitive psychologists, list six: spacing, retrieval practice, elaboration, interleaving, concrete examples and dual coding. They note that spacing and retrieval practice have the most evidence.</p><ul><li><strong>Spaced practice:</strong> study each topic in several short sessions spread over days and weeks, not in one long block.</li><li><strong>Retrieval practice:</strong> test yourself without notes, using flashcards, past-paper questions or a blank page.</li><li><strong>Interleaving:</strong> mix different topics or question types in the same week, which helps you choose the right method in an exam.</li></ul><p>A review in <a href=\"https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-017-0087-y\" rel=\"noopener\">Cognitive Research: Principles and Implications</a> calls the benefit of spaced practice one of the strongest contributions cognitive psychology has made to education. These are exactly the things AI is good at scheduling.</p>"
+  },
+  {
+   "id": "step-by-step",
+   "h2": "How do you make a study plan with AI, step by step?",
+   "html": "<p>This works in ChatGPT, Gemini, Claude or any other chatbot.</p><ol><li><strong>Collect your facts first.</strong> Exam date, the official topic list from your syllabus, your 2 or 3 weakest topics and your real free hours. If you have mock results or a predicted grade, add them.</li><li><strong>Paste the prompt below</strong> and fill in the brackets.</li><li><strong>Check the plan against your syllabus.</strong> Make sure every topic appears at least three times and nothing is invented.</li><li><strong>Put every session in your calendar</strong> with a time and place.</li><li><strong>Review weekly</strong> with the second prompt.</li></ol><p>The planning prompt:</p><pre><code>I am preparing for [exam name] on [exam date]. Today is [today's date].\nTopics: [paste the topic list from your syllabus].\nMy weakest topics: [list 2 or 3].\nI can study [X] hours on weekdays and [Y] hours on weekends. I am busy on [days/times].\n\nMake me a day-by-day study plan that:\n1. Spreads every topic over several short sessions instead of one long one.\n2. Starts each session with 10 minutes of self-testing on earlier topics.\n3. Mixes different topics in the same week instead of finishing one topic at a time.\n4. Gives my weakest topics extra sessions.\n5. Includes one full timed past paper each week from [week number].\n6. Leaves one free catch-up slot each week.\nShow it as a table: date, time, topic, task, and what I should be able to do by the end.</code></pre><p>If the plan looks too packed, reply: \"Cut this to [X] hours a week and keep the self-testing.\" A plan you can finish beats a perfect plan you abandon.</p>"
+  },
+  {
+   "id": "make-it-stick",
+   "h2": "How do you make yourself follow the study plan?",
+   "html": "<p>Turn each session into an if-then plan: \"If it is Tuesday at 5 pm, then I sit at my desk and do 10 past-paper questions on arrays.\" Psychologists call these implementation intentions. A <a href=\"https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f\" rel=\"noopener\">meta-analysis by Gollwitzer and Sheeran</a> of 94 independent tests found they had a medium-to-large positive effect on reaching goals.</p><p>Then review the plan once a week. Paste this into the same chat:</p><pre><code>Here is last week's plan and what actually happened: [paste].\nI missed: [sessions]. My self-test scores were: [scores].\nRebuild next week's plan. Move missed work into the catch-up slot, and give more time to the topics where I scored lowest.</code></pre><p>Three habits that help my students most:</p><ul><li><strong>Start small.</strong> Commit to the first 10 minutes of self-testing. Starting is the hardest part.</li><li><strong>Keep the catch-up slot empty.</strong> It absorbs missed sessions, so one bad day does not wreck the week.</li><li><strong>Track scores, not hours.</strong> Your self-test scores tell the AI where to put more time.</li></ul>"
+  },
+  {
+   "id": "example",
+   "h2": "What does a good AI study plan look like?",
+   "html": "<p>Here is the shape of a four-week plan for IGCSE Computer Science that I would accept from an AI. Notice that every week mixes new topics with self-testing on older ones, and the checks get closer to real exam conditions:</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Week</th><th>New topics</th><th>Self-testing on</th><th>End-of-week check</th></tr></thead><tbody><tr><td>1</td><td>Data representation, binary and hex</td><td>Previous year's weakest topic</td><td>20 short questions, no notes</td></tr><tr><td>2</td><td>Algorithms, pseudocode, trace tables</td><td>Binary and hex</td><td>2 past-paper algorithm questions</td></tr><tr><td>3</td><td>Programming: arrays, loops, procedures</td><td>Binary, trace tables</td><td>One timed past paper</td></tr><tr><td>4</td><td>Networks, security, databases</td><td>All earlier topics, mixed</td><td>One timed past paper, then fix errors</td></tr></tbody></table></div><p>If your exam has a final score you are aiming for, set the target first. Our free <a href=\"ib-points-calculator\">IB points calculator</a> and <a href=\"ap-computer-science-score-calculator\">AP Computer Science score calculator</a> show how many points you need, which tells you how hard to push each subject.</p>"
+  },
+  {
+   "id": "limits",
+   "h2": "What should you not let AI do in your study plan?",
+   "html": "<ul><li><strong>Do not let it choose your topics.</strong> AI can miss or invent syllabus points. Always paste the official topic list.</li><li><strong>Do not let it do the self-testing for you.</strong> Reading AI explanations is just rereading with extra steps. Ask it for questions, answer them yourself without notes, then check.</li><li><strong>Do not trust it on exam details.</strong> Check dates, mark schemes and grade boundaries on your exam board's official site.</li><li><strong>Do not paste private details.</strong> Your topics and hours are enough. Leave out your full name, school and anything personal.</li></ul><p>If you want structured free courses to slot into your plan, see our guides to <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a> and <a href=\"blog-free-ai-courses-with-certificates\">free AI courses with certificates</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Which AI is best for making a study plan?",
+   "a": "Any major chatbot can do it, because the hard part is the information you give it, not the model. What matters is pasting your real syllabus, your weak topics and your free hours, and asking for spaced sessions that start with self-testing."
+  },
+  {
+   "q": "How many hours a day should my study plan include?",
+   "a": "Plan the hours you can really keep for weeks, not the maximum you could do once. Several short, spaced sessions with self-testing work better than one long session of rereading."
+  },
+  {
+   "q": "How far before the exam should I start a study plan?",
+   "a": "As early as you can. Spaced practice needs time between sessions, so a plan that starts six or more weeks before the exam gives each topic room to be revisited several times."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Which study strategies make the grade?, Association for Psychological Science",
+   "url": "https://www.psychologicalscience.org/news/releases/which-study-strategies-make-the-grade.html"
+  },
+  {
+   "title": "Six strategies for effective learning, The Learning Scientists",
+   "url": "https://www.learningscientists.org/blog/2016/8/18-1"
+  },
+  {
+   "title": "Teaching the science of learning, Cognitive Research: Principles and Implications",
+   "url": "https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-017-0087-y"
+  },
+  {
+   "title": "Implementation intentions and goal achievement: a meta-analysis (Gollwitzer and Sheeran, 2006), University of Konstanz",
+   "url": "https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f"
+  }
+ ],
+ "related": [
+  {
+   "href": "ib-points-calculator",
+   "title": "IB points calculator"
+  },
+  {
+   "href": "blog-free-python-courses-with-certificates",
+   "title": "5 free Python courses with free certificates"
+  },
+  {
+   "href": "tools",
+   "title": "Free tools for students"
+  }
+ ]
+}
