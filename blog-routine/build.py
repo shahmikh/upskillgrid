@@ -328,6 +328,31 @@ def card(p):
 TOOL_SLUGS = {p.stem for p in TOOLS.glob("*.json")} if TOOLS.exists() else set()
 
 WIDGETS = {
+    "ibcalc": """<div class="calc ibc" id="ibcalc">
+  <div class="calc-body">
+    <div class="calc-inputs">
+      <div class="ib-head"><p class="calc-sub" style="margin-top:0">Your six subjects <span class="calc-max">(pick HL or SL, then the grade 1 to 7)</span></p><button type="button" class="ib-reset">Try a perfect 45</button></div>
+      <div class="ib-subjects"><noscript><p>Turn on JavaScript to use the calculator. The rules are explained below.</p></noscript></div>
+      <p class="calc-sub">The core</p>
+      <div class="ib-core">
+        <label>Theory of knowledge<select id="ib-tok"><option>A</option><option selected>B</option><option>C</option><option>D</option><option>E</option></select></label>
+        <label>Extended essay<select id="ib-ee"><option>A</option><option selected>B</option><option>C</option><option>D</option><option>E</option></select></label>
+        <label class="calc-check ib-cas"><input type="checkbox" id="ib-cas" checked> CAS completed</label>
+      </div>
+      <p class="ib-mix" hidden></p>
+    </div>
+    <div class="calc-result ib-result" aria-live="polite">
+      <p class="eyebrow">Your IB total</p>
+      <div><span class="calc-score ib-total">-</span><span class="ib-of">/ 45</span></div>
+      <p class="calc-split ib-break"></p>
+      <div class="calc-bar"><div class="calc-fill ib-fill"></div><span class="calc-mark" style="left:53.3%"><i>24</i></span></div>
+      <p class="ib-status"></p>
+      <ul class="ib-checks"></ul>
+      <label class="ib-target">Target score <select id="ib-target"><option>24</option><option>30</option><option>32</option><option selected>35</option><option>38</option><option>40</option><option>42</option><option>45</option></select></label>
+      <p class="calc-note ib-target-msg"></p>
+    </div>
+  </div>
+</div>""",
     "apcalc": """<div class="calc" id="apcalc">
   <div class="calc-tabs" role="tablist" aria-label="Choose your exam">
     <button type="button" role="tab" data-exam="csa" aria-selected="true">AP CSA <span class="calc-tabfull">(Computer Science A)</span></button>
@@ -397,7 +422,7 @@ def render_tool(t):
     <p class="crumbs"><a href="/">Home</a> / <a href="tools">Free Tools</a></p>
     <p class="eyebrow">Free tool · Updated {modh}</p>
     <h1>{h1}</h1>
-    <p class="post-byline">Built by <a href="about">Syed Shahmikh Ali</a>, AP Computer Science tutor · Published {pubh}</p>
+    <p class="post-byline">Built by <a href="about">Syed Shahmikh Ali</a>, {role} · Published {pubh}</p>
   </div>
 </section>
 <div class="container"><div class="calc-wrap">{widget}</div></div>
@@ -420,7 +445,7 @@ def render_tool(t):
 <script src="{script}" defer></script>""".format(
         modh=human_date(t["modified"]), pubh=human_date(t["published"]), h1=esc(t["h1"]), widget=WIDGETS[t["widget"]],
         lead=t["lead"], takeaways=takeaways, toc=toc, sections=sections, faq=faq, sources=sources, related=related,
-        author=AUTHOR_BOX, script=t["script"])
+        author=AUTHOR_BOX, script=t["script"], role=esc(t.get("byline_role", "Computer Science tutor")))
     return page(t["title"], t["description"], path, body, active="tools", ld=ld)
 
 
@@ -443,7 +468,6 @@ TOOL_GROUPS = [
 ]
 GROUP = {g[0]: g for g in TOOL_GROUPS}
 COMING_SOON = [
-    ("exam", "IB Points Calculator", "Add up 6 subjects plus TOK and EE points to get your total out of 45.", "sum"),
     ("grades", "UCAS Tariff Points Calculator", "Turn A Level, IB and BTEC grades into UCAS points.", "cap"),
     ("grades", "GPA Converter", "Convert percentages and UK grades to a 4.0 GPA.", "swap"),
     ("study", "Exam Countdown Planner", "Enter your exam date and topics, get a day-by-day plan.", "cal"),
