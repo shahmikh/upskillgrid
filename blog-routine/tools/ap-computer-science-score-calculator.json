@@ -4,7 +4,7 @@
  "h1": "AP Computer Science score calculator for CSA and CSP",
  "description": "Free AP Computer Science score calculator for CSA and CSP. Enter your practice test points to estimate your 1 to 5 score for the May 2027 exams.",
  "published": "2026-11-06",
- "modified": "2026-11-06",
+ "modified": "2026-11-08",
  "read_min": 7,
  "card_summary": "Enter your multiple-choice and free-response points from a practice test and see your estimated AP score for CSA or CSP.",
  "lead": "Pick your exam, enter your practice test results, and the calculator shows your estimated AP score from 1 to 5. It uses the official section weights for the current exams: for AP Computer Science A, 42 multiple-choice questions worth 55% and 4 free-response questions worth 45%; for AP Computer Science Principles, 70 multiple-choice questions worth 70% and the Create task plus written response worth 30%.",
@@ -90,6 +90,10 @@
   {
    "href": "tools",
    "title": "All free tools on UpskillGrid"
+  },
+  {
+   "href": "blog-ap-computer-science-a-vs-principles",
+   "title": "AP Computer Science A vs Principles: which to take?"
   },
   {
    "href": "blog-which-it-certification-first",

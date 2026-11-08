@@ -1,0 +1,105 @@
+{
+ "slug": "ap-computer-science-a-vs-principles",
+ "category": "career-skills",
+ "title": "AP Computer Science A vs Principles: Which to Take?",
+ "h1": "AP Computer Science A vs Principles: which should you take?",
+ "description": "AP CSA vs AP CSP compared by a computer science tutor: language, content, exam format, 2027 dates, 2026 results and which one fits your plans.",
+ "published": "2026-11-08",
+ "modified": "2026-11-08",
+ "read_min": 8,
+ "card_summary": "AP CSA teaches Java programming in depth, AP CSP covers the breadth of computing. Here is how to choose, from someone who teaches both.",
+ "lead": "Take AP Computer Science A if you want to study computer science, engineering or another technical subject at university: it is a Java programming course equivalent to a first-semester college CS class. Take AP Computer Science Principles if you want a broad introduction to computing, from data and the internet to the impact of technology, without committing to one language. Many students take CSP first and CSA later, and you can take both.",
+ "takeaways": [
+  "CSA is a deep Java programming course. CSP is a breadth course where your teacher chooses the language.",
+  "CSA's exam is 55% multiple choice and 45% written code. CSP's is 70% multiple choice and 30% for the Create task and written responses.",
+  "In 2026, 25% of CSA students scored a 5, compared with 10% in CSP.",
+  "Planning a CS or engineering degree? Aim for CSA. Exploring computing? Start with CSP.",
+  "The 2027 exams are on 12 May (CSA) and 14 May (CSP)."
+ ],
+ "sections": [
+  {
+   "id": "main-difference",
+   "h2": "What is the main difference between AP CSA and AP CSP?",
+   "html": "<p>CSA goes deep on one skill, programming. CSP goes wide across computer science. College Board describes CSP as an introductory college-level computing course that covers the breadth of the field, designed to be equivalent to a first-semester course for non-CS majors, on its <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course\" rel=\"noopener\">CSP course overview</a>. CSA, by contrast, is organised into four units of Java programming, as its <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-a/course\" rel=\"noopener\">CSA course overview</a> shows.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th></th><th>AP Computer Science A</th><th>AP Computer Science Principles</th></tr></thead><tbody><tr><th>Focus</th><td>Programming in depth</td><td>Breadth of computer science</td></tr><tr><th>Language</th><td>Java</td><td>Teacher's choice (often Python, JavaScript or blocks)</td></tr><tr><th>College equivalent</th><td>First-semester intro college CS course</td><td>First-semester intro computing course for non-CS majors</td></tr><tr><th>Structure</th><td>4 units</td><td>5 Big Ideas</td></tr><tr><th>Exam</th><td>42 multiple choice (55%) + 4 free response (45%)</td><td>70 multiple choice (70%) + Create task and written response (30%)</td></tr><tr><th>2027 exam date</th><td>12 May 2027</td><td>14 May 2027 (Create task due 30 April)</td></tr><tr><th>Scored 5 in 2026</th><td>25%</td><td>10%</td></tr><tr><th>Scored 3 or higher in 2026</th><td>66%</td><td>63%</td></tr></tbody></table></div>"
+  },
+  {
+   "id": "what-you-learn",
+   "h2": "What do you learn in each course?",
+   "html": "<p><strong>AP Computer Science A</strong> is a programming course in Java. You learn to write methods, design your own classes, use loops and conditions, and work with arrays, ArrayLists and 2D arrays. By the end you should be able to read and write real object-oriented code by hand, because the exam asks you to.</p><p><strong>AP Computer Science Principles</strong> covers five Big Ideas: creative development, data, algorithms and programming, computer systems and networks, and the impact of computing. You do program, but in whatever language your teacher picks, and you also study how the internet works, how data is stored and compressed, and the ethics of technology.</p><p>From teaching both: students who enjoy puzzles and building things usually love CSA. Students who are curious about technology but unsure about coding often do better starting with CSP.</p>"
+  },
+  {
+   "id": "exams",
+   "h2": "How are the AP CSA and AP CSP exams different?",
+   "html": "<p>The CSA exam has two sections of 1 hour 30 minutes. Section I is 42 multiple-choice questions worth 55%, and Section II is 4 free-response questions where you write Java code, worth 45%, according to the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam\" rel=\"noopener\">AP CSA exam page</a>. The 2027 exam is on 12 May 2027.</p><p>CSP is split differently. Section I is 70 multiple-choice questions in 120 minutes, worth 70%. Section II, worth 30%, combines the Create performance task you build during the year with written-response questions on exam day, as described on the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam\" rel=\"noopener\">AP CSP exam page</a>. For 2027, the Create task is due by 11:59 PM ET on 30 April and the exam is on 14 May. College Board says CSP is being redesigned for the 2027 to 2028 school year, so later exams may change.</p><p>Want to see how your practice scores convert? Our free <a href=\"ap-computer-science-score-calculator\">AP Computer Science score calculator</a> handles both exams.</p>"
+  },
+  {
+   "id": "which-is-harder",
+   "h2": "Is AP CSA harder than AP CSP?",
+   "html": "<p>CSA is usually the harder course, because you must write correct Java code on paper under time pressure. The scores tell a more surprising story, though. In 2026, 25% of CSA students scored a 5 and 66% scored 3 or higher, according to College Board's <a href=\"https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-a\" rel=\"noopener\">CSA score distribution</a>. In CSP, only 10% scored a 5 and 63% scored 3 or higher, per the <a href=\"https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-principles\" rel=\"noopener\">CSP score distribution</a>.</p><p>Part of the reason is who takes each course: CSA attracts students who already like programming, while CSP is often the first computing course for many students. So CSP is easier to start, but a 5 is not easy to get. You need very few multiple-choice mistakes and nearly every Section II row.</p>"
+  },
+  {
+   "id": "which-to-choose",
+   "h2": "Which AP Computer Science course should you take?",
+   "html": "<ul><li><strong>Planning to study computer science, software engineering or engineering:</strong> take CSA. It matches the first programming course at many universities.</li><li><strong>Never coded before and unsure:</strong> take CSP first. If you enjoy it, take CSA the following year.</li><li><strong>Interested in business, design, medicine or social sciences:</strong> CSP gives you useful computing literacy without a heavy coding load.</li><li><strong>Already coding in Python or another language:</strong> go straight to CSA. Java will feel familiar quickly.</li><li><strong>Room in your timetable for both:</strong> take both. They overlap less than you might think.</li></ul><p>Whichever you choose, check how your target universities award credit, because credit policies differ between universities and between the two courses.</p>"
+  },
+  {
+   "id": "prepare",
+   "h2": "How can you prepare before the course starts?",
+   "html": "<p>For CSA, the best head start is any free introductory programming course, then practice writing small programs without autocomplete. Our list of <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a> is a good starting point, because the logic transfers to Java. For CSP, practise explaining how your code works in plain English, since the written responses reward clear explanations.</p><p>Once the year starts, plan revision early with spaced practice and past questions. Our guide to <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">using AI to make a study plan</a> includes a copy-and-paste prompt you can use for either exam.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can you take AP CSA without taking AP CSP first?",
+   "a": "Yes. CSP is not a prerequisite for CSA. Many students take CSA as their first computer science course, especially if they have done some programming before."
+  },
+  {
+   "q": "What programming language does AP CSP use?",
+   "a": "There is no set language. Teachers choose, and common choices include Python, JavaScript and block-based tools. AP CSA always uses Java."
+  },
+  {
+   "q": "Which AP Computer Science looks better for university applications?",
+   "a": "For computer science and engineering courses, AP CSA shows the programming depth admissions tutors look for. For other subjects, either course shows interest in technology. Taking both is strongest."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AP Computer Science A course overview, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-a/course"
+  },
+  {
+   "title": "AP Computer Science Principles course overview, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course"
+  },
+  {
+   "title": "AP Computer Science A exam, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam"
+  },
+  {
+   "title": "AP Computer Science Principles exam, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam"
+  },
+  {
+   "title": "AP Computer Science A score distributions, College Board",
+   "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-a"
+  },
+  {
+   "title": "AP Computer Science Principles score distributions, College Board",
+   "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-principles"
+  }
+ ],
+ "related": [
+  {
+   "href": "ap-computer-science-score-calculator",
+   "title": "AP Computer Science score calculator"
+  },
+  {
+   "href": "blog-free-python-courses-with-certificates",
+   "title": "5 free Python courses with free certificates"
+  },
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan"
+  }
+ ]
+}
