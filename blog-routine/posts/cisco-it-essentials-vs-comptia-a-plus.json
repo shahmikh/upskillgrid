@@ -1,0 +1,100 @@
+{
+ "slug": "cisco-it-essentials-vs-comptia-a-plus",
+ "category": "career-skills",
+ "title": "Cisco IT Essentials vs CompTIA A+: Which Do You Need?",
+ "h1": "Cisco IT Essentials vs CompTIA A+: which one do you need?",
+ "description": "Cisco IT Essentials is a course and CompTIA A+ is a certification. Learn how they differ, what each costs, and why IT Essentials is a route into the A+ exams.",
+ "published": "2026-11-08",
+ "modified": "2026-11-08",
+ "read_min": 7,
+ "card_summary": "IT Essentials is a Cisco course and A+ is a CompTIA certification. Here is how they differ and how to use one to get the other.",
+ "lead": "Cisco IT Essentials and CompTIA A+ are not alternatives. IT Essentials is a training course from Cisco Networking Academy that ends with a Cisco digital badge, and Cisco says it helps you prepare for CompTIA A+. CompTIA A+ is the certification itself: two exams, Core 1 (220-1201) and Core 2 (220-1202), that employers ask for in IT support job ads. If you want a job, A+ is the credential to aim for, and IT Essentials is one structured way to study for it.",
+ "takeaways": [
+  "IT Essentials is a course with a Cisco badge. A+ is an industry certification.",
+  "Cisco lists IT Essentials at about 70 hours with no prerequisites, and says it helps you prepare for CompTIA A+.",
+  "A+ needs two exams: Core 1 (pass mark 675/900) and Core 2 (pass mark 700/900), each up to 90 questions in 90 minutes.",
+  "An A+ exam voucher costs $265 per exam in the US, so the full certification is about $530 before discounts.",
+  "Best route for most beginners: study with IT Essentials or another course, then sit both A+ exams."
+ ],
+ "sections": [
+  {
+   "id": "difference",
+   "h2": "What is the difference between Cisco IT Essentials and CompTIA A+?",
+   "html": "<p>The short answer: one teaches, the other tests. Here is how they compare side by side:</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th></th><th>Cisco IT Essentials</th><th>CompTIA A+</th></tr></thead><tbody><tr><th>What it is</th><td>A training course</td><td>A professional certification (two exams)</td></tr><tr><th>Made by</th><td>Cisco Networking Academy</td><td>CompTIA</td></tr><tr><th>What you get</th><td>A Cisco digital badge</td><td>The CompTIA A+ certification, valid for 3 years</td></tr><tr><th>How long</th><td>About 70 hours of study</td><td>Two 90-minute exams, up to 90 questions each</td></tr><tr><th>How you pass</th><td>Finish the course and its assessments</td><td>675/900 on Core 1 and 700/900 on Core 2</td></tr><tr><th>Cost</th><td>Depends on the academy that runs it</td><td>$265 per exam voucher in the US</td></tr><tr><th>Asked for in job ads</th><td>Rarely by name</td><td>Often, for help desk and IT support roles</td></tr></tbody></table></div><p>A common question from people who finish IT Essentials is whether their Cisco badge counts as A+. It does not. The badge shows you completed a Cisco course. A+ is a separate, vendor-neutral certification you only get by passing CompTIA's two exams.</p>"
+  },
+  {
+   "id": "it-essentials",
+   "h2": "What is Cisco IT Essentials?",
+   "html": "<p>IT Essentials is Cisco Networking Academy's course on computer hardware, software, operating systems, networking basics and security, plus the soft skills used in IT support. Cisco's <a href=\"https://prelogin-test.netacad.com/ja/courses/os-it/it-essentials\" rel=\"noopener\">IT Essentials course page</a> lists it at about 70 hours, with no prerequisites or prior computer knowledge needed, and says it helps you prepare for the CompTIA A+ certification. It also uses Cisco's simulation tools so you can practise troubleshooting hands-on.</p><p>When you finish, you get the IT Essentials digital badge. Cisco's <a href=\"https://credly.com/org/cisco/badge/it-essentials\" rel=\"noopener\">badge listing on Credly</a> describes it as confirming that you completed the course and earned this student-level credential. It is a good thing to show on LinkedIn, but it is a course badge, not a professional certification.</p><p>The course is often run by schools and colleges that are Networking Academy members, so cost and format depend on where you take it. If you want something free and self-paced first, Cisco's shorter courses such as Computer Hardware Basics and Operating System Basics are also aimed at A+ preparation, according to <a href=\"https://unstop.com/blog/cisco-free-upskilling-courses/amp\" rel=\"noopener\">Unstop's guide to Cisco's free courses</a>.</p>"
+  },
+  {
+   "id": "comptia-a-plus",
+   "h2": "What is CompTIA A+?",
+   "html": "<p>CompTIA A+ is the entry-level certification for IT support and help desk work. To earn it you must pass two exams. Core 1 (220-1201) and Core 2 (220-1202) launched on 25 March 2025 and replaced the old 220-1101 and 220-1102 exams, which retired on 25 September 2025, as <a href=\"https://ascendeducation.com/2026/05/07/\" rel=\"noopener\">Ascend Education explains</a>. Each exam has up to 90 questions in 90 minutes. The pass mark is 675 out of 900 for Core 1 and 700 out of 900 for Core 2.</p><p>In the US, each exam voucher costs $265 through the CompTIA Store, and one voucher covers one exam, according to <a href=\"https://uniontestprep.com/comptia-a-exam\" rel=\"noopener\">Union Test Prep</a>. The certification is valid for three years and is renewed through continuing education, as <a href=\"https://open-exam-prep.com/study-guides/comptia-a-plus/introduction/about-comptia-a-plus\" rel=\"noopener\">Open Exam Prep's A+ guide</a> notes.</p><p>Make sure every study resource you use matches 220-1201 and 220-1202. Notes for the retired exams will not match the current objectives.</p>"
+  },
+  {
+   "id": "which-first",
+   "h2": "Should you do IT Essentials or A+ first?",
+   "html": "<p>For most people the order is simple: learn first, then certify.</p><ul><li><strong>Total beginner:</strong> start with IT Essentials, or Cisco's free hardware and operating system courses, to build the basics. Then book A+ Core 1.</li><li><strong>You already fix computers or did ICT at school:</strong> go straight to the A+ objectives and practice questions, and use IT Essentials only for the gaps.</li><li><strong>You are a student at a Networking Academy school:</strong> take IT Essentials as part of your course. It is structured, has labs and maps well to A+.</li><li><strong>You want a job soon:</strong> do not stop at the badge. A+ is the one recruiters search for.</li></ul><p>Take Core 1 first. It covers hardware, networking and mobile devices, which most beginners find easier, then move on to Core 2 on operating systems, security and troubleshooting.</p>"
+  },
+  {
+   "id": "worth-it",
+   "h2": "Is Cisco IT Essentials worth it on its own?",
+   "html": "<p>Yes, as a learning step. It gives you structure, hands-on simulations and a badge that shows effort. On its own, though, it will not carry the same weight with employers as A+, because it is a course completion rather than an independent exam.</p><p>The strongest beginner profile combines three things: A+ for the certification, a course like IT Essentials for structured learning, and a small home lab, such as building a PC, installing Linux or setting up a home network, that you can talk about in interviews. If you are deciding what comes after A+, see our guide on <a href=\"blog-which-it-certification-first\">which IT certification to get first</a>, and our list of <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a> if you want to add scripting skills.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Cisco IT Essentials the same as CompTIA A+?",
+   "a": "No. IT Essentials is a Cisco Networking Academy course that gives you a Cisco digital badge. CompTIA A+ is a separate certification that you earn by passing two CompTIA exams, Core 1 and Core 2."
+  },
+  {
+   "q": "Does IT Essentials prepare you for the A+ exams?",
+   "a": "Yes. Cisco says IT Essentials helps you prepare for CompTIA A+. Check that your practice questions match the current 220-1201 and 220-1202 exam objectives before you book."
+  },
+  {
+   "q": "How much does CompTIA A+ cost?",
+   "a": "In the US, each exam voucher costs $265, and you need two exams, so about $530 in total. Prices differ by country, and students can often find discounted vouchers through their school or training provider."
+  }
+ ],
+ "sources": [
+  {
+   "title": "IT Essentials course page, Cisco Networking Academy",
+   "url": "https://prelogin-test.netacad.com/ja/courses/os-it/it-essentials"
+  },
+  {
+   "title": "IT Essentials badge, Cisco on Credly",
+   "url": "https://credly.com/org/cisco/badge/it-essentials"
+  },
+  {
+   "title": "Cisco free upskilling courses, Unstop",
+   "url": "https://unstop.com/blog/cisco-free-upskilling-courses/amp"
+  },
+  {
+   "title": "The new CompTIA A+ exam (220-1201 and 220-1202), Ascend Education",
+   "url": "https://ascendeducation.com/2026/05/07/"
+  },
+  {
+   "title": "CompTIA A+ exam: price and format, Union Test Prep",
+   "url": "https://uniontestprep.com/comptia-a-exam"
+  },
+  {
+   "title": "About the CompTIA A+ certification, Open Exam Prep",
+   "url": "https://open-exam-prep.com/study-guides/comptia-a-plus/introduction/about-comptia-a-plus"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-which-it-certification-first",
+   "title": "Which IT certification should you get first?"
+  },
+  {
+   "href": "blog-ai-900-retired-ai-901-guide",
+   "title": "AI-900 retired: the AI-901 guide"
+  },
+  {
+   "href": "blog-free-python-courses-with-certificates",
+   "title": "5 free Python courses with free certificates"
+  }
+ ]
+}

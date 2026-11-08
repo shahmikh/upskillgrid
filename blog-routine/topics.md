@@ -6,6 +6,7 @@
 - Best free AI image tools and their usage limits (ai-tools)
 
 ## Published
+- 2026-11-08 cisco-it-essentials-vs-comptia-a-plus (career-skills) [from GSC query "cisco it essentials vs comptia a+"]
 - 2026-11-07 prompt-writing-basics (how-to)
 - 2026-11-04 how-to-use-ai-to-make-a-study-plan (how-to) [written 2026-11-07, dated 4 Nov at owner's request]
 - 2026-11-07 free-python-courses-with-certificates (free-courses)
