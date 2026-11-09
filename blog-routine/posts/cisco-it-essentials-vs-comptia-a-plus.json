@@ -5,7 +5,7 @@
  "h1": "Cisco IT Essentials vs CompTIA A+: which one do you need?",
  "description": "Cisco IT Essentials is a course and CompTIA A+ is a certification. Learn how they differ, what each costs, and why IT Essentials is a route into the A+ exams.",
  "published": "2026-11-08",
- "modified": "2026-11-08",
+ "modified": "2026-11-09",
  "read_min": 7,
  "card_summary": "IT Essentials is a Cisco course and A+ is a CompTIA certification. Here is how they differ and how to use one to get the other.",
  "lead": "Cisco IT Essentials and CompTIA A+ are not alternatives. IT Essentials is a training course from Cisco Networking Academy that ends with a Cisco digital badge, and Cisco says it helps you prepare for CompTIA A+. CompTIA A+ is the certification itself: two exams, Core 1 (220-1201) and Core 2 (220-1202), that employers ask for in IT support job ads. If you want a job, A+ is the credential to aim for, and IT Essentials is one structured way to study for it.",
@@ -35,7 +35,7 @@
   {
    "id": "which-first",
    "h2": "Should you do IT Essentials or A+ first?",
-   "html": "<p>For most people the order is simple: learn first, then certify.</p><ul><li><strong>Total beginner:</strong> start with IT Essentials, or Cisco's free hardware and operating system courses, to build the basics. Then book A+ Core 1.</li><li><strong>You already fix computers or did ICT at school:</strong> go straight to the A+ objectives and practice questions, and use IT Essentials only for the gaps.</li><li><strong>You are a student at a Networking Academy school:</strong> take IT Essentials as part of your course. It is structured, has labs and maps well to A+.</li><li><strong>You want a job soon:</strong> do not stop at the badge. A+ is the one recruiters search for.</li></ul><p>Take Core 1 first. It covers hardware, networking and mobile devices, which most beginners find easier, then move on to Core 2 on operating systems, security and troubleshooting.</p>"
+   "html": "<p>For most people the order is simple: learn first, then certify.</p><ul><li><strong>Total beginner:</strong> start with IT Essentials, or Cisco's free hardware and operating system courses, to build the basics. Then book A+ Core 1.</li><li><strong>You already fix computers or did ICT at school:</strong> go straight to the A+ objectives and practice questions, and use IT Essentials only for the gaps.</li><li><strong>You are a student at a Networking Academy school:</strong> take IT Essentials as part of your course. It is structured, has labs and maps well to A+.</li><li><strong>You want a job soon:</strong> do not stop at the badge. A+ is the one recruiters search for.</li></ul><p>Take Core 1 first. It covers hardware, networking and mobile devices, which most beginners find easier, then move on to Core 2 on operating systems, security and troubleshooting.</p> <p>Planning your next step after A+? See <a href=\"blog-comptia-a-plus-vs-network-plus\">CompTIA A+ vs Network+</a>.</p>"
   },
   {
    "id": "worth-it",

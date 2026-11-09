@@ -1,0 +1,105 @@
+{
+ "slug": "comptia-a-plus-vs-network-plus",
+ "category": "career-skills",
+ "title": "CompTIA A+ vs Network+: Which Should You Take First?",
+ "h1": "CompTIA A+ vs Network+: which should you take first?",
+ "description": "CompTIA A+ vs Network+ compared: exams, pass marks, recommended experience and which jobs each leads to, plus the order most beginners should follow.",
+ "published": "2026-11-09",
+ "modified": "2026-11-09",
+ "read_min": 7,
+ "card_summary": "A+ covers IT support, Network+ covers networks. Here is how they compare and which order makes sense for beginners.",
+ "lead": "If you are new to IT, take CompTIA A+ first and Network+ second. A+ proves you can support computers, devices and users, which is what help desk jobs ask for. Network+ goes deeper into how networks are built and fixed, and CompTIA recommends having A+ and 9 to 12 months of hands-on experience before you take it. Network+ has no formal prerequisite, so if you already work in IT support or know networking well, you can go straight to it.",
+ "takeaways": [
+  "A+ is two exams (Core 1 and Core 2). Network+ is one exam, N10-009.",
+  "Network+ has the higher pass mark: 720/900, compared with 675 and 700 for the two A+ exams.",
+  "CompTIA recommends A+ plus 9 to 12 months of experience before Network+, but it is not required.",
+  "The usual order is A+, then Network+, then Security+.",
+  "Both certifications are valid for 3 years and renew through continuing education."
+ ],
+ "sections": [
+  {
+   "id": "difference",
+   "h2": "What is the difference between CompTIA A+ and Network+?",
+   "html": "<p>A+ is broad: hardware, mobile devices, operating systems, security basics and troubleshooting for everyday users. Network+ is focused: it covers how networks are designed, configured, secured and repaired. Here is how they compare:</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th></th><th>CompTIA A+</th><th>CompTIA Network+</th></tr></thead><tbody><tr><th>What it proves</th><td>You can support computers, devices, operating systems and users</td><td>You can set up, manage and troubleshoot networks</td></tr><tr><th>Exams</th><td>Two: Core 1 (220-1201) and Core 2 (220-1202)</td><td>One: N10-009</td></tr><tr><th>Format</th><td>Up to 90 questions in 90 minutes, per exam</td><td>Up to 90 questions in 90 minutes</td></tr><tr><th>Pass mark</th><td>675/900 (Core 1), 700/900 (Core 2)</td><td>720/900</td></tr><tr><th>Recommended first</th><td>Nothing</td><td>A+ and 9 to 12 months of experience (recommended, not required)</td></tr><tr><th>Typical first job</th><td>Help desk, IT support technician</td><td>Network support, junior network administrator</td></tr><tr><th>Valid for</th><td>3 years</td><td>3 years</td></tr></tbody></table></div><p>A useful way to think about it: A+ makes you the person who fixes a user's laptop. Network+ makes you the person who works out why the whole office lost its connection.</p>"
+  },
+  {
+   "id": "a-plus",
+   "h2": "What does CompTIA A+ involve?",
+   "html": "<p>A+ needs two exams. Core 1 (220-1201) and Core 2 (220-1202) launched on 25 March 2025 and replaced the older 220-1101 and 220-1102 exams, which retired on 25 September 2025, according to <a href=\"https://ascendeducation.com/2026/05/07/\" rel=\"noopener\">Ascend Education</a>. Each exam has up to 90 questions in 90 minutes, and you need 675 out of 900 on Core 1 and 700 out of 900 on Core 2.</p><p>Core 1 leans on hardware, networking basics and mobile devices. Core 2 covers operating systems, security and troubleshooting. If you are not sure whether you need a course first, our guide to <a href=\"blog-cisco-it-essentials-vs-comptia-a-plus\">Cisco IT Essentials vs CompTIA A+</a> explains how a free Cisco course can prepare you.</p>"
+  },
+  {
+   "id": "network-plus",
+   "h2": "What does CompTIA Network+ involve?",
+   "html": "<p>Network+ is a single exam. The current version, N10-009, launched on 20 June 2024 and has up to 90 multiple-choice and performance-based questions in 90 minutes, with a pass mark of 720 on a scale of 100 to 900, as <a href=\"https://open-exam-prep.com/study-guides/comptia-network-plus/introduction/current-exam-facts-and-applied-judgment\" rel=\"noopener\">Open Exam Prep's Network+ guide</a> sets out.</p><p>CompTIA's <a href=\"https://www.comptia.org/en-eu/certifications/network/\" rel=\"noopener\">Network+ page</a> recommends having CompTIA A+ and 9 to 12 months of hands-on experience in a junior network administrator or network support technician role. That is a recommendation only. Network+ has no formal prerequisite, so you can book it without any other certification, as <a href=\"https://trainingcamp.com/what-is-network-plus/\" rel=\"noopener\">Training Camp</a> notes.</p><p>Plan your timing: a new version, N10-010, is expected between April and June 2027, according to <a href=\"https://achievable.me/exams/ccna/resources/ccna-vs-network-plus/\" rel=\"noopener\">Achievable</a>. If you start studying now, aim to sit N10-009 before then or switch to the new objectives once they are published.</p>"
+  },
+  {
+   "id": "which-first",
+   "h2": "Should you take A+ or Network+ first?",
+   "html": "<ul><li><strong>Complete beginner:</strong> A+ first. It builds the basics that make networking topics easier, and it matches entry-level help desk jobs.</li><li><strong>Already working in IT support:</strong> go straight to Network+. Your job experience covers much of A+.</li><li><strong>Studied networking at university or did CCNA courses:</strong> Network+ first is realistic, and it will feel familiar.</li><li><strong>Aiming for cybersecurity:</strong> follow A+, then Network+, then Security+. Infosec recommends taking the core CompTIA certifications in that order, as its <a href=\"https://infosecinstitute.com/training/network/\" rel=\"noopener\">Network+ guide</a> notes, because security builds on networking.</li></ul><p>From my teaching, students who skip straight to Network+ without any IT background usually struggle most with subnetting and ports. If that is you, spend two or three weeks on the basics before you book.</p>"
+  },
+  {
+   "id": "cost-time",
+   "h2": "How much do A+ and Network+ cost, and how long do they take?",
+   "html": "<p>Each exam needs its own voucher, so A+ costs two vouchers and Network+ costs one. Prices vary by country and CompTIA updated its prices during 2026, so check the current price in the CompTIA store for your region before you budget. Students can often get discounted vouchers through their school or a training provider.</p><p>Study time depends on your background. As a rough guide, beginners often spend two to three months on each certification with steady part-time study, and less if they already work in IT. Plan your revision with spaced practice and practice questions. Our guide to <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">using AI to make a study plan</a> includes a prompt you can paste in with your exam date.</p>"
+  },
+  {
+   "id": "next",
+   "h2": "What comes after A+ and Network+?",
+   "html": "<p>Most people go on to Security+ for cybersecurity roles, or a vendor certification such as Cisco's CCNA for networking roles. Our guide on <a href=\"blog-which-it-certification-first\">which IT certification to get first</a> maps out these paths. Adding a scripting skill helps too, and you can start with one of these <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Do you need A+ before Network+?",
+   "a": "No. CompTIA recommends A+ and 9 to 12 months of experience before Network+, but there is no formal prerequisite. You can book Network+ without any other certification."
+  },
+  {
+   "q": "Is Network+ harder than A+?",
+   "a": "Most people find Network+ harder per exam, because it goes deeper into networking and has a higher pass mark of 720/900. A+ is broader and needs two exams, so it takes more total exam time."
+  },
+  {
+   "q": "Which pays more, A+ or Network+?",
+   "a": "Network+ usually leads to more technical networking roles, which tend to pay more than entry-level help desk roles. Pay depends more on the job and your experience than on the certification alone."
+  }
+ ],
+ "sources": [
+  {
+   "title": "CompTIA Network+ certification, CompTIA",
+   "url": "https://www.comptia.org/en-eu/certifications/network/"
+  },
+  {
+   "title": "CompTIA Network+ current exam facts, Open Exam Prep",
+   "url": "https://open-exam-prep.com/study-guides/comptia-network-plus/introduction/current-exam-facts-and-applied-judgment"
+  },
+  {
+   "title": "What is CompTIA Network+?, Training Camp",
+   "url": "https://trainingcamp.com/what-is-network-plus/"
+  },
+  {
+   "title": "The new CompTIA A+ exam (220-1201 and 220-1202), Ascend Education",
+   "url": "https://ascendeducation.com/2026/05/07/"
+  },
+  {
+   "title": "CCNA vs Network+, Achievable",
+   "url": "https://achievable.me/exams/ccna/resources/ccna-vs-network-plus/"
+  },
+  {
+   "title": "The CompTIA Network+ certification guide, Infosec",
+   "url": "https://infosecinstitute.com/training/network/"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-cisco-it-essentials-vs-comptia-a-plus",
+   "title": "Cisco IT Essentials vs CompTIA A+"
+  },
+  {
+   "href": "blog-which-it-certification-first",
+   "title": "Which IT certification should you get first?"
+  },
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan"
+  }
+ ]
+}
