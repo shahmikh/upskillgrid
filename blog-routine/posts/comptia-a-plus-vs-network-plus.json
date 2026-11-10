@@ -5,7 +5,7 @@
  "h1": "CompTIA A+ vs Network+: which should you take first?",
  "description": "CompTIA A+ vs Network+ compared: exams, pass marks, recommended experience and which jobs each leads to, plus the order most beginners should follow.",
  "published": "2026-11-09",
- "modified": "2026-11-09",
+ "modified": "2026-11-10",
  "read_min": 7,
  "card_summary": "A+ covers IT support, Network+ covers networks. Here is how they compare and which order makes sense for beginners.",
  "lead": "If you are new to IT, take CompTIA A+ first and Network+ second. A+ proves you can support computers, devices and users, which is what help desk jobs ask for. Network+ goes deeper into how networks are built and fixed, and CompTIA recommends having A+ and 9 to 12 months of hands-on experience before you take it. Network+ has no formal prerequisite, so if you already work in IT support or know networking well, you can go straight to it.",
@@ -45,7 +45,7 @@
   {
    "id": "next",
    "h2": "What comes after A+ and Network+?",
-   "html": "<p>Most people go on to Security+ for cybersecurity roles, or a vendor certification such as Cisco's CCNA for networking roles. Our guide on <a href=\"blog-which-it-certification-first\">which IT certification to get first</a> maps out these paths. Adding a scripting skill helps too, and you can start with one of these <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a>.</p>"
+   "html": "<p>Most people go on to Security+ for cybersecurity roles (see <a href=\"blog-security-plus-vs-network-plus\">Security+ vs Network+</a>), or a vendor certification such as Cisco's CCNA for networking roles. Our guide on <a href=\"blog-which-it-certification-first\">which IT certification to get first</a> maps out these paths. Adding a scripting skill helps too, and you can start with one of these <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a>.</p>"
   }
  ],
  "faq": [

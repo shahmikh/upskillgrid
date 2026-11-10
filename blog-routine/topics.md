@@ -6,6 +6,8 @@
 - Best free AI image tools and their usage limits (ai-tools)
 
 ## Published
+- 2026-11-10 security-plus-vs-network-plus (career-skills)
+- 2026-11-10 ucas-tariff-points-explained (how-to) [supports future UCAS calculator tool]
 - 2026-11-09 comptia-a-plus-vs-network-plus (career-skills)
 - 2026-11-08 ap-computer-science-a-vs-principles (career-skills)
 - 2026-11-08 cisco-it-essentials-vs-comptia-a-plus (career-skills) [from GSC query "cisco it essentials vs comptia a+"]

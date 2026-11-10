@@ -1,0 +1,104 @@
+{
+ "slug": "security-plus-vs-network-plus",
+ "category": "career-skills",
+ "title": "Security+ vs Network+: Which Should You Take First?",
+ "h1": "CompTIA Security+ vs Network+: Which Should You Take First?",
+ "description": "Security+ or Network+ first? Compare the SY0-701 and N10-009 exams, pass marks, the SY0-801 update and which order suits your cybersecurity or networking goal.",
+ "published": "2026-11-10",
+ "modified": "2026-11-10",
+ "read_min": 7,
+ "card_summary": "Compare the two CompTIA exams, see what the SY0-801 update means, and pick the right order for your goal.",
+ "lead": "For most beginners, Network+ should come before Security+. CompTIA recommends Network+ knowledge before Security+, and much of the Security+ exam assumes you already understand ports, protocols and how traffic moves. If you already work with networks every day, or you need Security+ quickly for a job requirement, you can go straight to Security+. Neither exam has a formal prerequisite.",
+ "takeaways": [
+  "Security+ (SY0-701) has up to 90 questions in 90 minutes and a pass mark of 750 out of 900.",
+  "Network+ (N10-009) has the same length but a lower pass mark of 720 out of 900.",
+  "CompTIA recommends Network+ and two years of security or sysadmin experience before Security+, but it is not required.",
+  "Security+ SY0-801 is expected in mid-November 2026, and the English SY0-701 exam retires on 11 June 2027."
+ ],
+ "sections": [
+  {
+   "id": "difference",
+   "h2": "What is the difference between Security+ and Network+?",
+   "html": "<p>Network+ teaches how networks work: addressing, routing, switching, wireless, cabling and troubleshooting. Security+ teaches how to protect systems and networks: threats, vulnerabilities, security architecture, security operations and governance. One is about building and fixing the road; the other is about guarding it.</p><p>Both are vendor-neutral, entry-to-intermediate certifications from CompTIA. Security+ is aimed at security roles such as SOC analyst, while Network+ suits help desk and network support roles. If you are still at the very start, our guide on <a href=\"blog-which-it-certification-first\">which IT certification to get first</a> covers where A+ fits in too.</p>"
+  },
+  {
+   "id": "security-plus",
+   "h2": "What does the Security+ exam involve?",
+   "html": "<p>The current exam is SY0-701, which launched on 7 November 2023. According to <a href=\"https://www.comptia.org/en/certifications/security/v7/\" rel=\"noopener\">CompTIA's Security+ V7 page</a>, it has a maximum of 90 multiple-choice and performance-based questions, lasts 90 minutes and needs a score of 750 on a scale of 100 to 900. CompTIA recommends Network+ plus two years of experience in a security or systems administrator role.</p><p>The exam has five domains: general security concepts, threats and vulnerabilities, security architecture, security operations, and security program management. Security operations carries the most weight, so expect lots of scenario questions about logs, alerts and incident response. Security+ is also accredited to ISO/IEC 17024 and meets US Department of Defense 8140 requirements, as <a href=\"https://trainingcamp.com/what-is-security-plus/\" rel=\"noopener\">Training Camp</a> notes, which is why government contractors ask for it.</p>"
+  },
+  {
+   "id": "network-plus",
+   "h2": "What does the Network+ exam involve?",
+   "html": "<p>Network+ is a single exam, N10-009, with up to 90 questions in 90 minutes and a pass mark of 720 out of 900, as <a href=\"https://open-exam-prep.com/study-guides/comptia-network-plus/introduction/current-exam-facts-and-applied-judgment\" rel=\"noopener\">Open Exam Prep's Network+ guide</a> sets out. That lower pass mark does not make it easy: subnetting and troubleshooting questions catch out many first-time candidates.</p><p><a href=\"https://www.comptia.org/en-eu/certifications/network/\" rel=\"noopener\">CompTIA's Network+ page</a> recommends A+ and 9 to 12 months of hands-on network support experience. For a side-by-side look at those two, read <a href=\"blog-comptia-a-plus-vs-network-plus\">CompTIA A+ vs Network+</a>.</p>"
+  },
+  {
+   "id": "order",
+   "h2": "Should you take Security+ or Network+ first?",
+   "html": "<p>Take Network+ first if any of these apply:</p><ul><li>You cannot yet explain subnetting, DNS, DHCP or the difference between TCP and UDP.</li><li>You want a networking or help desk role before moving into security.</li><li>You have time to study for two exams over six months or more.</li></ul><p>Go straight to Security+ if:</p><ul><li>You already work with networks, or you passed CCNA or a similar course.</li><li>A job, contract or government role names Security+ as a requirement.</li><li>You can only afford one exam this year and your goal is cybersecurity.</li></ul><p>As a Security+ tutor, the pattern I see most often is this: students who skip networking spend weeks stuck on firewall rules, VPN types and port numbers. Students with Network+ knowledge usually find half the Security+ syllabus is review. If you skip Network+, at least study its networking fundamentals for two or three weeks before you start Security+.</p>"
+  },
+  {
+   "id": "sy0-801",
+   "h2": "Should you wait for Security+ SY0-801?",
+   "html": "<p>CompTIA is replacing SY0-701 with SY0-801. <a href=\"https://www.infosectrain.com/?p=53359\" rel=\"noopener\">InfosecTrain</a> reports an expected launch of 17 November 2026, with the English SY0-701 exam retiring on 11 June 2027. CompTIA's own V7 page confirms that June 2027 retirement date. Professor Messer had estimated a similar timeline in his <a href=\"https://www.professormesser.com/?p=634102\" rel=\"noopener\">SY0-601 vs SY0-701 guide</a>, based on CompTIA's usual three-year cycle.</p><p>Both versions lead to the same Security+ certification, which stays valid for three years from the day you pass. If you are already studying for SY0-701 and can sit it before June 2027, stay with it. If you are starting from zero in 2027, study for SY0-801 instead, since most new course material will target it.</p>"
+  },
+  {
+   "id": "plan",
+   "h2": "How long does it take to prepare for each exam?",
+   "html": "<p>Most beginners need around 8 to 12 weeks for Network+ and 6 to 10 weeks for Security+ with an hour or two of study a day. Your time will be shorter if you already work in IT. Build a weekly plan around the exam domains and their weights; our guide on <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">using AI to make a study plan</a> shows how to turn the official objectives into a schedule.</p><p>Always book the exam once you are scoring consistently above 85% on practice tests. A fixed date keeps you studying.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Security+ harder than Network+?",
+   "a": "Most candidates find Security+ harder because it covers a wider range of topics and needs a higher score of 750 out of 900. Network+ has a lower pass mark of 720 but includes tricky subnetting and troubleshooting questions."
+  },
+  {
+   "q": "Can I take Security+ without Network+?",
+   "a": "Yes. There is no formal prerequisite. CompTIA recommends Network+ and two years of experience, but you can book Security+ at any time."
+  },
+  {
+   "q": "Will my SY0-701 Security+ still count after SY0-801 launches?",
+   "a": "Yes. Both exam versions award the same Security+ certification, and it stays valid for three years from your pass date, whichever version you took."
+  }
+ ],
+ "sources": [
+  {
+   "title": "CompTIA Security+ V7 (SY0-701), CompTIA",
+   "url": "https://www.comptia.org/en/certifications/security/v7/"
+  },
+  {
+   "title": "CompTIA Network+ certification, CompTIA",
+   "url": "https://www.comptia.org/en-eu/certifications/network/"
+  },
+  {
+   "title": "CompTIA Network+ current exam facts, Open Exam Prep",
+   "url": "https://open-exam-prep.com/study-guides/comptia-network-plus/introduction/current-exam-facts-and-applied-judgment"
+  },
+  {
+   "title": "Security+ SY0-801 vs SY0-701, InfosecTrain",
+   "url": "https://www.infosectrain.com/?p=53359"
+  },
+  {
+   "title": "SY0-601 vs SY0-701 differences, Professor Messer",
+   "url": "https://www.professormesser.com/?p=634102"
+  },
+  {
+   "title": "What is Security+?, Training Camp",
+   "url": "https://trainingcamp.com/what-is-security-plus/"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-comptia-a-plus-vs-network-plus",
+   "title": "CompTIA A+ vs Network+"
+  },
+  {
+   "href": "blog-which-it-certification-first",
+   "title": "Which IT certification should you get first?"
+  },
+  {
+   "href": "blog-cisco-it-essentials-vs-comptia-a-plus",
+   "title": "Cisco IT Essentials vs CompTIA A+"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "slug": "ucas-tariff-points-explained",
+ "category": "how-to",
+ "title": "UCAS Tariff Points Explained: A Level, IB and BTEC",
+ "h1": "UCAS Tariff Points Explained: A Level, IB and BTEC Tables",
+ "description": "How UCAS tariff points work, with tables for A Level, AS, IB Higher and Standard Level, BTEC and T Level grades, worked examples and the common IB mistake.",
+ "published": "2026-11-10",
+ "modified": "2026-11-10",
+ "read_min": 7,
+ "card_summary": "Clear UCAS points tables for A Level, IB and BTEC, with worked examples and the mistakes to avoid.",
+ "lead": "UCAS tariff points turn Level 3 grades into one number so UK universities can compare different qualifications. An A* at A Level is worth 56 points, an A is 48 and a B is 40, so AAA adds up to 144. An IB Higher Level 7 is also worth 56, and a BTEC National Extended Diploma at D*D*D* is worth 168, the same as A*A*A*. Not every course uses points, though: many ask for specific grades instead.",
+ "takeaways": [
+  "A Level grades run from 56 points for an A* down to 16 for an E.",
+  "IB points come from each subject: HL 7 is 56 points, SL 7 is 28 points.",
+  "Your total IB score out of 45 is not your UCAS total, and old whole-diploma tables are out of date.",
+  "A BTEC National Extended Diploma is sized like three A Levels, from 48 (PPP) to 168 (D*D*D*)."
+ ],
+ "sections": [
+  {
+   "id": "what",
+   "h2": "What are UCAS tariff points?",
+   "html": "<p>The UCAS tariff is a points scale for post-16 qualifications such as A Levels, the IB, BTECs, T Levels and Scottish Highers. Each grade gets a number based on the size of the qualification and the grade achieved. <a href=\"https://www.ucas.com/media/205216/download\" rel=\"noopener\">UCAS's own tariff guide</a> lists the values and shows, for example, that 168 points equals D*D*D* in a BTEC Extended Diploma, a Distinction* T Level or A*A*A* at A Level.</p><p>The current tariff has been in place since 2017. Any table showing 120 points for an A grade is from the old system and should be ignored.</p>"
+  },
+  {
+   "id": "a-level",
+   "h2": "How many UCAS points is each A Level grade worth?",
+   "html": "<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Grade</th><th>A Level</th><th>AS Level</th></tr></thead><tbody><tr><td>A*</td><td>56</td><td>n/a</td></tr><tr><td>A</td><td>48</td><td>20</td></tr><tr><td>B</td><td>40</td><td>16</td></tr><tr><td>C</td><td>32</td><td>12</td></tr><tr><td>D</td><td>24</td><td>10</td></tr><tr><td>E</td><td>16</td><td>6</td></tr></tbody></table></div><p>These values match <a href=\"https://university.which.co.uk/advice_articles/how-do-i-calculate-ucas-points-based-on-your-predicted-grades\" rel=\"noopener\">Which? University's tariff tables</a>. Common totals: AAA is 144, AAB is 136, ABB is 128, BBB is 120 and BBC is 112.</p>"
+  },
+  {
+   "id": "ib",
+   "h2": "How do IB grades convert to UCAS points?",
+   "html": "<p>UCAS adds up each IB subject separately. Higher Level subjects are worth twice as much as Standard Level ones at the top grades.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>IB grade</th><th>Higher Level</th><th>Standard Level</th></tr></thead><tbody><tr><td>7</td><td>56</td><td>28</td></tr><tr><td>6</td><td>48</td><td>24</td></tr><tr><td>5</td><td>32</td><td>16</td></tr><tr><td>4</td><td>24</td><td>12</td></tr><tr><td>3</td><td>12</td><td>6</td></tr><tr><td>2 or 1</td><td>0</td><td>0</td></tr></tbody></table></div><p>Example: HL 7, 6, 6 and SL 6, 6, 5 gives 56 + 48 + 48 + 24 + 24 + 16 = 216 points from the six subjects, the same method <a href=\"https://cognito.org/blog/how-ucas-points-work\" rel=\"noopener\">Cognito</a> uses in its worked example. Theory of Knowledge and the Extended Essay add a small number of extra points; guides disagree on the exact values, so check them in the official UCAS tariff calculator.</p><p>The common mistake is converting your total out of 45 into UCAS points. Some websites still publish tables like that, but they do not reflect how UCAS counts the IB. Most universities make IB offers in diploma points anyway, such as 36 points with 6, 6, 5 at HL. To work out your diploma score, use our free <a href=\"ib-points-calculator\">IB points calculator</a>.</p>"
+  },
+  {
+   "id": "btec",
+   "h2": "How many UCAS points is a BTEC worth?",
+   "html": "<p>BTEC Nationals come in sizes. The Extended Certificate is like one A Level (D* is 56), the Diploma is like two (D*D* is 112) and the Extended Diploma is like three.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Extended Diploma</th><th>Points</th></tr></thead><tbody><tr><td>D*D*D*</td><td>168</td></tr><tr><td>D*D*D</td><td>160</td></tr><tr><td>D*DD</td><td>152</td></tr><tr><td>DDD</td><td>144</td></tr><tr><td>DDM</td><td>128</td></tr><tr><td>DMM</td><td>112</td></tr><tr><td>MMM</td><td>96</td></tr><tr><td>MMP</td><td>80</td></tr><tr><td>MPP</td><td>64</td></tr><tr><td>PPP</td><td>48</td></tr></tbody></table></div><p>These are the values on <a href=\"https://www.uwe.ac.uk/courses/applying/undergraduate-applications/ucas-tariff-point-system\" rel=\"noopener\">UWE Bristol's tariff page</a>. <a href=\"https://qualifications.pearson.com/en/support/support-topics/understanding-our-qualifications/comparing-btec-to-other-qualifications/btec-ucas-points.html\" rel=\"noopener\">Pearson</a> confirms that the new BTEC Nationals 2025, used for 2026 admissions onwards, keep the same tariff values for each size. T Levels range from 72 points for a Pass with D or E on the core to 168 for a Distinction*.</p>"
+  },
+  {
+   "id": "use",
+   "h2": "Do universities actually use UCAS points?",
+   "html": "<p>Some do and some do not. Many post-1992 universities and foundation-year courses state offers in tariff points, such as 112 points, because it lets you mix A Levels, BTECs and an EPQ. Most competitive universities, including Russell Group members, ask for specific grades in named subjects instead. Read each course page carefully: an offer of 128 points is not the same as an offer of ABB in specific subjects.</p><p>Points also help in Clearing, where course pages often list a tariff minimum. If you are taking an Extended Project, it counts too: an A* EPQ is worth 28 points.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many UCAS points is AAA?",
+   "a": "AAA at A Level is worth 144 UCAS tariff points. That is the same as DDD in a BTEC National Extended Diploma or a Distinction T Level."
+  },
+  {
+   "q": "How many UCAS points is 45 in the IB?",
+   "a": "There is no single number for an IB total. UCAS adds up each subject: an HL 7 is 56 points and an SL 7 is 28 points, plus a small amount for TOK and the Extended Essay."
+  },
+  {
+   "q": "Is a BTEC worth fewer UCAS points than A Levels?",
+   "a": "Not grade for grade. A BTEC National Extended Diploma at D*D*D* is worth 168 points, the same as A*A*A* at A Level."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Tariff tables, UCAS",
+   "url": "https://www.ucas.com/media/205216/download"
+  },
+  {
+   "title": "Calculating UCAS points from predicted grades, Which? University",
+   "url": "https://university.which.co.uk/advice_articles/how-do-i-calculate-ucas-points-based-on-your-predicted-grades"
+  },
+  {
+   "title": "BTEC UCAS points, Pearson",
+   "url": "https://qualifications.pearson.com/en/support/support-topics/understanding-our-qualifications/comparing-btec-to-other-qualifications/btec-ucas-points.html"
+  },
+  {
+   "title": "UCAS tariff point system, UWE Bristol",
+   "url": "https://www.uwe.ac.uk/courses/applying/undergraduate-applications/ucas-tariff-point-system"
+  },
+  {
+   "title": "How do UCAS points actually work?, Cognito",
+   "url": "https://cognito.org/blog/how-ucas-points-work"
+  }
+ ],
+ "related": [
+  {
+   "href": "ib-points-calculator",
+   "title": "IB points calculator"
+  },
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan"
+  },
+  {
+   "href": "blog-ap-computer-science-a-vs-principles",
+   "title": "AP Computer Science A vs Principles"
+  }
+ ]
+}
