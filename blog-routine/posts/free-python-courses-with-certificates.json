@@ -5,7 +5,7 @@
  "h1": "5 free Python courses where the certificate is also free",
  "description": "Five free Python courses where the certificate is free too: Harvard CS50P, freeCodeCamp, University of Helsinki, Kaggle and Cisco. What each takes to finish.",
  "published": "2026-11-07",
- "modified": "2026-11-07",
+ "modified": "2026-11-11",
  "read_min": 8,
  "card_summary": "Many Python courses are free to watch but charge for the certificate. These five give you the certificate for free too.",
  "lead": "The five best Python courses where both the course and the certificate are free are Harvard's CS50P, freeCodeCamp's Python Certification, the University of Helsinki Python MOOC, Kaggle's Python course and Cisco's Python Essentials 1. Many other \"free\" Python courses only let you watch for free and then charge for the certificate. Below is what each of these five takes to finish and which one suits your goal.",
@@ -45,7 +45,7 @@
   {
    "id": "which-one",
    "h2": "Which free Python course should you choose?",
-   "html": "<p>Here is how I would decide, after years of teaching Python one to one:</p><ul><li><strong>Total beginner who wants one course:</strong> Harvard CS50P.</li><li><strong>Want proof you can build projects:</strong> freeCodeCamp Python Certification.</li><li><strong>Want university-level depth or credits:</strong> University of Helsinki MOOC.</li><li><strong>Heading into data science or AI:</strong> Kaggle Python, then Kaggle's pandas course.</li><li><strong>Want an exam-based Python certification later:</strong> Cisco Python Essentials 1, then the PCEP exam.</li><li><strong>School student in IB or AP Computer Science:</strong> CS50P fits the course well. Our free <a href=\"ib-points-calculator\">IB points calculator</a> and <a href=\"ap-computer-science-score-calculator\">AP Computer Science score calculator</a> can help you plan your grades.</li></ul>"
+   "html": "<p>Here is how I would decide, after years of teaching Python one to one:</p><ul><li><strong>Total beginner who wants one course:</strong> Harvard CS50P.</li><li><strong>Want proof you can build projects:</strong> freeCodeCamp Python Certification.</li><li><strong>Want university-level depth or credits:</strong> University of Helsinki MOOC.</li><li><strong>Heading into data science or AI:</strong> Kaggle Python, then Kaggle's pandas course.</li><li><strong>Want an exam-based Python certification later:</strong> Cisco Python Essentials 1, then the PCEP exam.</li><li><strong>School student in IB or AP Computer Science:</strong> CS50P fits the course well. Our free <a href=\"ib-points-calculator\">IB points calculator</a> and <a href=\"ap-computer-science-score-calculator\">AP Computer Science score calculator</a> can help you plan your grades.</li></ul> <p>New to coding? Follow our <a href=\"blog-how-to-learn-python-fast\">30-day plan to learn Python fast</a> alongside your course.</p>"
   },
   {
    "id": "worth-it",

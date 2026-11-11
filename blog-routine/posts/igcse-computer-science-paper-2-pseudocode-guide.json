@@ -1,0 +1,101 @@
+{
+ "slug": "igcse-computer-science-paper-2-pseudocode-guide",
+ "category": "how-to",
+ "title": "IGCSE Computer Science Paper 2: Pseudocode Guide",
+ "h1": "IGCSE Computer Science 0478 Paper 2: A Pseudocode and Algorithms Guide",
+ "description": "A tutor's guide to Cambridge IGCSE Computer Science 0478 Paper 2: pseudocode rules, loops, arrays, trace tables and how to answer the 15-mark scenario question.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "Learn Cambridge pseudocode with clear examples, avoid the common mistakes and plan the 15-mark scenario question.",
+ "lead": "Paper 2 of Cambridge IGCSE Computer Science (0478) is worth 50% of your grade and tests algorithms, programming and logic in 1 hour 45 minutes. To do well you need to read and write Cambridge-style pseudocode, complete trace tables, know the standard algorithms and plan the final 15-mark scenario question. This guide shows the pseudocode you need with examples, and the mistakes that cost students the most marks.",
+ "takeaways": [
+  "Paper 2 is 75 marks in 1 hour 45 minutes and counts for half of the qualification.",
+  "It covers topics 7 to 10: algorithm design, programming, databases and Boolean logic.",
+  "The last question is a 15-mark scenario answered in pseudocode or a programming language from the syllabus.",
+  "Trace tables, validation and the standard algorithms appear in almost every paper."
+ ],
+ "sections": [
+  {
+   "id": "paper",
+   "h2": "What is in Paper 2?",
+   "html": "<p><a href=\"https://cognito.org/specifications/gcse/computer-science/cie\" rel=\"noopener\">Cognito's summary of the specification</a> describes 0478 as a linear qualification with two written papers of 1 hour 45 minutes, each worth 75 marks and 50%. Paper 1 covers computer systems. Paper 2, Algorithms, Programming and Logic, tests problem-solving with Cambridge pseudocode.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Topic</th><th>What you must be able to do</th></tr></thead><tbody><tr><td>7. Algorithm design and problem-solving</td><td>Flowcharts, pseudocode, trace tables, validation, finding and fixing errors</td></tr><tr><td>8. Programming</td><td>Variables, selection, loops, arrays, procedures, functions, file handling</td></tr><tr><td>9. Databases</td><td>Fields, records, data types, primary keys, simple SQL queries</td></tr><tr><td>10. Boolean logic</td><td>Logic gates, truth tables, logic expressions and circuits</td></tr></tbody></table></div><p><a href=\"https://www.tutopiya.com/blog/igcse-exam-trends-2026/igcse-2026-exam-trends-cambridge-computer-science-0478/\" rel=\"noopener\">Tutopiya's review of recent exam trends</a> confirms the structure was unchanged for 2025 and 2026, with pseudocode, algorithms and trace tables at the centre of Paper 2.</p>"
+  },
+  {
+   "id": "basics",
+   "h2": "What does Cambridge pseudocode look like?",
+   "html": "<p>Cambridge pseudocode uses capital letters for keywords and an arrow for assignment. The syllabus contains the official guide, and questions are written in that style, so you must be able to read it even if you answer in Python.</p><pre><code>DECLARE Total : INTEGER\nDECLARE Mark : INTEGER\nTotal ← 0\nFOR Count ← 1 TO 5\n    OUTPUT \"Enter mark\"\n    INPUT Mark\n    Total ← Total + Mark\nNEXT Count\nOUTPUT \"Average is \", Total / 5</code></pre><p>Notice the pattern: declare variables with a data type, set starting values, use INPUT and OUTPUT for the user, and close every structure. A FOR loop ends with NEXT, an IF ends with ENDIF, and a WHILE ends with ENDWHILE.</p>"
+  },
+  {
+   "id": "loops",
+   "h2": "Which loop and selection structures do you need?",
+   "html": "<p>You need three loops and two kinds of selection. Choosing the right loop is a common one-mark question.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Structure</th><th>Use it when</th><th>Ends with</th></tr></thead><tbody><tr><td>FOR ... TO ... NEXT</td><td>You know how many times to repeat</td><td>NEXT</td></tr><tr><td>WHILE ... DO</td><td>The loop may run zero times; condition checked first</td><td>ENDWHILE</td></tr><tr><td>REPEAT ... UNTIL</td><td>The loop must run at least once; condition checked last</td><td>UNTIL condition</td></tr><tr><td>IF ... THEN ... ELSE</td><td>Two or three paths</td><td>ENDIF</td></tr><tr><td>CASE OF</td><td>Many values of one variable</td><td>ENDCASE</td></tr></tbody></table></div><pre><code>REPEAT\n    OUTPUT \"Enter a mark from 0 to 100\"\n    INPUT Mark\nUNTIL Mark &gt;= 0 AND Mark &lt;= 100</code></pre><p>That example is a range check, the most common validation question. Learn it by heart, along with a length check and a presence check.</p>"
+  },
+  {
+   "id": "arrays",
+   "h2": "How do arrays and standard algorithms work?",
+   "html": "<p>Arrays store many values under one name. Cambridge papers use them for the standard algorithms: totalling, counting, finding the maximum and minimum, linear search and bubble sort.</p><pre><code>DECLARE Scores : ARRAY[1:30] OF INTEGER\nHighest ← Scores[1]\nFOR Index ← 2 TO 30\n    IF Scores[Index] &gt; Highest\n        THEN\n            Highest ← Scores[Index]\n    ENDIF\nNEXT Index\nOUTPUT \"Highest score is \", Highest</code></pre><p>Two details earn marks here. Set the starting value from the first element, not from zero, so the code still works if every score is negative. And loop over the correct range. Two-dimensional arrays work the same way with two indexes and a nested loop.</p>"
+  },
+  {
+   "id": "trace",
+   "h2": "How do you complete a trace table?",
+   "html": "<ol><li>Write one column for every variable and one for OUTPUT, in the order given.</li><li>Work through the algorithm one line at a time. Do not jump ahead.</li><li>Write a new value only when a variable changes. Leave other cells blank unless the question says otherwise.</li><li>Check the loop condition every time, especially on the final pass.</li><li>Write outputs exactly, including text and spacing.</li></ol><p>Most lost marks come from rushing the last iteration or forgetting that a REPEAT loop runs once before it checks its condition. Use a ruler or your finger on the line you are executing.</p>"
+  },
+  {
+   "id": "scenario",
+   "h2": "How do you answer the 15-mark scenario question?",
+   "html": "<p>The final question describes a problem, usually with arrays already named, and asks you to write a complete program. Cambridge's <a href=\"https://help.cambridgeinternational.org/hc/en-gb/articles/23006999734162-Are-candidates-limited-to-using-the-programming-languages-in-the-syllabus-to-complete-the-scenario-question-or-can-they-use-another-programming-language-they-feel-more-comfortable-with\" rel=\"noopener\">help page on the scenario question</a> confirms that candidates must write their solution in pseudocode or in one of the programming languages named in the syllabus, so do not answer in a language the syllabus does not list.</p><ol><li>Read the scenario twice and underline every requirement. Each one is worth marks.</li><li>Note the array names and sizes exactly as given. Do not rename them.</li><li>Plan in four parts: input with validation, processing, output, and any repeat for all records.</li><li>Write clear comments and meaningful variable names. They are credited.</li><li>Check that every requirement you underlined appears in your code.</li></ol><p>You do not need perfect syntax, but your logic must be complete. A full attempt that handles every requirement scores far more than a tidy answer that stops halfway.</p>"
+  },
+  {
+   "id": "future",
+   "h2": "Is the syllabus changing?",
+   "html": "<p>The current syllabus covers exams in 2026, 2027 and 2028. Cambridge has already published <a href=\"https://www.cambridgeinternational.org/Images/763431-2029-2031-syllabus.pdf\" rel=\"noopener\">the syllabus for 2029 to 2031</a>, in which the papers are renamed Computer Systems and Logic (Paper 1) and Algorithms and Programming (Paper 2). If your exams are in 2029 or later, download that version.</p><p>Pseudocode is much easier once you can program for real. Build that skill with <a href=\"blog-how-to-learn-python-fast\">how to learn Python fast</a>, and schedule past papers with <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">an AI study plan</a>. An AI tutor can also mark your pseudocode if you ask it to check against Cambridge conventions; see <a href=\"blog-chatgpt-study-mode-guide\">how to use ChatGPT study mode</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I use Python in IGCSE Computer Science Paper 2?",
+   "a": "For the 15-mark scenario question you may answer in pseudocode or a programming language named in the syllabus. You still need to read Cambridge pseudocode, because questions are written in it."
+  },
+  {
+   "q": "How many marks is IGCSE Computer Science Paper 2?",
+   "a": "Paper 2 is worth 75 marks, lasts 1 hour 45 minutes and counts for 50% of the qualification."
+  },
+  {
+   "q": "What is the difference between WHILE and REPEAT loops?",
+   "a": "A WHILE loop checks its condition first, so it may not run at all. A REPEAT UNTIL loop checks at the end, so it always runs at least once."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cambridge IGCSE Computer Science (0478) specification, Cognito",
+   "url": "https://cognito.org/specifications/gcse/computer-science/cie"
+  },
+  {
+   "title": "Programming languages for the scenario question, Cambridge International",
+   "url": "https://help.cambridgeinternational.org/hc/en-gb/articles/23006999734162-Are-candidates-limited-to-using-the-programming-languages-in-the-syllabus-to-complete-the-scenario-question-or-can-they-use-another-programming-language-they-feel-more-comfortable-with"
+  },
+  {
+   "title": "Cambridge IGCSE Computer Science 0478 syllabus 2029 to 2031, Cambridge International",
+   "url": "https://www.cambridgeinternational.org/Images/763431-2029-2031-syllabus.pdf"
+  },
+  {
+   "title": "IGCSE 2026 exam trends: Computer Science 0478, Tutopiya",
+   "url": "https://www.tutopiya.com/blog/igcse-exam-trends-2026/igcse-2026-exam-trends-cambridge-computer-science-0478/"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-how-to-learn-python-fast",
+   "title": "How to learn Python fast"
+  },
+  {
+   "href": "blog-chatgpt-study-mode-guide",
+   "title": "How to use ChatGPT study mode"
+  },
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan"
+  }
+ ]
+}

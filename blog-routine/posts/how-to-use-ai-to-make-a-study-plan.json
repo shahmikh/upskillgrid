@@ -5,7 +5,7 @@
  "h1": "How to use AI to make a study plan you will actually follow",
  "description": "Use any AI chatbot to build a study plan based on spaced practice and self-testing. Includes a copy-and-paste prompt, a weekly review prompt and an example.",
  "published": "2026-11-04",
- "modified": "2026-11-04",
+ "modified": "2026-11-11",
  "read_min": 7,
  "card_summary": "A copy-and-paste prompt that turns any AI chatbot into a study planner, built on the two study methods research rates highest.",
  "lead": "To make a study plan with AI, give the chatbot your exam date, your full topic list, your weakest topics and the hours you really have, then ask it to spread each topic over several short sessions that start with self-testing. Turn each session into an if-then plan (\"If it is 5 pm on Monday, then I do 40 minutes of trace tables at my desk\") and ask the AI to rebuild the plan every week from what actually happened. The copy-and-paste prompts are below.",
@@ -44,7 +44,7 @@
   {
    "id": "limits",
    "h2": "What should you not let AI do in your study plan?",
-   "html": "<ul><li><strong>Do not let it choose your topics.</strong> AI can miss or invent syllabus points. Always paste the official topic list.</li><li><strong>Do not let it do the self-testing for you.</strong> Reading AI explanations is just rereading with extra steps. Ask it for questions, answer them yourself without notes, then check.</li><li><strong>Do not trust it on exam details.</strong> Check dates, mark schemes and grade boundaries on your exam board's official site.</li><li><strong>Do not paste private details.</strong> Your topics and hours are enough. Leave out your full name, school and anything personal.</li></ul><p>If you want structured free courses to slot into your plan, see our guides to <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a> and <a href=\"blog-free-ai-courses-with-certificates\">free AI courses with certificates</a>.</p>"
+   "html": "<ul><li><strong>Do not let it choose your topics.</strong> AI can miss or invent syllabus points. Always paste the official topic list.</li><li><strong>Do not let it do the self-testing for you.</strong> Reading AI explanations is just rereading with extra steps. Ask it for questions, answer them yourself without notes, then check.</li><li><strong>Do not trust it on exam details.</strong> Check dates, mark schemes and grade boundaries on your exam board's official site.</li><li><strong>Do not paste private details.</strong> Your topics and hours are enough. Leave out your full name, school and anything personal.</li></ul><p>If you want structured free courses to slot into your plan, see our guides to <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a> and <a href=\"blog-free-ai-courses-with-certificates\">free AI courses with certificates</a>.</p> <p>Related guides: <a href=\"blog-chatgpt-study-mode-guide\">how to use ChatGPT study mode</a>, <a href=\"blog-how-to-use-notebooklm-for-studying\">how to use NotebookLM for studying</a> and the <a href=\"blog-best-free-ai-tools-for-students\">best free AI tools for students</a>.</p>"
   }
  ],
  "faq": [

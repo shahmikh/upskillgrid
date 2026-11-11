@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IGCSE Computer Science Paper 2: Pseudocode Guide</title>
+<meta name="description" content="A tutor&#x27;s guide to Cambridge IGCSE Computer Science 0478 Paper 2: pseudocode rules, loops, arrays, trace tables and how to answer the 15-mark scenario question.">
+<meta name="theme-color" content="#0F172A">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://upskillgrid.com/blog-igcse-computer-science-paper-2-pseudocode-guide">
+<link rel="preload" href="fonts/plus-jakarta-sans-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<meta property="og:site_name" content="UpskillGrid">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IGCSE Computer Science Paper 2: Pseudocode Guide">
+<meta property="og:description" content="A tutor&#x27;s guide to Cambridge IGCSE Computer Science 0478 Paper 2: pseudocode rules, loops, arrays, trace tables and how to answer the 15-mark scenario question.">
+<meta property="og:url" content="https://upskillgrid.com/blog-igcse-computer-science-paper-2-pseudocode-guide">
+<meta property="og:image" content="https://upskillgrid.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IGCSE Computer Science Paper 2: Pseudocode Guide">
+<meta name="twitter:description" content="A tutor&#x27;s guide to Cambridge IGCSE Computer Science 0478 Paper 2: pseudocode rules, loops, arrays, trace tables and how to answer the 15-mark scenario question.">
+<meta name="twitter:image" content="https://upskillgrid.com/og-image.png">
+<meta property="article:published_time" content="2026-11-11">
+<meta property="article:modified_time" content="2026-11-11">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://upskillgrid.com/about#person",
+      "name": "Syed Shahmikh Ali",
+      "url": "https://upskillgrid.com/about",
+      "image": "https://upskillgrid.com/headshot.jpg",
+      "jobTitle": "Computer science tutor and founder of UpskillGrid",
+      "sameAs": [
+        "https://www.linkedin.com/in/syed-shahmikh-ali-6b962b201/",
+        "https://shahmikh.com"
+      ],
+      "knowsAbout": [
+        "Artificial intelligence tools",
+        "Python",
+        "Java",
+        "IGCSE Computer Science",
+        "GCSE Computer Science",
+        "Cambridge AS and A Level Computer Science",
+        "IB Computer Science",
+        "AP Computer Science A",
+        "AP Computer Science Principles"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://upskillgrid.com/#org",
+      "name": "UpskillGrid",
+      "url": "https://upskillgrid.com/",
+      "logo": "https://upskillgrid.com/logo.png",
+      "email": "hello@upskillgrid.com",
+      "founder": {
+        "@id": "https://upskillgrid.com/about#person"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "IGCSE Computer Science Paper 2: Pseudocode Guide",
+      "description": "A tutor's guide to Cambridge IGCSE Computer Science 0478 Paper 2: pseudocode rules, loops, arrays, trace tables and how to answer the 15-mark scenario question.",
+      "image": [
+        "https://upskillgrid.com/og-image.png"
+      ],
+      "datePublished": "2026-11-11",
+      "dateModified": "2026-11-11",
+      "author": {
+        "@id": "https://upskillgrid.com/about#person"
+      },
+      "publisher": {
+        "@id": "https://upskillgrid.com/#org"
+      },
+      "inLanguage": "en",
+      "articleSection": "How-To Guides",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://upskillgrid.com/blog-igcse-computer-science-paper-2-pseudocode-guide"
+      },
+      "citation": [
+        "https://cognito.org/specifications/gcse/computer-science/cie",
+        "https://help.cambridgeinternational.org/hc/en-gb/articles/23006999734162-Are-candidates-limited-to-using-the-programming-languages-in-the-syllabus-to-complete-the-scenario-question-or-can-they-use-another-programming-language-they-feel-more-comfortable-with",
+        "https://www.cambridgeinternational.org/Images/763431-2029-2031-syllabus.pdf",
+        "https://www.tutopiya.com/blog/igcse-exam-trends-2026/igcse-2026-exam-trends-cambridge-computer-science-0478/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://upskillgrid.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://upskillgrid.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IGCSE Computer Science Paper 2: Pseudocode Guide",
+          "item": "https://upskillgrid.com/blog-igcse-computer-science-paper-2-pseudocode-guide"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I use Python in IGCSE Computer Science Paper 2?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For the 15-mark scenario question you may answer in pseudocode or a programming language named in the syllabus. You still need to read Cambridge pseudocode, because questions are written in it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many marks is IGCSE Computer Science Paper 2?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paper 2 is worth 75 marks, lasts 1 hour 45 minutes and counts for 50% of the qualification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between WHILE and REPEAT loops?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A WHILE loop checks its condition first, so it may not run at all. A REPEAT UNTIL loop checks at the end, so it always runs at least once."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="/" class="brand"><img src="logo.svg" width="34" height="34" alt=""><span class="brand-text">Upskill<b>Grid</b></span></a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary"><a href="/">Home</a><a href="blog#ai-tools">AI Tools</a><a href="blog#how-to" class="is-active">How-To</a><a href="blog#free-courses">Free Courses</a><a href="blog#career-skills">Career Skills</a><a href="blog">All Guides</a><a href="tools">Free Tools</a><a href="about">About</a></nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span></button>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <p class="crumbs"><a href="/">Home</a> / <a href="blog#how-to">How-To Guides</a></p>
+    <p class="eyebrow">How-To Guides · 7 min read</p>
+    <h1>IGCSE Computer Science 0478 Paper 2: A Pseudocode and Algorithms Guide</h1>
+    <p class="post-byline">By <a href="about">Syed Shahmikh Ali</a> · Published 11 November 2026 · Updated 11 November 2026</p>
+  </div>
+</section>
+<article class="container">
+  <div class="prose">
+    <p class="post-lead">Paper 2 of Cambridge IGCSE Computer Science (0478) is worth 50% of your grade and tests algorithms, programming and logic in 1 hour 45 minutes. To do well you need to read and write Cambridge-style pseudocode, complete trace tables, know the standard algorithms and plan the final 15-mark scenario question. This guide shows the pseudocode you need with examples, and the mistakes that cost students the most marks.</p>
+    <div class="takeaways"><h2>Key takeaways</h2><ul><li>Paper 2 is 75 marks in 1 hour 45 minutes and counts for half of the qualification.</li><li>It covers topics 7 to 10: algorithm design, programming, databases and Boolean logic.</li><li>The last question is a 15-mark scenario answered in pseudocode or a programming language from the syllabus.</li><li>Trace tables, validation and the standard algorithms appear in almost every paper.</li></ul></div>
+    <nav class="toc" aria-label="Contents"><p class="toc-title">In this guide</p><ol><li><a href="#paper">What is in Paper 2?</a></li><li><a href="#basics">What does Cambridge pseudocode look like?</a></li><li><a href="#loops">Which loop and selection structures do you need?</a></li><li><a href="#arrays">How do arrays and standard algorithms work?</a></li><li><a href="#trace">How do you complete a trace table?</a></li><li><a href="#scenario">How do you answer the 15-mark scenario question?</a></li><li><a href="#future">Is the syllabus changing?</a></li><li><a href="#faq">Frequently asked questions</a></li><li><a href="#sources">Sources</a></li></ol></nav>
+
+    <h2 id="paper">What is in Paper 2?</h2>
+    <p><a href="https://cognito.org/specifications/gcse/computer-science/cie" rel="noopener">Cognito's summary of the specification</a> describes 0478 as a linear qualification with two written papers of 1 hour 45 minutes, each worth 75 marks and 50%. Paper 1 covers computer systems. Paper 2, Algorithms, Programming and Logic, tests problem-solving with Cambridge pseudocode.</p><div class="table-wrap"><table class="post-table"><thead><tr><th>Topic</th><th>What you must be able to do</th></tr></thead><tbody><tr><td>7. Algorithm design and problem-solving</td><td>Flowcharts, pseudocode, trace tables, validation, finding and fixing errors</td></tr><tr><td>8. Programming</td><td>Variables, selection, loops, arrays, procedures, functions, file handling</td></tr><tr><td>9. Databases</td><td>Fields, records, data types, primary keys, simple SQL queries</td></tr><tr><td>10. Boolean logic</td><td>Logic gates, truth tables, logic expressions and circuits</td></tr></tbody></table></div><p><a href="https://www.tutopiya.com/blog/igcse-exam-trends-2026/igcse-2026-exam-trends-cambridge-computer-science-0478/" rel="noopener">Tutopiya's review of recent exam trends</a> confirms the structure was unchanged for 2025 and 2026, with pseudocode, algorithms and trace tables at the centre of Paper 2.</p>
+
+    <h2 id="basics">What does Cambridge pseudocode look like?</h2>
+    <p>Cambridge pseudocode uses capital letters for keywords and an arrow for assignment. The syllabus contains the official guide, and questions are written in that style, so you must be able to read it even if you answer in Python.</p><pre><code>DECLARE Total : INTEGER
+DECLARE Mark : INTEGER
+Total ← 0
+FOR Count ← 1 TO 5
+    OUTPUT "Enter mark"
+    INPUT Mark
+    Total ← Total + Mark
+NEXT Count
+OUTPUT "Average is ", Total / 5</code></pre><p>Notice the pattern: declare variables with a data type, set starting values, use INPUT and OUTPUT for the user, and close every structure. A FOR loop ends with NEXT, an IF ends with ENDIF, and a WHILE ends with ENDWHILE.</p>
+
+    <h2 id="loops">Which loop and selection structures do you need?</h2>
+    <p>You need three loops and two kinds of selection. Choosing the right loop is a common one-mark question.</p><div class="table-wrap"><table class="post-table"><thead><tr><th>Structure</th><th>Use it when</th><th>Ends with</th></tr></thead><tbody><tr><td>FOR ... TO ... NEXT</td><td>You know how many times to repeat</td><td>NEXT</td></tr><tr><td>WHILE ... DO</td><td>The loop may run zero times; condition checked first</td><td>ENDWHILE</td></tr><tr><td>REPEAT ... UNTIL</td><td>The loop must run at least once; condition checked last</td><td>UNTIL condition</td></tr><tr><td>IF ... THEN ... ELSE</td><td>Two or three paths</td><td>ENDIF</td></tr><tr><td>CASE OF</td><td>Many values of one variable</td><td>ENDCASE</td></tr></tbody></table></div><pre><code>REPEAT
+    OUTPUT "Enter a mark from 0 to 100"
+    INPUT Mark
+UNTIL Mark &gt;= 0 AND Mark &lt;= 100</code></pre><p>That example is a range check, the most common validation question. Learn it by heart, along with a length check and a presence check.</p>
+
+    <h2 id="arrays">How do arrays and standard algorithms work?</h2>
+    <p>Arrays store many values under one name. Cambridge papers use them for the standard algorithms: totalling, counting, finding the maximum and minimum, linear search and bubble sort.</p><pre><code>DECLARE Scores : ARRAY[1:30] OF INTEGER
+Highest ← Scores[1]
+FOR Index ← 2 TO 30
+    IF Scores[Index] &gt; Highest
+        THEN
+            Highest ← Scores[Index]
+    ENDIF
+NEXT Index
+OUTPUT "Highest score is ", Highest</code></pre><p>Two details earn marks here. Set the starting value from the first element, not from zero, so the code still works if every score is negative. And loop over the correct range. Two-dimensional arrays work the same way with two indexes and a nested loop.</p>
+
+    <h2 id="trace">How do you complete a trace table?</h2>
+    <ol><li>Write one column for every variable and one for OUTPUT, in the order given.</li><li>Work through the algorithm one line at a time. Do not jump ahead.</li><li>Write a new value only when a variable changes. Leave other cells blank unless the question says otherwise.</li><li>Check the loop condition every time, especially on the final pass.</li><li>Write outputs exactly, including text and spacing.</li></ol><p>Most lost marks come from rushing the last iteration or forgetting that a REPEAT loop runs once before it checks its condition. Use a ruler or your finger on the line you are executing.</p>
+
+    <h2 id="scenario">How do you answer the 15-mark scenario question?</h2>
+    <p>The final question describes a problem, usually with arrays already named, and asks you to write a complete program. Cambridge's <a href="https://help.cambridgeinternational.org/hc/en-gb/articles/23006999734162-Are-candidates-limited-to-using-the-programming-languages-in-the-syllabus-to-complete-the-scenario-question-or-can-they-use-another-programming-language-they-feel-more-comfortable-with" rel="noopener">help page on the scenario question</a> confirms that candidates must write their solution in pseudocode or in one of the programming languages named in the syllabus, so do not answer in a language the syllabus does not list.</p><ol><li>Read the scenario twice and underline every requirement. Each one is worth marks.</li><li>Note the array names and sizes exactly as given. Do not rename them.</li><li>Plan in four parts: input with validation, processing, output, and any repeat for all records.</li><li>Write clear comments and meaningful variable names. They are credited.</li><li>Check that every requirement you underlined appears in your code.</li></ol><p>You do not need perfect syntax, but your logic must be complete. A full attempt that handles every requirement scores far more than a tidy answer that stops halfway.</p>
+
+    <h2 id="future">Is the syllabus changing?</h2>
+    <p>The current syllabus covers exams in 2026, 2027 and 2028. Cambridge has already published <a href="https://www.cambridgeinternational.org/Images/763431-2029-2031-syllabus.pdf" rel="noopener">the syllabus for 2029 to 2031</a>, in which the papers are renamed Computer Systems and Logic (Paper 1) and Algorithms and Programming (Paper 2). If your exams are in 2029 or later, download that version.</p><p>Pseudocode is much easier once you can program for real. Build that skill with <a href="blog-how-to-learn-python-fast">how to learn Python fast</a>, and schedule past papers with <a href="blog-how-to-use-ai-to-make-a-study-plan">an AI study plan</a>. An AI tutor can also mark your pseudocode if you ask it to check against Cambridge conventions; see <a href="blog-chatgpt-study-mode-guide">how to use ChatGPT study mode</a>.</p>
+
+    <h2 id="faq">Frequently asked questions</h2>
+    <div class="faq-list">
+      <details class="faq-item"><summary>Can I use Python in IGCSE Computer Science Paper 2?</summary><p>For the 15-mark scenario question you may answer in pseudocode or a programming language named in the syllabus. You still need to read Cambridge pseudocode, because questions are written in it.</p></details>
+      <details class="faq-item"><summary>How many marks is IGCSE Computer Science Paper 2?</summary><p>Paper 2 is worth 75 marks, lasts 1 hour 45 minutes and counts for 50% of the qualification.</p></details>
+      <details class="faq-item"><summary>What is the difference between WHILE and REPEAT loops?</summary><p>A WHILE loop checks its condition first, so it may not run at all. A REPEAT UNTIL loop checks at the end, so it always runs at least once.</p></details>
+    </div>
+    <h2 id="sources">Sources</h2>
+    <ul class="post-sources"><li><a href="https://cognito.org/specifications/gcse/computer-science/cie" rel="noopener">Cambridge IGCSE Computer Science (0478) specification, Cognito</a></li><li><a href="https://help.cambridgeinternational.org/hc/en-gb/articles/23006999734162-Are-candidates-limited-to-using-the-programming-languages-in-the-syllabus-to-complete-the-scenario-question-or-can-they-use-another-programming-language-they-feel-more-comfortable-with" rel="noopener">Programming languages for the scenario question, Cambridge International</a></li><li><a href="https://www.cambridgeinternational.org/Images/763431-2029-2031-syllabus.pdf" rel="noopener">Cambridge IGCSE Computer Science 0478 syllabus 2029 to 2031, Cambridge International</a></li><li><a href="https://www.tutopiya.com/blog/igcse-exam-trends-2026/igcse-2026-exam-trends-cambridge-computer-science-0478/" rel="noopener">IGCSE 2026 exam trends: Computer Science 0478, Tutopiya</a></li></ul>
+    <h2>Related reading</h2>
+    <ul class="post-sources"><li><a href="blog-how-to-learn-python-fast">How to learn Python fast</a></li><li><a href="blog-chatgpt-study-mode-guide">How to use ChatGPT study mode</a></li><li><a href="blog-how-to-use-ai-to-make-a-study-plan">How to use AI to make a study plan</a></li></ul>
+    <aside class="author-box">
+  <img src="headshot.jpg" alt="Syed Shahmikh Ali" width="72" height="72" loading="lazy">
+  <div>
+    <p class="author-name">About the author</p>
+    <p><a href="about">Syed Shahmikh Ali</a> is a Preply Super Tutor, in the top 10% of computer science tutors on Preply, and Oxford University Press trained, with a mechatronics engineering background. He teaches IGCSE, GCSE, Cambridge AS and A Level, IB (SL and HL) and AP (CSA and CSP) Computer Science, plus Python and Java, one to one, and started UpskillGrid to give learners straight answers about AI tools and free courses.</p>
+    <p class="post-note">Editorial note: this guide is checked against the sources listed above. Prices and course terms change, so confirm on the official page before you pay. Spot a mistake? Tell us through the <a href="contact">contact page</a> and we will fix it.</p>
+  </div>
+</aside>
+  </div>
+</article>
+<section class="cta-band">
+  <div class="container">
+    <p class="eyebrow">Keep going</p>
+    <h2>More free, checked guides on AI tools and tech skills</h2>
+    <a href="blog" class="btn btn--green">Browse all guides</a>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>UpskillGrid</h4><p>Practical guides on AI tools, tech how-tos, free courses and career skills. Every guide is checked against official sources and dated.</p></div>
+      <div><h4>Guides</h4><ul><li><a href="blog#ai-tools">AI Tools</a></li><li><a href="blog#how-to">How-To Guides</a></li><li><a href="blog#free-courses">Free Courses</a></li><li><a href="blog#career-skills">Career Skills</a></li><li><a href="tools">Free Tools</a></li></ul></div>
+      <div><h4>Site</h4><ul><li><a href="about">About</a></li><li><a href="contact">Contact</a></li><li><a href="editorial-policy">Editorial policy</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="privacy">Privacy policy</a></li><li><a href="terms">Terms of use</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 UpskillGrid. All rights reserved.</span><span>Run by <a href="about">Syed Shahmikh Ali</a></span></div>
+  </div>
+</footer>
+<script src="main.js" defer></script>
+</body>
+</html>

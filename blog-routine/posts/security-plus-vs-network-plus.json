@@ -5,7 +5,7 @@
  "h1": "CompTIA Security+ vs Network+: Which Should You Take First?",
  "description": "Security+ or Network+ first? Compare the SY0-701 and N10-009 exams, pass marks, the SY0-801 update and which order suits your cybersecurity or networking goal.",
  "published": "2026-11-10",
- "modified": "2026-11-10",
+ "modified": "2026-11-11",
  "read_min": 7,
  "card_summary": "Compare the two CompTIA exams, see what the SY0-801 update means, and pick the right order for your goal.",
  "lead": "For most beginners, Network+ should come before Security+. CompTIA recommends Network+ knowledge before Security+, and much of the Security+ exam assumes you already understand ports, protocols and how traffic moves. If you already work with networks every day, or you need Security+ quickly for a job requirement, you can go straight to Security+. Neither exam has a formal prerequisite.",
@@ -39,7 +39,7 @@
   {
    "id": "sy0-801",
    "h2": "Should you wait for Security+ SY0-801?",
-   "html": "<p>CompTIA is replacing SY0-701 with SY0-801. <a href=\"https://www.infosectrain.com/?p=53359\" rel=\"noopener\">InfosecTrain</a> reports an expected launch of 17 November 2026, with the English SY0-701 exam retiring on 11 June 2027. CompTIA's own V7 page confirms that June 2027 retirement date. Professor Messer had estimated a similar timeline in his <a href=\"https://www.professormesser.com/?p=634102\" rel=\"noopener\">SY0-601 vs SY0-701 guide</a>, based on CompTIA's usual three-year cycle.</p><p>Both versions lead to the same Security+ certification, which stays valid for three years from the day you pass. If you are already studying for SY0-701 and can sit it before June 2027, stay with it. If you are starting from zero in 2027, study for SY0-801 instead, since most new course material will target it.</p>"
+   "html": "<p>CompTIA is replacing SY0-701 with SY0-801. <a href=\"https://www.infosectrain.com/?p=53359\" rel=\"noopener\">InfosecTrain</a> reports an expected launch of 17 November 2026, with the English SY0-701 exam retiring on 11 June 2027. CompTIA's own V7 page confirms that June 2027 retirement date. Professor Messer had estimated a similar timeline in his <a href=\"https://www.professormesser.com/?p=634102\" rel=\"noopener\">SY0-601 vs SY0-701 guide</a>, based on CompTIA's usual three-year cycle.</p><p>Both versions lead to the same Security+ certification, which stays valid for three years from the day you pass. If you are already studying for SY0-701 and can sit it before June 2027, stay with it. If you are starting from zero in 2027, study for SY0-801 instead, since most new course material will target it.</p> <p>For the full list of changes, see <a href=\"blog-security-plus-sy0-801-vs-sy0-701\">Security+ SY0-801 vs SY0-701</a>.</p>"
   },
   {
    "id": "plan",

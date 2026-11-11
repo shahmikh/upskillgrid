@@ -5,7 +5,7 @@
  "h1": "Prompt writing basics: 6 patterns that work in any AI chatbot",
  "description": "Six prompt patterns recommended by OpenAI, Google and Anthropic that work in ChatGPT, Gemini and Claude, with copy-and-paste examples for students.",
  "published": "2026-11-07",
- "modified": "2026-11-07",
+ "modified": "2026-11-11",
  "read_min": 7,
  "card_summary": "Six prompt patterns that OpenAI, Google and Anthropic all recommend, with copy-and-paste examples you can use in any chatbot.",
  "lead": "The six prompt patterns that work in almost any AI chatbot are: be specific about the task and your situation, give the AI a role, show an example of the answer you want, state the format and length, paste the reference text you want it to use, and ask it to work step by step. OpenAI, Google and Anthropic all recommend versions of these in their official prompting guides. Each pattern below has a copy-and-paste example.",
@@ -50,7 +50,7 @@
   {
    "id": "template",
    "h2": "What is a good prompt template to copy?",
-   "html": "<p>Put the six patterns together and you get a template that works for homework help, revision, essays and code. Fill in only the lines you need:</p><pre><code>Role: Act as [who should answer: tutor, examiner, editor].\nTask: [one clear sentence of what you want].\nContext: [who you are, your level, what you already know].\nReference: [paste notes or text between triple quotes, if any].\nFormat: [table / 5 bullet points / under 150 words / code with comments].\nExample: [one sample of what a good answer looks like].\nSteps: [think step by step / check your answer before replying].</code></pre><p>Two habits make any template better. First, treat the first answer as a draft and reply with what to change. Second, skip pressure and flattery: Google's checklist says to remove emotional appeals, flattery and artificial pressure from prompts. If you want to use these prompts to organise your revision, our guide on <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">using AI to make a study plan</a> shows how.</p>"
+   "html": "<p>Put the six patterns together and you get a template that works for homework help, revision, essays and code. Fill in only the lines you need:</p><pre><code>Role: Act as [who should answer: tutor, examiner, editor].\nTask: [one clear sentence of what you want].\nContext: [who you are, your level, what you already know].\nReference: [paste notes or text between triple quotes, if any].\nFormat: [table / 5 bullet points / under 150 words / code with comments].\nExample: [one sample of what a good answer looks like].\nSteps: [think step by step / check your answer before replying].</code></pre><p>Two habits make any template better. First, treat the first answer as a draft and reply with what to change. Second, skip pressure and flattery: Google's checklist says to remove emotional appeals, flattery and artificial pressure from prompts. If you want to use these prompts to organise your revision, our guide on <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">using AI to make a study plan</a> shows how.</p> <p>Not sure which chatbot to use? Compare <a href=\"blog-chatgpt-vs-gemini-vs-claude-free-plans\">ChatGPT, Gemini and Claude free plans</a>.</p>"
   }
  ],
  "faq": [

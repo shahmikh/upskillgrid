@@ -1,0 +1,101 @@
+{
+ "slug": "how-to-learn-python-fast",
+ "category": "how-to",
+ "title": "How to Learn Python Fast: A 30-Day Beginner Plan",
+ "h1": "How to Learn Python Fast: A 30-Day Plan for Complete Beginners",
+ "description": "A tutor's 30-day plan to learn Python from zero: what to learn each week, free courses to follow, the mistakes that slow beginners down and projects to build.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "A week-by-week plan to go from no coding to small working Python projects, using only free resources.",
+ "lead": "The fastest way to learn Python is to write code every day, follow one free course instead of many, and build small projects from the second week. In 30 days of about an hour a day, a complete beginner can learn variables, conditions, loops, functions, lists, dictionaries and files, and finish two or three small programs. You will not be an expert in a month, but you will be able to solve real problems.",
+ "takeaways": [
+  "One hour a day for 30 days beats seven hours once a week.",
+  "Pick one course and finish it; switching courses is the most common reason beginners stall.",
+  "Type every example yourself and change it. Reading code is not the same as writing it.",
+  "Build small projects early, even ugly ones."
+ ],
+ "sections": [
+  {
+   "id": "realistic",
+   "h2": "How long does it really take to learn Python?",
+   "html": "<p>It depends on what you mean by learn. The basics take about a month of steady practice. Becoming comfortable enough for school coursework, data analysis or simple automation takes three to six months. Job-level skill takes longer and depends on the field.</p><p>Python is a good first language because its code reads almost like English and it needs very little setup. That is why it is used in IGCSE, A Level, IB and university courses, and in data science and AI. If you are studying it for a qualification, see our guides to <a href=\"blog-igcse-computer-science-paper-2-pseudocode-guide\">IGCSE Paper 2</a> and <a href=\"blog-ib-computer-science-new-syllabus-2027\">the new IB Computer Science course</a>.</p>"
+  },
+  {
+   "id": "setup",
+   "h2": "What do you need to start?",
+   "html": "<ul><li><strong>A computer with Python installed</strong> from python.org, or a free online editor if you cannot install software.</li><li><strong>A simple editor.</strong> IDLE comes with Python and is enough. Thonny is friendly for beginners. VS Code is worth learning later.</li><li><strong>One course.</strong> Choose from the list below and stay with it.</li><li><strong>A notebook.</strong> Write down every error message you meet and how you fixed it. This becomes your most useful revision tool.</li></ul><p>The official <a href=\"https://docs.python.org/3/tutorial/\" rel=\"noopener\">Python tutorial</a> is free and accurate. It moves quickly for a total beginner, so use it as a reference alongside a course.</p>"
+  },
+  {
+   "id": "plan",
+   "h2": "What should you learn each week?",
+   "html": "<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Week</th><th>Topics</th><th>Mini project</th></tr></thead><tbody><tr><td>1</td><td>Output, input, variables, data types, arithmetic, strings</td><td>A tip or grade calculator</td></tr><tr><td>2</td><td>If statements, comparison and logical operators, while and for loops</td><td>Number guessing game</td></tr><tr><td>3</td><td>Functions, lists, dictionaries, basic error handling</td><td>Quiz program that keeps a score</td></tr><tr><td>4</td><td>Reading and writing files, modules, a first look at classes</td><td>To-do list or expense tracker that saves to a file</td></tr></tbody></table></div><p>Each day, split your hour into three parts: 20 minutes of the course, 30 minutes of writing your own code, and 10 minutes reviewing yesterday's notes. On day seven of each week, do no new lessons. Rebuild that week's mini project from a blank file without looking at your old version.</p>"
+  },
+  {
+   "id": "courses",
+   "h2": "Which free course should you follow?",
+   "html": "<ul><li><strong><a href=\"https://cs50.harvard.edu/python\" rel=\"noopener\">CS50's Introduction to Programming with Python</a></strong> from Harvard. Clear lectures and well-designed problem sets, with a free certificate.</li><li><strong>The University of Helsinki's Python MOOC.</strong> Lots of small exercises checked automatically. Its <a href=\"https://programming-26.mooc.fi/grading-and-exams\" rel=\"noopener\">grading page</a> explains how points and exams work.</li><li><strong>freeCodeCamp's Python certification.</strong> Browser-based and project-driven. See the <a href=\"https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live/\" rel=\"noopener\">launch announcement</a> for what it covers.</li></ul><p>We compare these in detail, including how to get each certificate, in <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a>. Any of them works. The best course is the one you finish.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "What mistakes slow beginners down?",
+   "html": "<ul><li><strong>Watching without typing.</strong> Videos feel like progress. Pause after every example and write it yourself, then change one thing.</li><li><strong>Copying and pasting.</strong> Typing builds memory for syntax. Pasting builds nothing.</li><li><strong>Fearing errors.</strong> Errors are information. Read the last line of the message first; it names the problem and the line number.</li><li><strong>Asking AI for the answer.</strong> Ask it to explain the error or give a hint instead. See <a href=\"blog-chatgpt-study-mode-guide\">how to use ChatGPT study mode</a>.</li><li><strong>Skipping the basics.</strong> Loops and functions matter more than libraries. Do not jump to AI or web frameworks in week one.</li></ul>"
+  },
+  {
+   "id": "example",
+   "h2": "What does a first real program look like?",
+   "html": "<p>By the end of week two you should be able to write something like this without help:</p><pre><code>import random\n\nsecret = random.randint(1, 20)\nguesses = 0\n\nwhile True:\n    guess = int(input(\"Guess a number from 1 to 20: \"))\n    guesses += 1\n    if guess &lt; secret:\n        print(\"Too low\")\n    elif guess &gt; secret:\n        print(\"Too high\")\n    else:\n        print(\"Correct in\", guesses, \"guesses\")\n        break</code></pre><p>It uses a module, a variable, a loop, input, type conversion and selection. Now improve it: limit the player to five guesses, handle non-numeric input, and add a play-again option. Extending a working program teaches more than starting a new tutorial.</p>"
+  },
+  {
+   "id": "next",
+   "h2": "What should you do after 30 days?",
+   "html": "<p>Choose a direction and build one larger project in it. For data, learn pandas and analyse a real dataset; see <a href=\"blog-free-data-analytics-courses-with-certificates\">free data analytics courses</a>. For websites, learn a web framework after the basics in <a href=\"blog-free-web-development-courses-with-certificates\">free web development courses</a>. For AI, start with <a href=\"blog-free-ai-courses-with-certificates\">free AI courses with certificates</a>.</p><p>Keep the daily habit. Thirty minutes a day for the next three months will take you further than the first month did. A written schedule helps, and <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">an AI study plan</a> can build one around your school timetable.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I learn Python in 30 days?",
+   "a": "You can learn the basics in 30 days with about an hour of daily practice: variables, loops, functions, lists and files. Real fluency takes several more months of projects."
+  },
+  {
+   "q": "Is Python hard to learn for beginners?",
+   "a": "Python is one of the easiest first languages because its syntax is simple and readable. The hard part is problem-solving, which improves with regular practice."
+  },
+  {
+   "q": "Do I need maths to learn Python?",
+   "a": "Only basic arithmetic for general programming. More maths is useful later for data science, graphics and machine learning."
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Python tutorial, Python Software Foundation",
+   "url": "https://docs.python.org/3/tutorial/"
+  },
+  {
+   "title": "CS50's Introduction to Programming with Python, Harvard",
+   "url": "https://cs50.harvard.edu/python"
+  },
+  {
+   "title": "Grading and exams, University of Helsinki Python MOOC",
+   "url": "https://programming-26.mooc.fi/grading-and-exams"
+  },
+  {
+   "title": "freeCodeCamp's Python certification, freeCodeCamp",
+   "url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live/"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-free-python-courses-with-certificates",
+   "title": "Free Python courses with certificates"
+  },
+  {
+   "href": "blog-chatgpt-study-mode-guide",
+   "title": "How to use ChatGPT study mode"
+  },
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan"
+  }
+ ]
+}

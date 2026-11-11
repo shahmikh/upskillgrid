@@ -5,7 +5,7 @@
  "h1": "AP Computer Science A vs Principles: which should you take?",
  "description": "AP CSA vs AP CSP compared by a computer science tutor: language, content, exam format, 2027 dates, 2026 results and which one fits your plans.",
  "published": "2026-11-08",
- "modified": "2026-11-08",
+ "modified": "2026-11-11",
  "read_min": 8,
  "card_summary": "AP CSA teaches Java programming in depth, AP CSP covers the breadth of computing. Here is how to choose, from someone who teaches both.",
  "lead": "Take AP Computer Science A if you want to study computer science, engineering or another technical subject at university: it is a Java programming course equivalent to a first-semester college CS class. Take AP Computer Science Principles if you want a broad introduction to computing, from data and the internet to the impact of technology, without committing to one language. Many students take CSP first and CSA later, and you can take both.",
@@ -30,7 +30,7 @@
   {
    "id": "exams",
    "h2": "How are the AP CSA and AP CSP exams different?",
-   "html": "<p>The CSA exam has two sections of 1 hour 30 minutes. Section I is 42 multiple-choice questions worth 55%, and Section II is 4 free-response questions where you write Java code, worth 45%, according to the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam\" rel=\"noopener\">AP CSA exam page</a>. The 2027 exam is on 12 May 2027.</p><p>CSP is split differently. Section I is 70 multiple-choice questions in 120 minutes, worth 70%. Section II, worth 30%, combines the Create performance task you build during the year with written-response questions on exam day, as described on the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam\" rel=\"noopener\">AP CSP exam page</a>. For 2027, the Create task is due by 11:59 PM ET on 30 April and the exam is on 14 May. College Board says CSP is being redesigned for the 2027 to 2028 school year, so later exams may change.</p><p>Want to see how your practice scores convert? Our free <a href=\"ap-computer-science-score-calculator\">AP Computer Science score calculator</a> handles both exams.</p>"
+   "html": "<p>The CSA exam has two sections of 1 hour 30 minutes. Section I is 42 multiple-choice questions worth 55%, and Section II is 4 free-response questions where you write Java code, worth 45%, according to the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam\" rel=\"noopener\">AP CSA exam page</a>. The 2027 exam is on 12 May 2027.</p><p>CSP is split differently. Section I is 70 multiple-choice questions in 120 minutes, worth 70%. Section II, worth 30%, combines the Create performance task you build during the year with written-response questions on exam day, as described on the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam\" rel=\"noopener\">AP CSP exam page</a>. For 2027, the Create task is due by 11:59 PM ET on 30 April and the exam is on 14 May. College Board says CSP is being redesigned for the 2027 to 2028 school year, so later exams may change.</p><p>Want to see how your practice scores convert? Our free <a href=\"ap-computer-science-score-calculator\">AP Computer Science score calculator</a> handles both exams.</p> <p>Exam help: our <a href=\"blog-ap-computer-science-a-frq-guide\">AP CSA FRQ guide</a> and <a href=\"blog-ap-csp-create-task-guide\">AP CSP Create task guide</a>.</p>"
   },
   {
    "id": "which-is-harder",

@@ -1,0 +1,97 @@
+{
+ "slug": "ap-csp-create-task-guide",
+ "category": "how-to",
+ "title": "AP CSP Create Task Guide: Requirements and Tips",
+ "h1": "AP CSP Create Performance Task: Requirements, Deadline and Tips",
+ "description": "A tutor's guide to the AP Computer Science Principles Create task: what to submit, the 30 April 2027 deadline, program requirements and written response tips.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "What to build, what to submit and how to prepare for the written response, with the 2027 deadline.",
+ "lead": "The AP CSP Create performance task is a program you design and build during the school year, and together with the written response on exam day it is worth 30% of your AP score. For 2027 the Create task must be submitted by 11:59 PM ET on 30 April, and the exam is on 14 May. You submit your program code, a short video of it running and a Personalized Project Reference that you use in the exam.",
+ "takeaways": [
+  "Section II, the Create task plus written response, is worth 30% of the AP CSP score.",
+  "The 2027 submission deadline is 30 April at 11:59 PM ET; the exam is on 14 May 2027.",
+  "Your program needs input, output, a list, and a procedure with a parameter that uses sequencing, selection and iteration.",
+  "On exam day you answer written questions about your own code using your Personalized Project Reference."
+ ],
+ "sections": [
+  {
+   "id": "what",
+   "h2": "What is the Create performance task?",
+   "html": "<p>AP Computer Science Principles is the broad, introductory AP computing course. College Board's <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course\" rel=\"noopener\">course overview</a> describes it as covering the breadth of the field. Its exam has two sections. According to the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam\" rel=\"noopener\">AP CSP exam page</a>, Section I is 70 multiple-choice questions in 120 minutes, worth 70%, and Section II, worth 30%, combines the Create performance task with written-response questions on exam day.</p><p>The Create task is your chance to earn marks before you enter the exam room. You choose the topic and the programming language your class uses, and you get class time to work on it.</p>"
+  },
+  {
+   "id": "submit",
+   "h2": "What do you have to submit?",
+   "html": "<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Component</th><th>What it is</th></tr></thead><tbody><tr><td>Program code</td><td>The complete code of your program, as a PDF</td></tr><tr><td>Video</td><td>A short screen recording, up to one minute, showing the program running with input and output</td></tr><tr><td>Personalized Project Reference</td><td>Screenshots of specific code segments: your list being created and used, and your procedure and where it is called</td></tr></tbody></table></div><p>The Personalized Project Reference, often shortened to PPR, must contain code only. It must not include comments or any text that explains the code, because you bring it into the exam. Check College Board's current student handout for the exact format rules, and submit through the AP Digital Portfolio before the deadline.</p>"
+  },
+  {
+   "id": "requirements",
+   "h2": "What must your program include?",
+   "html": "<ul><li><strong>Input</strong> from a user, a file or a device, which affects what the program does.</li><li><strong>A list</strong> (or other collection) that stores several values and is actually used to manage complexity. A list you create but never need does not count.</li><li><strong>A procedure you wrote</strong> with a name, a return type if needed, and at least one parameter that affects what it does.</li><li><strong>An algorithm inside that procedure</strong> that includes sequencing, selection (an if statement) and iteration (a loop).</li><li><strong>Calls to your procedure</strong> from elsewhere in the program.</li><li><strong>Output</strong> that depends on the input and the program's logic.</li></ul><p>Here is a small Python example of a procedure that meets the algorithm requirement:</p><pre><code>def count_above(scores, limit):\n    count = 0\n    for s in scores:\n        if s &gt; limit:\n            count = count + 1\n    return count</code></pre><p>It has a parameter that changes the result, a loop, an if statement and steps in order. Your own procedure should be this clear. Graders are not looking for complexity; they are looking for each required feature.</p>"
+  },
+  {
+   "id": "ideas",
+   "h2": "What makes a good Create task project?",
+   "html": "<p>Pick something small that naturally needs a list. Good choices include a quiz that stores questions and scores, a study planner that filters tasks by subject, a simple inventory or library tracker, a text-based adventure with an item list, or a tool that analyses a list of numbers such as temperatures or grades.</p><p>Avoid projects where the list is decoration. Ask yourself: if I removed the list, would I need dozens of separate variables instead? If yes, the list manages complexity. Also avoid anything so large that you cannot finish it in the class time available. A complete simple program scores better than an unfinished ambitious one.</p>"
+  },
+  {
+   "id": "written",
+   "h2": "How do you prepare for the written response?",
+   "html": "<p>On exam day you answer questions about your own program, with your PPR in front of you. The questions ask you to explain things such as what your program does, how your list manages complexity, how your procedure's algorithm works, what would happen with different inputs, and how you tested or would change the code.</p><ol><li>Practise explaining your procedure aloud, line by line, to a friend or teacher.</li><li>Write down two calls to your procedure with different arguments that give different results, and what each returns.</li><li>Be able to say what would break if your list were replaced with separate variables.</li><li>Describe one error you found during development and how you fixed it.</li><li>Use precise words: parameter, argument, iteration, condition, return value.</li></ol><p>Answer the question asked, about your own code, in full sentences. Vague answers that could describe any program do not earn points.</p>"
+  },
+  {
+   "id": "rules",
+   "h2": "What help are you allowed?",
+   "html": "<p>The Create task must be your own work. College Board allows collaboration with a partner on program development in some circumstances, but your video, PPR and written responses must be individual, and any code you did not write must be acknowledged. Rules on AI tools are set by College Board and your teacher, so read the current student handout carefully before using any assistant.</p><p>The safe way to use AI is for learning: ask it to explain a concept or an error message, not to write your project. See <a href=\"blog-chatgpt-study-mode-guide\">how to use ChatGPT study mode</a> and <a href=\"blog-do-ai-detectors-work\">do AI detectors work?</a>. Keep your drafts and notes as evidence of your process.</p>"
+  },
+  {
+   "id": "score",
+   "h2": "How does the Create task affect your score?",
+   "html": "<p>Because Section II is 30% of the exam, a strong Create task and written response can lift a borderline multiple-choice performance by a full grade. College Board's <a href=\"https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-principles\" rel=\"noopener\">AP CSP score distributions</a> show how students performed each year. Try your own numbers in our <a href=\"ap-computer-science-score-calculator\">AP Computer Science score calculator</a>.</p><p>One note for younger students: College Board has said AP CSP is being redesigned for the 2027 to 2028 school year, so later exams may differ. If you are deciding which course to take, read <a href=\"blog-ap-computer-science-a-vs-principles\">AP Computer Science A vs Principles</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "When is the AP CSP Create task due in 2027?",
+   "a": "The Create performance task must be submitted in the AP Digital Portfolio by 11:59 PM ET on 30 April 2027. The exam is on 14 May 2027."
+  },
+  {
+   "q": "How much is the Create task worth?",
+   "a": "The Create performance task and the written response together make up Section II, which is worth 30% of the AP CSP exam score."
+  },
+  {
+   "q": "What programming language can I use for the Create task?",
+   "a": "Any language your teacher allows that supports the required features. Many classes use Python, JavaScript or a block-based language."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AP Computer Science Principles exam, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam"
+  },
+  {
+   "title": "AP Computer Science Principles course overview, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course"
+  },
+  {
+   "title": "AP Computer Science Principles score distributions, College Board",
+   "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-principles"
+  }
+ ],
+ "related": [
+  {
+   "href": "ap-computer-science-score-calculator",
+   "title": "AP Computer Science score calculator"
+  },
+  {
+   "href": "blog-ap-computer-science-a-vs-principles",
+   "title": "AP Computer Science A vs Principles"
+  },
+  {
+   "href": "blog-ap-computer-science-a-frq-guide",
+   "title": "AP Computer Science A FRQ guide"
+  }
+ ]
+}

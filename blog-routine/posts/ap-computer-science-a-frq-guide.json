@@ -1,0 +1,92 @@
+{
+ "slug": "ap-computer-science-a-frq-guide",
+ "category": "how-to",
+ "title": "AP Computer Science A FRQ Guide: Score More Points",
+ "h1": "AP Computer Science A FRQ Guide: How to Score More on Free Response",
+ "description": "A tutor's guide to the AP Computer Science A free-response section: the four question types, how points are awarded, common penalties and a practice plan.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "The four FRQ types, how graders award points, and the habits that pick up marks even when your code is not perfect.",
+ "lead": "The free-response section of AP Computer Science A has four questions in 1 hour 30 minutes and is worth 45% of your score. You write Java by hand, and graders award points for specific things your code does, not for perfection. To score well, know the four question types, attempt every part, use the methods the question gives you, and practise writing code on paper under timed conditions.",
+ "takeaways": [
+  "Section II has 4 free-response questions in 90 minutes and counts for 45% of the exam.",
+  "Points are awarded for individual correct pieces of logic, so partial answers still score.",
+  "Each question targets a skill: methods and control structures, class design, ArrayList, and 2D arrays.",
+  "Small syntax slips rarely lose points; missing logic and unattempted parts do."
+ ],
+ "sections": [
+  {
+   "id": "format",
+   "h2": "How is the AP CSA free-response section structured?",
+   "html": "<p>College Board's <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam\" rel=\"noopener\">AP Computer Science A exam page</a> sets out the format: two sections of 1 hour 30 minutes each. Section I is 42 multiple-choice questions worth 55%. Section II is 4 free-response questions worth 45%, in which you write Java code. The 2027 exam is on 12 May 2027.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Question</th><th>Focus</th><th>Typical points</th></tr></thead><tbody><tr><td>1</td><td>Methods and control structures: loops, conditions, calling methods</td><td>7</td></tr><tr><td>2</td><td>Class design: write a complete class from a description</td><td>7</td></tr><tr><td>3</td><td>Data analysis with ArrayList: traverse, filter, add or remove</td><td>5</td></tr><tr><td>4</td><td>2D arrays: nested loops over rows and columns</td><td>6</td></tr></tbody></table></div><p>That gives about 22 minutes per question. The point values are the ones used in our <a href=\"ap-computer-science-score-calculator\">AP Computer Science score calculator</a>, which converts your practice scores into an estimated 1 to 5. The course itself is organised into four units of Java, as the <a href=\"https://apcentral.collegeboard.org/courses/ap-computer-science-a/course\" rel=\"noopener\">course overview</a> shows.</p>"
+  },
+  {
+   "id": "points",
+   "h2": "How do graders award points?",
+   "html": "<p>Each question has a scoring guideline that lists separate points, such as 'loops over all elements', 'calls the helper method correctly', 'compares values', 'returns the correct result'. You earn each point independently. If your loop is right but your return value is wrong, you still earn the loop point.</p><p>This changes how you should work. Write the structure first: the method header is given, so add the loop, the condition and the return. Even if you cannot finish the middle, those pieces score. A blank answer scores zero; a half-right answer often scores half.</p>"
+  },
+  {
+   "id": "types",
+   "h2": "How do you approach each question type?",
+   "html": "<ul><li><strong>Question 1, methods and control structures.</strong> Part (a) and part (b) are often linked. If part (b) says to use the method from part (a), call it. Do not rewrite it, and assume it works even if your part (a) was wrong.</li><li><strong>Question 2, class design.</strong> Write private instance variables, a constructor that sets them, and each method named in the description. Match the method names, parameters and return types exactly as the examples show.</li><li><strong>Question 3, ArrayList.</strong> Use <code>size()</code>, <code>get()</code>, <code>set()</code>, <code>add()</code> and <code>remove()</code>. When removing while looping, go backwards or adjust the index, or you will skip elements.</li><li><strong>Question 4, 2D arrays.</strong> Use <code>arr.length</code> for rows and <code>arr[0].length</code> for columns. Decide before you write whether you are going row by row or column by column.</li></ul><pre><code>for (int r = 0; r &lt; grid.length; r++) {\n    for (int c = 0; c &lt; grid[0].length; c++) {\n        if (grid[r][c] &gt; max) {\n            max = grid[r][c];\n        }\n    }\n}</code></pre><p>That nested loop pattern, with small changes, answers a large share of 2D array questions. Know it well enough to write it in under a minute.</p>"
+  },
+  {
+   "id": "penalties",
+   "h2": "What loses points?",
+   "html": "<ul><li><strong>Not attempting a part.</strong> The biggest loss of all. Always write something.</li><li><strong>Ignoring given methods.</strong> If the question provides a method, graders expect you to use it.</li><li><strong>Printing instead of returning.</strong> If the method has a return type, <code>System.out.println</code> does not earn the return point.</li><li><strong>Changing data you were told not to change,</strong> such as modifying a parameter array when the question says it must stay the same.</li><li><strong>Array and list confusion.</strong> Using <code>length</code> on an ArrayList or <code>size()</code> on an array, or square brackets on an ArrayList.</li><li><strong>Off-by-one errors</strong> in loop bounds, especially <code>&lt;=</code> where <code>&lt;</code> is needed.</li></ul><p>Minor slips, such as a missing semicolon where your meaning is obvious, are usually not penalised. Do not waste time recopying an answer to make it neat. Cross out clearly and move on.</p>"
+  },
+  {
+   "id": "practice",
+   "h2": "How should you practise FRQs?",
+   "html": "<ol><li>Download past free-response questions and scoring guidelines from College Board's exam page.</li><li>Write answers by hand, on paper, with a 22-minute timer per question. Typing in an editor hides the mistakes you will make in the exam.</li><li>Mark your answer against the scoring guideline, point by point, and record which points you missed.</li><li>Type your handwritten answer into a real compiler afterwards to see what would have failed.</li><li>Redo the same question a week later without looking at your first attempt.</li></ol><p>Start timed practice at least eight weeks before the exam, with two questions a week, rising to a full section in the final fortnight. A dated plan keeps this on track; see <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">how to use AI to make a study plan</a>.</p>"
+  },
+  {
+   "id": "score",
+   "h2": "What score do you need?",
+   "html": "<p>AP exams are scored from 1 to 5, and many universities give credit or placement for a 3 or above, with selective ones asking for a 4 or 5. College Board publishes the share of students earning each score on its <a href=\"https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-a\" rel=\"noopener\">AP CSA score distributions page</a>. The exact composite score needed for each grade changes slightly every year.</p><p>As a rough guide, students who earn about two thirds of the free-response points and a similar share of the multiple choice are usually in range for a 4. Use the calculator to test your own numbers. If you are still choosing between the two AP computing courses, read <a href=\"blog-ap-computer-science-a-vs-principles\">AP Computer Science A vs Principles</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many FRQs are on the AP Computer Science A exam?",
+   "a": "Four. You have 1 hour 30 minutes for the free-response section, which is worth 45% of your exam score."
+  },
+  {
+   "q": "Do you lose points for syntax errors on AP CSA FRQs?",
+   "a": "Small slips where your intent is clear, such as a missing semicolon, are usually not penalised. Missing logic, wrong method calls and unattempted parts lose points."
+  },
+  {
+   "q": "Can you get partial credit on AP CSA free response?",
+   "a": "Yes. Each question is scored point by point, so correct loops, conditions and method calls earn credit even if the whole solution is not complete."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AP Computer Science A exam, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam"
+  },
+  {
+   "title": "AP Computer Science A course overview, College Board",
+   "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-a/course"
+  },
+  {
+   "title": "AP Computer Science A score distributions, College Board",
+   "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-computer-science-a"
+  }
+ ],
+ "related": [
+  {
+   "href": "ap-computer-science-score-calculator",
+   "title": "AP Computer Science score calculator"
+  },
+  {
+   "href": "blog-ap-computer-science-a-vs-principles",
+   "title": "AP Computer Science A vs Principles"
+  },
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan"
+  }
+ ]
+}
