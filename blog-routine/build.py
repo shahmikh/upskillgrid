@@ -167,7 +167,7 @@ def load(slug):
 
 
 def all_posts():
-    return sorted((load(p.stem) for p in POSTS.glob("*.json")), key=lambda x: (x["published"], x["slug"]),
+    return sorted((load(p.stem) for p in POSTS.glob("*.json")), key=lambda x: (x.get("pin", 0), x["published"], x["slug"]),
                   reverse=True)
 
 

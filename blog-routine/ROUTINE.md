@@ -33,3 +33,6 @@ Follow the SEO skill in `blog-routine/seo/` every time.
 - The widget HTML lives in `WIDGETS` in build.py and its script in `public/<script>.js`. Test the calculator logic with Playwright before publishing.
 - Weights and point values must come from the official source. Anything not published (for example AP 1 to 5 cut points) must be labelled as an estimate on the page.
 - Tool ideas next: AP score calculators for more subjects, IB points calculator, UCAS tariff points calculator, GPA converter, study planner.
+
+## Listing order
+Posts sort by `pin` first, then publish date (newest first). Posts with `"pin": 1` are listed above the rest on the blog and home pages, whatever their date. Remove the field to return a post to normal date order.
