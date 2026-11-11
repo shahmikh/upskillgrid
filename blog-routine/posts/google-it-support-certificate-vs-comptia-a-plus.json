@@ -1,0 +1,92 @@
+{
+ "slug": "google-it-support-certificate-vs-comptia-a-plus",
+ "category": "career-skills",
+ "title": "Google IT Support Certificate vs CompTIA A+ Compared",
+ "h1": "Google IT Support Certificate vs CompTIA A+: Which Is Better for Beginners?",
+ "description": "Google IT Support Certificate or CompTIA A+? Compare cost, time, exams and how employers see each one, and learn why many beginners end up doing both in order.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "One is a guided course with no exam; the other is a proctored certification. See which suits your budget and goal.",
+ "lead": "The Google IT Support Certificate is a guided online course, while CompTIA A+ is a proctored certification that employers list in job adverts. Google's certificate is cheaper and easier to start: about US$49 a month on Coursera, with no final exam. A+ needs two exams and more self-study, but it carries more weight on a CV. Many beginners take the Google course to learn, then sit A+ to prove it.",
+ "takeaways": [
+  "The Google certificate costs about US$49 a month on Coursera and takes most learners three to six months.",
+  "It has no proctored exam and never expires; A+ needs two exams and renewal every three years.",
+  "A+ is the more recognised credential for help desk job adverts.",
+  "Coursera offers financial aid, so the Google course can cost little or nothing if you qualify."
+ ],
+ "sections": [
+  {
+   "id": "difference",
+   "h2": "What is the difference between the Google IT Support Certificate and CompTIA A+?",
+   "html": "<p>They are different kinds of thing. The Google IT Support Professional Certificate is a set of online courses made by Google and hosted on Coursera. You watch lessons, complete graded labs and quizzes, and receive a certificate when you finish. CompTIA A+ is an industry certification: you study however you like, then pass two exams under exam conditions.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th></th><th>Google IT Support</th><th>CompTIA A+</th></tr></thead><tbody><tr><td>Type</td><td>Online course programme</td><td>Proctored certification</td></tr><tr><td>Exams</td><td>None; graded quizzes and labs</td><td>Two exams (220-1201 and 220-1202)</td></tr><tr><td>Typical time</td><td>3 to 6 months</td><td>3 to 6 months of study</td></tr><tr><td>Expires</td><td>No</td><td>Every 3 years</td></tr><tr><td>Teaching included</td><td>Yes</td><td>No, you choose your own material</td></tr></tbody></table></div>"
+  },
+  {
+   "id": "google",
+   "h2": "What does the Google IT Support Certificate involve?",
+   "html": "<p>According to <a href=\"https://onlinecerthub.com/google-it-support-certificate-jobs/\" rel=\"noopener\">Online Cert Hub's 2026 review</a>, the programme costs US$49 a month on Coursera in the US and Canada after a seven-day free trial, and Coursera's suggested pace of 10 hours a week finishes it in about three months. It covers troubleshooting, networking, operating systems, system administration and security, plus a short course on job searching.</p><p>Because you pay monthly, your speed decides the price. <a href=\"https://meritamerica.org/blog/google-it-support-certificate-worth-it/\" rel=\"noopener\">Merit America</a> points out that Coursera's own 2023 learner report found only 14% of US users complete a professional certificate, so set a weekly schedule before you subscribe. Coursera also offers financial aid on request.</p>"
+  },
+  {
+   "id": "aplus",
+   "h2": "What does CompTIA A+ involve?",
+   "html": "<p>A+ requires two exams, Core 1 (220-1201) and Core 2 (220-1202), each with up to 90 questions in 90 minutes. There is no required course, so you pick your own books, videos and practice tests. Exam vouchers are the main cost, and prices change by region, so check CompTIA's store before you budget. <a href=\"https://dreambound.com/blog/google-it-support-certificate-vs-comptia-a-plus\" rel=\"noopener\">Dreambound's comparison</a> confirms the basic picture: the Google route is cheaper by a wide margin, and A+ is the one that needs two paid exams.</p><p>If you want free preparation for A+, a Cisco Networking Academy course is a good start. We cover that in <a href=\"blog-cisco-it-essentials-vs-comptia-a-plus\">Cisco IT Essentials vs CompTIA A+</a>.</p>"
+  },
+  {
+   "id": "employers",
+   "h2": "Which one do employers prefer?",
+   "html": "<p>For help desk and IT support adverts, A+ is named far more often, because it is vendor-neutral, exam-based and has existed for decades. The Google certificate is well known and shows you finished structured training, but there is no supervised exam behind it, so some employers treat it as a course, not a certification.</p><p>That does not make the Google certificate weak. For a complete beginner it explains the material better than most A+ books do, and it gives you projects and vocabulary for interviews.</p>"
+  },
+  {
+   "id": "overlap",
+   "h2": "How much do the two overlap?",
+   "html": "<p>A lot. Both cover hardware basics, operating systems, networking, security fundamentals and troubleshooting method. The Google course spends more time on customer service, Linux command line and system administration tasks such as managing users. A+ goes further into hardware details, mobile devices, printers and the exact steps of CompTIA's troubleshooting model.</p><p>In practice, a student who finishes the Google certificate properly has seen roughly two thirds of what A+ tests. The gap is mostly memorisation: port numbers, cable and connector types, RAM and storage standards, and Windows tools. Budget four to eight extra weeks with an A+ book or video series and a bank of practice questions to close it.</p><p>Whichever route you take, practise on a real machine. Install a virtual machine, break something on purpose and fix it. Interviewers for help desk roles ask how you solved a problem far more often than they ask for definitions.</p>"
+  },
+  {
+   "id": "choose",
+   "h2": "Which should you choose?",
+   "html": "<ul><li><strong>Choose the Google certificate</strong> if you are new to IT, want guided lessons and have a small budget.</li><li><strong>Choose A+</strong> if you already know the basics and want the credential that appears in job adverts.</li><li><strong>Do both in order</strong> if you can: learn with Google's course, then use that knowledge to pass A+ with less extra study.</li></ul><p>After either one, the usual next steps are networking and security. See <a href=\"blog-comptia-a-plus-vs-network-plus\">CompTIA A+ vs Network+</a> for the next decision.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is the Google IT Support Certificate free?",
+   "a": "Not by default. It costs about US$49 a month on Coursera after a seven-day trial. Coursera offers financial aid, which can reduce the cost or remove it if your application is approved."
+  },
+  {
+   "q": "Does the Google IT Support Certificate have an exam?",
+   "a": "No. You complete graded quizzes and labs inside the courses. There is no proctored final exam and the certificate does not expire."
+  },
+  {
+   "q": "Can the Google certificate replace CompTIA A+?",
+   "a": "Not fully. It teaches similar topics, but employers who ask for A+ usually want the exam-based certification. The Google course is good preparation for it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Google IT Support Professional Certificate review, Online Cert Hub",
+   "url": "https://onlinecerthub.com/google-it-support-certificate-jobs/"
+  },
+  {
+   "title": "Is the Google IT Support Certificate worth it?, Merit America",
+   "url": "https://meritamerica.org/blog/google-it-support-certificate-worth-it/"
+  },
+  {
+   "title": "Google IT Support Certificate vs CompTIA A+, Dreambound",
+   "url": "https://dreambound.com/blog/google-it-support-certificate-vs-comptia-a-plus"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-cisco-it-essentials-vs-comptia-a-plus",
+   "title": "Cisco IT Essentials vs CompTIA A+"
+  },
+  {
+   "href": "blog-comptia-a-plus-vs-network-plus",
+   "title": "CompTIA A+ vs Network+"
+  },
+  {
+   "href": "blog-which-it-certification-first",
+   "title": "Which IT certification should you get first?"
+  }
+ ]
+}

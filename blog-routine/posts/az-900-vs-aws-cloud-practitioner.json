@@ -1,0 +1,92 @@
+{
+ "slug": "az-900-vs-aws-cloud-practitioner",
+ "category": "career-skills",
+ "title": "AZ-900 vs AWS Cloud Practitioner: Which First?",
+ "h1": "AZ-900 vs AWS Cloud Practitioner: Which Cloud Certification Should You Take First?",
+ "description": "AZ-900 or AWS Cloud Practitioner? Compare exam length, cost, pass marks, expiry and difficulty to choose your first cloud certification with confidence.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "Two beginner cloud exams compared on time, cost, expiry and difficulty, with a simple way to choose.",
+ "lead": "Pick AZ-900 if you want the quicker, slightly easier exam or you expect to work with Microsoft products, and pick AWS Cloud Practitioner if the jobs you want mention AWS. Both are beginner exams with a pass mark of 700 out of 1000 and a fee of about US$100. The biggest practical difference is that AZ-900 is 45 minutes and never expires, while the AWS exam is 90 minutes and lasts three years.",
+ "takeaways": [
+  "AZ-900 is a 45-minute exam costing US$99, and the certification does not expire.",
+  "AWS Cloud Practitioner (CLF-C02) has 65 questions in 90 minutes, costs US$100 and is valid for three years.",
+  "Both need 700 out of 1000 to pass and have no prerequisites.",
+  "Neither is enough for a cloud job alone; they are a first step toward associate-level certifications."
+ ],
+ "sections": [
+  {
+   "id": "difference",
+   "h2": "What is the difference between AZ-900 and AWS Cloud Practitioner?",
+   "html": "<p>Both exams test the same idea: do you understand what cloud computing is, what the main services do, and how pricing, security and support work? AZ-900 asks this about Microsoft Azure. The AWS Certified Cloud Practitioner exam, code CLF-C02, asks it about Amazon Web Services.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th></th><th>AZ-900</th><th>AWS Cloud Practitioner</th></tr></thead><tbody><tr><td>Provider</td><td>Microsoft</td><td>Amazon Web Services</td></tr><tr><td>Exam time</td><td>45 minutes</td><td>90 minutes</td></tr><tr><td>Questions</td><td>Not published by Microsoft</td><td>65 (50 scored)</td></tr><tr><td>Pass mark</td><td>700 out of 1000</td><td>700 out of 1000</td></tr><tr><td>Fee</td><td>US$99</td><td>US$100</td></tr><tr><td>Expires</td><td>No</td><td>After 3 years</td></tr></tbody></table></div><p>The Azure figures come from <a href=\"https://trainingcamp.com/what-is-azure-fundamentals/\" rel=\"noopener\">Training Camp's Azure Fundamentals guide</a> and the AWS figures from its <a href=\"https://trainingcamp.com/what-is-aws-cloud-practitioner/\" rel=\"noopener\">AWS Cloud Practitioner guide</a>. Fees vary by country, and Microsoft in particular prices exams by region.</p>"
+  },
+  {
+   "id": "az900",
+   "h2": "What does AZ-900 cover?",
+   "html": "<p>AZ-900 has three areas: cloud concepts, Azure architecture and services, and Azure management and governance. You will meet ideas such as regions, virtual machines, storage accounts, Microsoft Entra ID and cost management. No coding or hands-on configuration is needed.</p><p>Because the certification never expires, AZ-900 is a low-risk first exam. Microsoft's free Microsoft Learn modules cover the whole syllabus, so many students pass it with no paid course.</p>"
+  },
+  {
+   "id": "aws",
+   "h2": "What does AWS Cloud Practitioner cover?",
+   "html": "<p>CLF-C02 has four domains: cloud concepts, security and compliance, cloud technology and services, and billing, pricing and support. It asks about more individual services than AZ-900 does, including compute, storage, databases and networking, and it puts more weight on security and billing.</p><p>AWS suggests up to six months of exposure to AWS, but it is not required. The exam is multiple choice and multiple response.</p>"
+  },
+  {
+   "id": "harder",
+   "h2": "Which exam is harder?",
+   "html": "<p>Most candidates find AZ-900 slightly easier. <a href=\"https://www.examcert.app/blog/aws-cloud-practitioner-vs-azure-fundamentals/\" rel=\"noopener\">ExamCert's comparison</a> gives the reasons: fewer questions, a shorter sitting, and question types such as drag-and-drop and yes or no that are quicker to answer than AWS's scenario questions.</p><p>The difference is small. With no experience, plan two to four weeks for AZ-900 and three to six weeks for Cloud Practitioner, at about an hour a day.</p>"
+  },
+  {
+   "id": "study",
+   "h2": "How do you prepare for free?",
+   "html": "<p>You can pass either exam without paying for a course. Both providers publish free official training that follows the exam outline, and both offer a free account tier so you can try the services.</p><ol><li>Read the official exam guide first and copy the domain list into your notes. It tells you exactly what can be asked.</li><li>Work through the provider's free learning path: Microsoft Learn for AZ-900, or AWS Skill Builder's Cloud Practitioner Essentials for CLF-C02.</li><li>Open a free account and click through the main services. Create a storage bucket or a small virtual machine, then delete it so you are not charged.</li><li>Finish with timed practice questions and learn the shared responsibility model and pricing options thoroughly, since both exams return to them again and again.</li></ol><p>A common mistake is memorising service names without knowing what problem each one solves. For every service, write one sentence that starts with 'You would use this when'. That habit also helps in interviews.</p>"
+  },
+  {
+   "id": "choose",
+   "h2": "Which should you take first?",
+   "html": "<ul><li><strong>Take AZ-900</strong> if your school, university or employer uses Microsoft 365, or you want a fast first pass that never needs renewing.</li><li><strong>Take AWS Cloud Practitioner</strong> if local job adverts ask for AWS, or you plan to go on to AWS Solutions Architect Associate.</li><li><strong>Do not take both</strong> straight away. The concepts overlap so much that your time is better spent on an associate-level exam next.</li></ul><p>Cloud roles also expect networking and scripting basics. Our guides to <a href=\"blog-which-it-certification-first\">choosing a first IT certification</a> and <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a> cover both. If AI on Azure interests you, read the <a href=\"blog-ai-900-retired-ai-901-guide\">AI-900 and AI-901 guide</a> as well.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Does AZ-900 expire?",
+   "a": "No. Microsoft fundamentals certifications such as AZ-900 do not expire. The AWS Cloud Practitioner certification is valid for three years."
+  },
+  {
+   "q": "Can I get a job with AZ-900 or AWS Cloud Practitioner?",
+   "a": "Rarely with that alone. Both prove basic knowledge. Employers usually look for an associate-level certification, hands-on projects or IT experience as well."
+  },
+  {
+   "q": "Is AZ-900 easier than AWS Cloud Practitioner?",
+   "a": "Slightly, for most people. It is a shorter exam with fewer questions, and it covers fewer individual services."
+  }
+ ],
+ "sources": [
+  {
+   "title": "What is Azure Fundamentals (AZ-900)?, Training Camp",
+   "url": "https://trainingcamp.com/what-is-azure-fundamentals/"
+  },
+  {
+   "title": "What is the AWS Cloud Practitioner?, Training Camp",
+   "url": "https://trainingcamp.com/what-is-aws-cloud-practitioner/"
+  },
+  {
+   "title": "AWS Cloud Practitioner vs Azure Fundamentals, ExamCert",
+   "url": "https://www.examcert.app/blog/aws-cloud-practitioner-vs-azure-fundamentals/"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-ai-900-retired-ai-901-guide",
+   "title": "AI-900 retired: the AI-901 guide"
+  },
+  {
+   "href": "blog-which-it-certification-first",
+   "title": "Which IT certification should you get first?"
+  },
+  {
+   "href": "blog-free-python-courses-with-certificates",
+   "title": "Free Python courses with certificates"
+  }
+ ]
+}

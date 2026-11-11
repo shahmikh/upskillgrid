@@ -1,0 +1,100 @@
+{
+ "slug": "security-plus-sy0-801-vs-sy0-701",
+ "category": "career-skills",
+ "title": "Security+ SY0-801 vs SY0-701: What Is Changing?",
+ "h1": "Security+ SY0-801 vs SY0-701: What Is Changing and Which Should You Take?",
+ "description": "Security+ SY0-801 is expected in November 2026. See the new domain weights, the added AI topics, when SY0-701 retires and which exam version you should book.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "The new Security+ exam adds AI topics and shifts domain weights. Here is what changes and which version to sit.",
+ "lead": "If you are already studying for Security+ SY0-701, finish it: the English exam is available until 11 June 2027 and earns the same certification. If you are starting from zero and will not be ready before spring 2027, study for SY0-801 instead. The new version keeps five domains and the same style of exam, but shifts the weights and adds objectives on AI and large language models.",
+ "takeaways": [
+  "SY0-801 is expected to launch on 17 November 2026; confirm the date on CompTIA's site before booking.",
+  "The English SY0-701 exam retires on 11 June 2027, so the two versions overlap for about seven months.",
+  "Reported weights move toward general concepts and threats, and away from governance.",
+  "Both versions award the same Security+ certification, valid for three years."
+ ],
+ "sections": [
+  {
+   "id": "what",
+   "h2": "What is Security+ SY0-801?",
+   "html": "<p>SY0-801 is version 8 of the CompTIA Security+ exam. It replaces SY0-701, which launched on 7 November 2023. CompTIA refreshes Security+ roughly every three years so that the exam matches the work entry-level security staff actually do.</p><p>It is not a new certification. Whichever exam you pass, your certificate simply says CompTIA Security+. If you are still choosing between certifications, start with <a href=\"blog-security-plus-vs-network-plus\">Security+ vs Network+</a>.</p>"
+  },
+  {
+   "id": "dates",
+   "h2": "When does SY0-801 launch and when does SY0-701 retire?",
+   "html": "<p><a href=\"https://www.infosectrain.com/?p=53359\" rel=\"noopener\">InfosecTrain's comparison</a> gives an expected SY0-801 launch date of 17 November 2026 and advises checking CompTIA's website before you book. <a href=\"https://www.comptia.org/en/certifications/security/v7/\" rel=\"noopener\">CompTIA's Security+ V7 page</a> lists the SY0-701 retirement as 11 June 2027 for English, and 13 August 2027 for Japanese, Portuguese, Spanish and Thai.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Milestone</th><th>Date</th></tr></thead><tbody><tr><td>SY0-701 launched</td><td>7 November 2023</td></tr><tr><td>SY0-801 expected launch</td><td>17 November 2026</td></tr><tr><td>SY0-701 retires (English)</td><td>11 June 2027</td></tr><tr><td>SY0-701 retires (other languages)</td><td>13 August 2027</td></tr></tbody></table></div><p>During the overlap you can book either version. Vouchers and study material are tied to a version, so do not buy SY0-701 material unless you are confident you will sit the exam before it retires.</p>"
+  },
+  {
+   "id": "weights",
+   "h2": "How do the domain weights change?",
+   "html": "<p>The five domains stay, but their share of the exam moves. <a href=\"https://certmage.com/sy0-701-vs-sy0-801/\" rel=\"noopener\">Certmage's version comparison</a> reports General Security Concepts rising from 12% to 16%, and InfosecTrain reports Security Program Management and Oversight falling from 20% to 14%. Threats and vulnerabilities and security architecture each rise slightly.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Domain</th><th>SY0-701</th><th>SY0-801 (reported)</th></tr></thead><tbody><tr><td>General security concepts</td><td>12%</td><td>16%</td></tr><tr><td>Threats, vulnerabilities and attacks</td><td>22%</td><td>24%</td></tr><tr><td>Security architecture</td><td>18%</td><td>19%</td></tr><tr><td>Security operations</td><td>28%</td><td>About 27%</td></tr><tr><td>Program management and oversight</td><td>20%</td><td>14%</td></tr></tbody></table></div><p>Security operations remains the largest domain in both versions. Always check the official exam objectives PDF for the final numbers, because several training sites wrote their comparisons from draft objectives.</p>"
+  },
+  {
+   "id": "ai",
+   "h2": "What new topics does SY0-801 add?",
+   "html": "<p>The headline change is artificial intelligence. SY0-701 mentions AI only briefly. <a href=\"https://certempire.com/whats-new-sy0-801-ai-llm-objectives/\" rel=\"noopener\">Cert Empire's breakdown of the draft objectives</a> describes three AI-related objectives across two domains: securing AI systems such as large language models, attackers using AI, and defenders using AI tools.</p><p><a href=\"https://trainingcamp.com/articles/comptia-security-sy0-801-release-date-and-everything-we-know-so-far/\" rel=\"noopener\">Training Camp</a> also notes that the structure otherwise closely matches SY0-701. In practice that means most of what you learn for one version carries over to the other: cryptography, access control, network security, incident response and risk management are all still there.</p><p>As someone who teaches Security+, my advice is not to panic about the AI content. It is a small part of the exam, and it rewards clear thinking about data, access and trust, which you need anyway.</p>"
+  },
+  {
+   "id": "which",
+   "h2": "Should you take SY0-701 or wait for SY0-801?",
+   "html": "<ul><li><strong>Stay with SY0-701</strong> if you have already started, own the study material and can sit the exam before June 2027.</li><li><strong>Switch to SY0-801</strong> if you have not started yet and your realistic exam date is in the second half of 2027.</li><li><strong>Either is fine</strong> if you are in between. Pick the version your course or tutor is teaching and commit to a date.</li></ul><p>New exams often have fewer practice questions available in their first months, which is one reason many candidates prefer the older, well-documented version while it is still on offer. A dated plan helps: see <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">how to use AI to make a study plan</a>.</p>"
+  },
+  {
+   "id": "study",
+   "h2": "How should you study during the changeover?",
+   "html": "<p>The safest approach is to build your plan around the official exam objectives for one version and ignore the other until you have passed. Download the objectives PDF from CompTIA, turn each line into a checklist item and mark it when you can explain it without notes.</p><ol><li>Spend your first two weeks on the fundamentals that both versions share: the CIA triad, authentication, encryption types, common ports and network devices.</li><li>Give the most time to security operations and threats, because together they make up about half the exam in either version.</li><li>Practise performance-based questions early. They appear at the start of the exam and take longer than multiple choice.</li><li>Take full timed practice tests in the last two weeks and review every wrong answer, including the lucky guesses.</li></ol><p>Students who fail usually know the definitions but cannot apply them to a scenario. When you learn a term, ask yourself which control you would choose in a real company, and why the other options are worse.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Security+ SY0-801 harder than SY0-701?",
+   "a": "Not necessarily. The format is the same and most topics carry over. SY0-801 adds AI-related objectives and changes domain weights, so it tests slightly different material, not a higher level."
+  },
+  {
+   "q": "Will my SY0-701 certification expire when SY0-801 launches?",
+   "a": "No. Your Security+ certification is valid for three years from the day you pass, whichever exam version you took."
+  },
+  {
+   "q": "Can I use SY0-701 study material for SY0-801?",
+   "a": "Partly. Core topics overlap heavily, but the AI objectives and reweighted domains mean you should finish with material written for SY0-801."
+  }
+ ],
+ "sources": [
+  {
+   "title": "CompTIA Security+ V7 (SY0-701), CompTIA",
+   "url": "https://www.comptia.org/en/certifications/security/v7/"
+  },
+  {
+   "title": "Security+ SY0-801 vs SY0-701, InfosecTrain",
+   "url": "https://www.infosectrain.com/?p=53359"
+  },
+  {
+   "title": "SY0-701 vs SY0-801, Certmage",
+   "url": "https://certmage.com/sy0-701-vs-sy0-801/"
+  },
+  {
+   "title": "SY0-801 AI and LLM objectives, Cert Empire",
+   "url": "https://certempire.com/whats-new-sy0-801-ai-llm-objectives/"
+  },
+  {
+   "title": "Security+ SY0-801 release date, Training Camp",
+   "url": "https://trainingcamp.com/articles/comptia-security-sy0-801-release-date-and-everything-we-know-so-far/"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-security-plus-vs-network-plus",
+   "title": "Security+ vs Network+"
+  },
+  {
+   "href": "blog-which-it-certification-first",
+   "title": "Which IT certification should you get first?"
+  },
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan"
+  }
+ ]
+}

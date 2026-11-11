@@ -1,0 +1,100 @@
+{
+ "slug": "is-isc2-cc-still-free",
+ "category": "career-skills",
+ "title": "Is the ISC2 CC Exam Still Free? What It Costs Now",
+ "h1": "Is the ISC2 Certified in Cybersecurity (CC) Exam Still Free in 2026?",
+ "description": "The free ISC2 CC exam offer has ended for new candidates. See what Certified in Cybersecurity costs now, who can still use a free code, and if it is worth it.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "The free ISC2 CC programme has closed. Here is the current cost, the deadline for old codes and who should still take it.",
+ "lead": "No, not for new candidates. ISC2's One Million Certified in Cybersecurity programme, which gave away free training and a free exam, has ended. The Certified in Cybersecurity (CC) exam now costs US$199, plus a US$50 annual maintenance fee once you pass. If you received a free exam code before the programme closed and it has not expired, you can still sit the exam until 31 December 2026.",
+ "takeaways": [
+  "The free CC programme reached its one million goal and is closed to new sign-ups.",
+  "The standard exam fee is now US$199, with a US$50 annual maintenance fee after you certify.",
+  "Unexpired free exam codes can be used until 31 December 2026.",
+  "Many free cybersecurity courses still exist, but most give a course badge, not a certification."
+ ],
+ "sections": [
+  {
+   "id": "what",
+   "h2": "What is the ISC2 Certified in Cybersecurity (CC)?",
+   "html": "<p>CC is the entry-level certification from ISC2, the organisation behind the well-known CISSP. It needs no work experience and covers five areas: security principles, business continuity and incident response, access control, network security, and security operations. It is aimed at students and career changers who want a first security credential.</p>"
+  },
+  {
+   "id": "free",
+   "h2": "Is the ISC2 CC exam still free?",
+   "html": "<p>ISC2 confirms on its <a href=\"https://www.isc2.org/1MCC\" rel=\"noopener\">programme page</a> that One Million Certified in Cybersecurity is ending because it passed its goal of enrolling more than one million people in the free course and exam. The same page says that anyone who was issued a CC exam code through the programme, and whose code has not expired, may schedule and sit the exam by 31 December 2026.</p><p><a href=\"https://www.examcert.app/blog/isc2-cc-worth-it/\" rel=\"noopener\">ExamCert's cost breakdown</a> reports that the programme closed to new participants on 20 May 2026. Many older blog posts and social media lists still call CC a free certification, so check the date of anything you read.</p>"
+  },
+  {
+   "id": "cost",
+   "h2": "How much does the ISC2 CC cost now?",
+   "html": "<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Item</th><th>Cost</th></tr></thead><tbody><tr><td>Exam fee</td><td>US$199</td></tr><tr><td>Annual maintenance fee</td><td>US$50 a year</td></tr><tr><td>First-year total if you self-study</td><td>About US$249</td></tr></tbody></table></div><p>These figures come from <a href=\"https://trainingcamp.com/articles/isc2-cc-certification-guide-2026-exam-domains-cost-and-what-its-worth/\" rel=\"noopener\">Training Camp's 2026 CC guide</a> and match <a href=\"https://open-exam-prep.com/study-guides/isc2-cc/introduction/official-2026-cc-exam-facts\" rel=\"noopener\">Open Exam Prep's exam facts</a>. Prices and tax vary by region. ISC2's <a href=\"https://www.isc2.org/100k\" rel=\"noopener\">own page</a> confirms that after passing you complete an application and pay the US$50 annual maintenance fee to hold the certification.</p><p>To keep CC active you also need 45 continuing professional education credits over each three-year cycle.</p>"
+  },
+  {
+   "id": "exam",
+   "h2": "What is the CC exam like?",
+   "html": "<p>The exam is taken at a Pearson VUE test centre. Open Exam Prep lists a time limit of 120 minutes for 100 to 125 questions under the outline that took effect on 1 September 2026, with a scaled pass mark of 700 out of 1000. Questions are multiple choice and focus on concepts and definitions, not hands-on configuration.</p><p>Most beginners need two to four weeks of steady study. It is noticeably easier than Security+, which is longer in content and includes performance-based questions.</p>"
+  },
+  {
+   "id": "study",
+   "h2": "How should you prepare for the CC exam?",
+   "html": "<p>CC rewards understanding of definitions and principles, so the best preparation is steady reading and question practice, not labs. A simple four-week plan works for most beginners.</p><ol><li><strong>Week 1:</strong> security principles. Learn confidentiality, integrity and availability, risk terms, and the difference between policies, standards and procedures.</li><li><strong>Week 2:</strong> incident response, business continuity and disaster recovery. Know what each plan is for and the order of the steps.</li><li><strong>Week 3:</strong> access control and network security. Cover authentication factors, least privilege, common ports, firewalls and typical attacks.</li><li><strong>Week 4:</strong> security operations, then two or three timed practice exams.</li></ol><p>ISC2 questions often ask for the best answer among several that sound correct. Read every option before choosing, and think like a manager protecting people and the organisation first, technology second. The ISC2 Code of Ethics is also examinable, so read it once carefully.</p><p>Students who already hold or are studying for Security+ usually need only a few days of review, because the content overlaps heavily.</p>"
+  },
+  {
+   "id": "worth",
+   "h2": "Is the CC still worth paying for?",
+   "html": "<p>When it was free, CC was an easy decision. At US$199 it competes with other options. Consider it if you want an ISC2 membership early, your employer or university recommends it, or you want a gentle first exam before Security+.</p><p>If your goal is a security job, Security+ is requested far more often in job adverts, so many students now save their money for that. Our <a href=\"blog-security-plus-vs-network-plus\">Security+ vs Network+</a> guide explains the path. If your budget is zero, start with courses that are still free: see our list of <a href=\"blog-free-cybersecurity-courses-with-certificates\">free cybersecurity courses with certificates</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I still get a free ISC2 CC exam voucher?",
+   "a": "Not as a new candidate. The One Million Certified in Cybersecurity programme has closed. Only people who already hold an unexpired code can use it, and only until 31 December 2026."
+  },
+  {
+   "q": "Is ISC2 CC easier than Security+?",
+   "a": "Yes. CC is a shorter, concept-based entry exam with no performance-based questions. Security+ covers more material in more depth."
+  },
+  {
+   "q": "Do I have to pay the ISC2 annual fee?",
+   "a": "Yes, if you want to hold the certification. After passing you pay a US$50 annual maintenance fee and earn 45 CPE credits every three years."
+  }
+ ],
+ "sources": [
+  {
+   "title": "One Million Certified in Cybersecurity FAQ, ISC2",
+   "url": "https://www.isc2.org/1MCC"
+  },
+  {
+   "title": "One Million Certified in Cybersecurity has concluded, ISC2",
+   "url": "https://www.isc2.org/100k"
+  },
+  {
+   "title": "Is ISC2 CC worth it in 2026?, ExamCert",
+   "url": "https://www.examcert.app/blog/isc2-cc-worth-it/"
+  },
+  {
+   "title": "Official 2026 CC exam facts, Open Exam Prep",
+   "url": "https://open-exam-prep.com/study-guides/isc2-cc/introduction/official-2026-cc-exam-facts"
+  },
+  {
+   "title": "ISC2 CC certification guide 2026, Training Camp",
+   "url": "https://trainingcamp.com/articles/isc2-cc-certification-guide-2026-exam-domains-cost-and-what-its-worth/"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-free-cybersecurity-courses-with-certificates",
+   "title": "Free cybersecurity courses with certificates"
+  },
+  {
+   "href": "blog-security-plus-vs-network-plus",
+   "title": "Security+ vs Network+"
+  },
+  {
+   "href": "blog-which-it-certification-first",
+   "title": "Which IT certification should you get first?"
+  }
+ ]
+}
