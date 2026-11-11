@@ -1,0 +1,92 @@
+{
+ "slug": "chatgpt-vs-gemini-vs-claude-free-plans",
+ "category": "ai-tools",
+ "title": "ChatGPT vs Gemini vs Claude: Free Plans Compared",
+ "h1": "ChatGPT vs Gemini vs Claude: What You Get on the Free Plans",
+ "description": "ChatGPT, Gemini and Claude all have free plans, but they limit you in different ways. Compare models, message caps, ads, images and which suits students best.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "The three big free AI chatbots limit you differently. See the caps, the catches and which to use for study.",
+ "lead": "All three are free to use, but each rations you differently. ChatGPT's free plan allows unlimited everyday text chat on a smaller model and now shows ads. Claude's free plan uses a stronger model with no ads, but caps messages in five-hour windows. Gemini's free plan is tied to your Google account and limited by a usage allowance on Google's lighter models. For most students the best answer is to use two of them.",
+ "takeaways": [
+  "ChatGPT Free: unlimited everyday text chats on a smaller model, with ads and capped extras.",
+  "Claude Free: no ads and a strong model, but roughly 15 to 40 messages per five-hour window.",
+  "Gemini Free: usage-based limits that refresh every five hours, plus links to Google tools such as NotebookLM.",
+  "Free plan rules change often, so check each provider's own plan page before relying on a limit."
+ ],
+ "sections": [
+  {
+   "id": "compare",
+   "h2": "How do the free plans compare?",
+   "html": "<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th></th><th>ChatGPT Free</th><th>Claude Free</th><th>Gemini Free</th></tr></thead><tbody><tr><td>Made by</td><td>OpenAI</td><td>Anthropic</td><td>Google</td></tr><tr><td>How it limits you</td><td>Unlimited everyday text; caps on images, files and advanced features</td><td>Message cap that refills over five hours</td><td>Usage allowance that refreshes every five hours</td></tr><tr><td>Ads</td><td>Yes</td><td>No</td><td>None noted in the reviews we checked</td></tr><tr><td>Web search</td><td>Yes</td><td>Yes</td><td>Yes, with Google Search</td></tr><tr><td>Image generation</td><td>Yes, limited</td><td>No</td><td>Yes, limited</td></tr><tr><td>Cheapest paid step</td><td>ChatGPT Go, about US$8 a month</td><td>Claude Pro, US$20 a month</td><td>Google AI Plus, about US$5 a month</td></tr></tbody></table></div><p>This table is based on <a href=\"https://www.ssdnodes.com/learn/claude-vs-chatgpt-vs-gemini-free-plans\" rel=\"noopener\">SSD Nodes' comparison</a>, dated early October 2026, and <a href=\"https://www.scriptbyai.com/ai-chatbot-free-plan-limits/\" rel=\"noopener\">ScriptByAI's free plan tracker</a>. Prices are US list prices and differ by country.</p>"
+  },
+  {
+   "id": "chatgpt",
+   "h2": "What do you get with ChatGPT for free?",
+   "html": "<p>ChatGPT is the most generous on quantity. <a href=\"https://tech-insider.org/?p=18958\" rel=\"noopener\">Tech Insider's review of free tier caps</a> notes that OpenAI now promises unlimited everyday text chats on the free plan. SSD Nodes adds two catches: the free plan runs on OpenAI's smallest current model, and it shows ads. Image generation and file uploads are available but counted against separate limits.</p><p>For students, the most useful free feature is study mode, which turns ChatGPT into a tutor that asks questions instead of handing over answers. We cover it in <a href=\"blog-chatgpt-study-mode-guide\">how to use ChatGPT study mode</a>.</p>"
+  },
+  {
+   "id": "claude",
+   "h2": "What do you get with Claude for free?",
+   "html": "<p>Claude's free plan is the most tightly rationed and the least cluttered. Tech Insider puts the cap at roughly 15 to 40 messages per five-hour window, depending on message length and demand. In return, SSD Nodes reports a stronger model than ChatGPT's free one and no ads on any plan. The free plan can search the web, create files and run code, according to the same comparison.</p><p>ScriptByAI lists the gaps: Claude does not generate images, and its research feature needs a paid plan. Claude tends to suit long, careful tasks such as reviewing an essay draft or explaining code step by step, where a few high-quality replies matter more than many quick ones.</p>"
+  },
+  {
+   "id": "gemini",
+   "h2": "What do you get with Gemini for free?",
+   "html": "<p>Gemini's free plan comes with any Google account. Google does not publish a simple message count. ScriptByAI explains that Gemini calculates usage from prompt complexity, model choice, conversation length and features used, with the allowance refreshing every five hours until a weekly limit is reached. SSD Nodes reports that from 9 October 2026 the free plan was limited to Flash-Lite, Google's lightest model.</p><p>Gemini's advantage is the Google ecosystem. It searches with Google, works alongside Docs and Gmail, and sits next to NotebookLM, a free study tool that answers questions from your own notes. See <a href=\"blog-how-to-use-notebooklm-for-studying\">how to use NotebookLM for studying</a>.</p>"
+  },
+  {
+   "id": "students",
+   "h2": "Which free AI chatbot is best for students?",
+   "html": "<ul><li><strong>Daily questions and practice:</strong> ChatGPT, because you will not run out of messages.</li><li><strong>Feedback on essays, code and long documents:</strong> Claude, used sparingly for your most important tasks.</li><li><strong>Research with sources and Google files:</strong> Gemini, together with NotebookLM.</li><li><strong>Images for presentations:</strong> ChatGPT or Gemini, within their free limits.</li></ul><p>Using two tools is a good habit anyway. Ask the same question in both and compare the answers. When they disagree, you have found something worth checking in your textbook. Good prompts matter more than which tool you choose, so read <a href=\"blog-prompt-writing-basics\">prompt writing basics</a> as well.</p>"
+  },
+  {
+   "id": "pay",
+   "h2": "Should a student pay for an AI chatbot?",
+   "html": "<p>Usually not at first. Free plans cover explanations, quizzes, planning and feedback. Consider paying only if you hit limits every day for several weeks, or you need a specific feature such as longer documents or more image generation. Check for student pricing first, and ask whether your school or university already provides a licence.</p><p>Whatever you use, remember the limits of the technology. All three can state wrong facts confidently, so verify anything that matters, and follow your school's rules on AI use in assessed work.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is ChatGPT free plan unlimited?",
+   "a": "Everyday text chat is unlimited on ChatGPT's free plan, according to recent reviews, but it uses a smaller model, shows ads, and caps images, file uploads and advanced features."
+  },
+  {
+   "q": "Is Claude free to use?",
+   "a": "Yes. Claude has a free plan with no ads. It limits you to a number of messages in each five-hour window, reported at roughly 15 to 40 depending on usage."
+  },
+  {
+   "q": "Which is better for studying, ChatGPT or Gemini?",
+   "a": "Both work well. ChatGPT offers unlimited everyday chat and a study mode. Gemini adds Guided Learning and works with NotebookLM and other Google tools."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Free Claude vs ChatGPT vs Gemini: what you get, SSD Nodes",
+   "url": "https://www.ssdnodes.com/learn/claude-vs-chatgpt-vs-gemini-free-plans"
+  },
+  {
+   "title": "ChatGPT vs Claude vs Gemini: free tier message caps, Tech Insider",
+   "url": "https://tech-insider.org/?p=18958"
+  },
+  {
+   "title": "AI chatbot free plan limits, ScriptByAI",
+   "url": "https://www.scriptbyai.com/ai-chatbot-free-plan-limits/"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-chatgpt-study-mode-guide",
+   "title": "How to use ChatGPT study mode"
+  },
+  {
+   "href": "blog-how-to-use-notebooklm-for-studying",
+   "title": "How to use NotebookLM for studying"
+  },
+  {
+   "href": "blog-prompt-writing-basics",
+   "title": "Prompt writing basics"
+  }
+ ]
+}

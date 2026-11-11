@@ -1,0 +1,100 @@
+{
+ "slug": "do-ai-detectors-work",
+ "category": "ai-tools",
+ "title": "Do AI Detectors Work? What Students Should Know",
+ "h1": "Do AI Detectors Work? Accuracy, False Positives and What Students Should Do",
+ "description": "AI detectors can flag human writing as AI. See what research says about accuracy, why some universities switched them off, and how to protect yourself.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "AI detectors make mistakes in both directions. Here is the evidence, and how to protect yourself if you are wrongly flagged.",
+ "lead": "AI detectors work some of the time, but not reliably enough to prove anything alone. They miss AI text that has been edited, and they sometimes flag writing that a person produced, especially writing by non-native English speakers. That is why a growing number of universities have switched off Turnitin's AI detection or told staff not to use a score as evidence. The safest approach for students is to keep proof of your own writing process.",
+ "takeaways": [
+  "Detectors produce false positives (human work flagged as AI) and false negatives (AI work missed).",
+  "Turnitin reports a false positive rate below 1%, but independent tests have found higher rates.",
+  "Several universities, including Washington State and Waterloo, have disabled Turnitin's AI detector.",
+  "Version history, notes and drafts are your best protection against a wrong accusation."
+ ],
+ "sections": [
+  {
+   "id": "how",
+   "h2": "How do AI detectors work?",
+   "html": "<p>An AI detector is itself an AI model. It looks at patterns in a piece of text, such as how predictable the word choices are and how much sentence length varies, and estimates the chance that a language model wrote it. It does not find a copy of your text anywhere, so it is different from a plagiarism checker. It produces a probability, not proof.</p><p>That matters because clear, formal, grammatically careful writing is exactly what both good students and AI tools produce.</p>"
+  },
+  {
+   "id": "accuracy",
+   "h2": "How accurate are AI detectors?",
+   "html": "<p>Less accurate than their marketing suggests. <a href=\"https://www.mtroyal.ca/AI/ai-detection-advisory.htm\" rel=\"noopener\">Mount Royal University's advisory on AI writing detection</a> summarises the research: a 2023 study that tested fourteen detectors, Turnitin included, found that none reached 80% overall accuracy. The advisory adds that detectors can flag students who did not use AI and pass students who did, and that accuracy drops sharply when AI text is lightly edited.</p><p>Turnitin's own figure is a false positive rate below 1% for documents with more than 20% AI writing. <a href=\"https://workingeducators.org/turnitin\" rel=\"noopener\">Working Educators' 2026 review</a> tested 320 essays and found 15% of human work flagged overall, and 31% for ESL students, while noting that a separate test of theirs measured only 2 to 4%. Results depend heavily on the essays, the students and the threshold used.</p><p>Even a small error rate becomes a large number at scale, as the next section shows.</p>"
+  },
+  {
+   "id": "universities",
+   "h2": "Why are universities switching AI detectors off?",
+   "html": "<p>Washington State University cancelled its Turnitin AI detection contract in February 2026. Its <a href=\"https://provost.wsu.edu/documents/2026/02/cancellation-of-turnitin-ai-detection-software_memo-to-instructors_provost-office_spring-2026.pdf\" rel=\"noopener\">memo to instructors</a> gives the arithmetic: in autumn 2024 the tool analysed 148,547 assessments, so even a 1% false positive rate would mean almost 1,485 pieces of work flagged as AI when they were not.</p><p><a href=\"https://casrai.org/news/ai-detector-false-positive-controversies-2026\" rel=\"noopener\">CASRAI's 2026 review</a> describes a wider retreat. Curtin University disabled the feature from 1 January 2026, and a New York court reversed a student's expulsion that rested on a Turnitin flag. <a href=\"https://www.edcafe.ai/blog/goodbye-ai-detection-tools\" rel=\"noopener\">Edcafe</a> lists the University of Waterloo, which stopped using the feature in September 2025, and reports that at least 12 leading US universities, including Yale, Johns Hopkins and Northwestern, have disabled it.</p><p>Many schools still use detectors, though, and policies differ. Always check your own institution's rules.</p>"
+  },
+  {
+   "id": "bias",
+   "h2": "Who is most likely to be wrongly flagged?",
+   "html": "<p>Non-native English writers. CASRAI cites the well-known Stanford study in which detectors wrongly flagged essays by non-native speakers at an average rate above 61%, while almost never flagging essays by native-speaking US students. Edcafe notes that when the vocabulary in those essays was made more varied, the false positive rate fell to 11.6%.</p><p>Students who write in a plain, structured style, and those who use grammar tools heavily, also report more flags. If English is your second language, the advice in the next section is especially important.</p>"
+  },
+  {
+   "id": "protect",
+   "h2": "How can you protect yourself from a false accusation?",
+   "html": "<ol><li><strong>Write in a tool that saves version history.</strong> Google Docs and Microsoft Word online record how a document grew over time. This is the strongest evidence that you wrote it.</li><li><strong>Keep your planning.</strong> Save outlines, handwritten notes, research links and rough drafts until the grade is final.</li><li><strong>Know your school's AI policy.</strong> Some allow AI for brainstorming or grammar checks if you declare it. Others ban it. Ask if unsure.</li><li><strong>Declare permitted AI use.</strong> A short note on how you used a tool removes doubt.</li><li><strong>Be ready to discuss your work.</strong> If you can explain your argument and sources in person, a detector score carries little weight.</li></ol><p>If you are flagged, stay calm, ask to see the report, and offer your version history and notes. Most policies do not allow a detector score to be the only evidence.</p>"
+  },
+  {
+   "id": "use",
+   "h2": "So how should students use AI?",
+   "html": "<p>Use it to learn, not to write for you. Asking an AI tutor to explain a topic, quiz you or comment on your own draft is very different from submitting text it wrote. The first builds skill and is allowed in many schools; the second is academic misconduct almost everywhere, whether or not a detector catches it.</p><p>Tools built for learning make this easier. See <a href=\"blog-chatgpt-study-mode-guide\">how to use ChatGPT study mode</a> and <a href=\"blog-how-to-use-notebooklm-for-studying\">how to use NotebookLM for studying</a>. Trying to disguise AI text with paraphrasing tools is a poor plan: it is still misconduct, and you learn nothing from it.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can teachers tell if you used ChatGPT?",
+   "a": "Sometimes. Detectors are unreliable, but teachers also notice sudden changes in style, missing drafts and work you cannot explain. A conversation about your work reveals more than software does."
+  },
+  {
+   "q": "Is Turnitin's AI detector accurate?",
+   "a": "Turnitin reports under 1% false positives in some conditions, but independent tests have found higher rates, especially for non-native English writers. Several universities have turned it off."
+  },
+  {
+   "q": "What should I do if I am wrongly accused of using AI?",
+   "a": "Ask to see the evidence, then provide your document's version history, notes and drafts. Explain your work in person and refer to your school's policy on detector scores."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cancellation of Turnitin AI detection, Washington State University",
+   "url": "https://provost.wsu.edu/documents/2026/02/cancellation-of-turnitin-ai-detection-software_memo-to-instructors_provost-office_spring-2026.pdf"
+  },
+  {
+   "title": "Advisory: AI writing detection, Mount Royal University",
+   "url": "https://www.mtroyal.ca/AI/ai-detection-advisory.htm"
+  },
+  {
+   "title": "AI detector false-positive controversies 2026, CASRAI",
+   "url": "https://casrai.org/news/ai-detector-false-positive-controversies-2026"
+  },
+  {
+   "title": "Turnitin AI detection review 2026, Working Educators",
+   "url": "https://workingeducators.org/turnitin"
+  },
+  {
+   "title": "Do AI detection tools work?, Edcafe",
+   "url": "https://www.edcafe.ai/blog/goodbye-ai-detection-tools"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-chatgpt-study-mode-guide",
+   "title": "How to use ChatGPT study mode"
+  },
+  {
+   "href": "blog-prompt-writing-basics",
+   "title": "Prompt writing basics"
+  },
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan"
+  }
+ ]
+}

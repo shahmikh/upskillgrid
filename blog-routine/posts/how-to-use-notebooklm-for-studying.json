@@ -1,0 +1,96 @@
+{
+ "slug": "how-to-use-notebooklm-for-studying",
+ "category": "how-to",
+ "title": "How to Use NotebookLM for Studying (Free Guide)",
+ "h1": "How to Use NotebookLM for Studying: A Step-by-Step Guide for Students",
+ "description": "Learn how to use Google's free NotebookLM to study: upload your notes, ask questions with citations, and make quizzes, flashcards and audio overviews.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "Turn your own notes and textbooks into quizzes, flashcards and audio summaries with Google's free NotebookLM.",
+ "lead": "NotebookLM is a free Google tool that answers questions using only the sources you give it, such as your class notes, textbook chapters and past papers. To study with it, create a notebook for one subject, upload your material, ask questions and check the citations, then generate flashcards, quizzes or an audio overview. The free plan allows 100 notebooks with 50 sources in each, which is enough for most school and university courses.",
+ "takeaways": [
+  "NotebookLM is free with a Google account and has no trial period.",
+  "The free plan allows 100 notebooks and 50 sources per notebook.",
+  "Answers come from your own sources and include citations you can click to check.",
+  "It can turn your notes into quizzes, flashcards, mind maps and podcast-style audio overviews."
+ ],
+ "sections": [
+  {
+   "id": "what",
+   "h2": "What is NotebookLM and why is it good for studying?",
+   "html": "<p>Most AI chatbots answer from general training data, which is why they sometimes invent facts. NotebookLM works differently. You upload your own material, and it answers from that material, pointing to the exact passage it used. For revision, that means the answers match your syllabus and your teacher's wording, not a random website.</p><p><a href=\"https://www.digitalocean.com/resources/articles/what-is-notebooklm\" rel=\"noopener\">DigitalOcean's overview</a> describes the Studio panel, which turns your sources into Audio and Video Overviews, Mind Maps, Reports, Flashcards, Quizzes, Infographics, Slide Decks and Data Tables with one click. If you want a general chatbot as well, compare the options in <a href=\"blog-chatgpt-vs-gemini-vs-claude-free-plans\">ChatGPT vs Gemini vs Claude free plans</a>.</p>"
+  },
+  {
+   "id": "limits",
+   "h2": "What does the free plan include?",
+   "html": "<p><a href=\"https://elephas.app/blog/notebooklm-free-vs-plus\" rel=\"noopener\">Elephas's plan breakdown</a> lists the free version as 100 notebooks, 50 sources per notebook, and audio and video overviews included, with each source allowed up to 500,000 words or 200MB.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Feature</th><th>Free plan</th></tr></thead><tbody><tr><td>Notebooks</td><td>100</td></tr><tr><td>Sources per notebook</td><td>50</td></tr><tr><td>Size of each source</td><td>Up to 500,000 words or 200MB</td></tr><tr><td>Flashcards and quizzes</td><td>About 10 of each a day</td></tr><tr><td>Audio Overviews</td><td>About 3 a day</td></tr><tr><td>Mind maps</td><td>No stated limit</td></tr></tbody></table></div><p>The daily figures come from <a href=\"https://kb.wisc.edu/149230\" rel=\"noopener\">the University of Wisconsin-Madison's NotebookLM guide</a>. Google has been moving to a usage allowance that refreshes every five hours, so you may see a usage meter instead of fixed daily numbers. Paid Google AI plans raise the limits by five times or more, according to <a href=\"https://support.google.com/notebooklm/answer/16213268\" rel=\"noopener\">Google's upgrade page</a>, but few students need that.</p>"
+  },
+  {
+   "id": "steps",
+   "h2": "How do you set up a study notebook?",
+   "html": "<ol><li>Go to notebooklm.google.com and sign in with a Google account. School accounts work if your administrator has turned the tool on.</li><li>Create a notebook and name it after one subject or unit, for example 'IGCSE Biology: Cells'. Narrow notebooks give better answers than one huge notebook.</li><li>Add sources: PDFs of notes and textbook chapters, Google Docs, slides, web pages, YouTube lectures with transcripts, or pasted text.</li><li>Include the syllabus or specification and one or two past papers with mark schemes. This lets you ask questions in exam language.</li><li>Wait for the summary, then start asking questions in the chat.</li></ol><p>Only upload material you are allowed to use, and avoid uploading anything private, such as documents containing other people's personal details.</p>"
+  },
+  {
+   "id": "ask",
+   "h2": "What should you ask it?",
+   "html": "<p>Good questions make the tool far more useful. Try these, replacing the topic with your own:</p><ul><li>'Explain osmosis using only my notes, then give me one exam-style question on it.'</li><li>'List every definition in this chapter in a table with two columns: term and meaning.'</li><li>'What does the mark scheme reward in six-mark questions on this topic?'</li><li>'Compare how my textbook and my teacher's slides explain this. Where do they differ?'</li><li>'Which parts of the specification are not covered by any of my sources?'</li></ul><p>Click the citation numbers in each answer. They jump to the original passage, which is the fastest way to check the answer and to re-read the part you did not understand. For more on asking well, see <a href=\"blog-prompt-writing-basics\">prompt writing basics</a>.</p>"
+  },
+  {
+   "id": "studio",
+   "h2": "How do you use quizzes, flashcards and audio overviews?",
+   "html": "<p>Open the Studio panel and choose what to create. Each tool suits a different stage of revision:</p><ul><li><strong>Mind map:</strong> at the start, to see how the topics connect.</li><li><strong>Audio Overview:</strong> a podcast-style conversation about your sources. Useful for a first pass while travelling, but it is a summary, not a replacement for reading.</li><li><strong>Flashcards:</strong> for definitions, formulas and vocabulary. Test yourself over several days, not in one sitting.</li><li><strong>Quiz:</strong> near the exam. Ask for harder questions if the first set is too easy, and read the explanations for anything you get wrong.</li></ul><p>Testing yourself beats re-reading, and these tools make self-testing quick. Build them into a timetable using <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">an AI study plan</a>.</p>"
+  },
+  {
+   "id": "mistakes",
+   "h2": "What mistakes should you avoid?",
+   "html": "<ul><li><strong>Trusting it blindly.</strong> It can still misread a source or miss something. Check citations for anything you will write in an exam.</li><li><strong>Uploading weak sources.</strong> The answers are only as good as your notes. Add the official specification and a reliable textbook.</li><li><strong>Letting it do your coursework.</strong> Use it to understand and practise. Submitting AI-written work breaks most schools' rules.</li><li><strong>Only listening.</strong> Audio overviews feel productive, but you learn more from answering questions than from hearing summaries.</li></ul>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is NotebookLM free?",
+   "a": "Yes. NotebookLM is free with a Google account, with no trial period. The free plan allows 100 notebooks and 50 sources in each."
+  },
+  {
+   "q": "Can NotebookLM make quizzes from my notes?",
+   "a": "Yes. The Studio panel creates quizzes and flashcards from your uploaded sources, along with mind maps, reports and audio overviews."
+  },
+  {
+   "q": "Is NotebookLM accurate?",
+   "a": "It is more reliable than a general chatbot for your own material because it answers from your sources and shows citations, but you should still check important answers."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Is NotebookLM free? Pricing by plan, Elephas",
+   "url": "https://elephas.app/blog/notebooklm-free-vs-plus"
+  },
+  {
+   "title": "Getting started with NotebookLM, University of Wisconsin-Madison",
+   "url": "https://kb.wisc.edu/149230"
+  },
+  {
+   "title": "Upgrade NotebookLM, Google Help",
+   "url": "https://support.google.com/notebooklm/answer/16213268"
+  },
+  {
+   "title": "What is NotebookLM?, DigitalOcean",
+   "url": "https://www.digitalocean.com/resources/articles/what-is-notebooklm"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-how-to-use-ai-to-make-a-study-plan",
+   "title": "How to use AI to make a study plan"
+  },
+  {
+   "href": "blog-chatgpt-study-mode-guide",
+   "title": "How to use ChatGPT study mode"
+  },
+  {
+   "href": "blog-prompt-writing-basics",
+   "title": "Prompt writing basics"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "slug": "best-free-ai-tools-for-students",
+ "category": "ai-tools",
+ "title": "Best Free AI Tools for Students in 2026",
+ "h1": "Best Free AI Tools for Students in 2026 (and How to Use Them Well)",
+ "description": "The best free AI tools for students in 2026: ChatGPT study mode, NotebookLM, Gemini and Claude. See what each is best for, the free limits and how to use them.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "Four free AI tools cover most study needs. See what each does best, the limits, and how to use them without cheating.",
+ "lead": "The best free AI tools for students are ChatGPT with study mode for guided practice, NotebookLM for revising from your own notes, Gemini for research inside Google's tools, and Claude for careful feedback on essays and code. All four have free plans that are enough for school and university study. Use them to explain, quiz and plan, not to write your assignments for you.",
+ "takeaways": [
+  "ChatGPT's study mode is free and tutors you with questions instead of answers.",
+  "NotebookLM is free and answers only from the notes and textbooks you upload.",
+  "Gemini and Claude both have free plans with usage limits that reset every few hours.",
+  "Two tools used well beat ten tools used occasionally."
+ ],
+ "sections": [
+  {
+   "id": "list",
+   "h2": "Which free AI tools are best for students?",
+   "html": "<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Tool</th><th>Best for</th><th>Free plan</th></tr></thead><tbody><tr><td>ChatGPT (study mode)</td><td>Step-by-step tutoring and practice questions</td><td>Unlimited everyday text chat</td></tr><tr><td>NotebookLM</td><td>Quizzes, flashcards and answers from your own notes</td><td>100 notebooks, 50 sources each</td></tr><tr><td>Gemini</td><td>Research, Google Docs and visual explanations</td><td>Usage allowance that refreshes</td></tr><tr><td>Claude</td><td>Feedback on essays, code and long documents</td><td>Message cap per five hours</td></tr></tbody></table></div><p>Limits change often. We keep the detail in <a href=\"blog-chatgpt-vs-gemini-vs-claude-free-plans\">ChatGPT vs Gemini vs Claude free plans</a>.</p>"
+  },
+  {
+   "id": "chatgpt",
+   "h2": "How should students use ChatGPT?",
+   "html": "<p>Switch on study mode. In this mode ChatGPT stops handing out answers and starts asking what you think the next step is. <a href=\"https://www.implicator.ai/openai-unveils-study-mode-to-curb-cheating-and-reclaim-trust-in-the-classroom/\" rel=\"noopener\">Implicator's coverage</a> confirms it is free for all users, including the free tier. Use it for maths and science problems, for testing yourself before an exam, and for explaining a mark scheme.</p><p>A full walkthrough, with prompts, is in <a href=\"blog-chatgpt-study-mode-guide\">how to use ChatGPT study mode</a>.</p>"
+  },
+  {
+   "id": "notebooklm",
+   "h2": "Why is NotebookLM so useful for revision?",
+   "html": "<p>Because it studies your material, not the whole internet. Upload your notes, slides and textbook chapters, and it answers with citations to the exact passage. <a href=\"https://www.nlmtools.com/blog/is-notebooklm-free\" rel=\"noopener\">NLM Tools' guide to the free plan</a> lists what you get without paying: up to 100 notebooks, 50 sources per notebook, and Studio outputs such as Audio and Video Overviews, reports, flashcards and quizzes, drawing on a usage allowance that refreshes every five hours.</p><p>The flashcards and quizzes are the most valuable part, because testing yourself is one of the most effective ways to remember. See <a href=\"blog-how-to-use-notebooklm-for-studying\">how to use NotebookLM for studying</a> for setup steps.</p>"
+  },
+  {
+   "id": "gemini",
+   "h2": "When is Gemini the better choice?",
+   "html": "<p>Gemini fits students whose school runs on Google. It searches with Google, works beside Docs and Slides, and has a Guided Learning mode. <a href=\"https://glasp.ai/articles/ai-study-modes-compared\" rel=\"noopener\">Glasp's comparison of study modes</a> describes Guided Learning as more structured and visual than ChatGPT's, with diagrams and quizzes, and notes that the free tier includes it with usage limits. <a href=\"https://www.tomsguide.com/ai/i-tested-the-best-free-ai-chatbots-these-are-the-ones-you-should-sign-up-for\" rel=\"noopener\">Tom's Guide's test of free chatbots</a> also highlights how much Gemini includes without payment, including access to tools such as NotebookLM.</p><p>Use Gemini when you need current information with links, or when a topic is easier to understand with a diagram.</p>"
+  },
+  {
+   "id": "claude",
+   "h2": "What is Claude best for?",
+   "html": "<p>Claude is strong at reading long texts carefully and giving specific feedback. Paste in your essay draft and ask it to point out weak arguments, unclear sentences and missing evidence, without rewriting anything. Paste in code and ask it to explain an error line by line. Because the free plan has a message cap, save it for these higher-value tasks.</p><p>Ask for feedback, not replacement text. 'Tell me the three weakest paragraphs and why' teaches you more than 'improve this essay', and it keeps the work your own.</p>"
+  },
+  {
+   "id": "rules",
+   "h2": "How do you use AI tools without cheating?",
+   "html": "<ul><li><strong>Allowed in most schools:</strong> explanations, practice questions, study plans, feedback on your own draft, and checking your understanding.</li><li><strong>Usually not allowed:</strong> submitting text, code or answers that an AI wrote as if they were yours.</li><li><strong>Always:</strong> check your school's AI policy, declare permitted use, and keep your drafts.</li></ul><p>AI detectors are unreliable, so honest students should keep version history as protection; see <a href=\"blog-do-ai-detectors-work\">do AI detectors work?</a>. And because every chatbot can state wrong facts confidently, verify anything important in your textbook.</p>"
+  },
+  {
+   "id": "start",
+   "h2": "Which two tools should you start with?",
+   "html": "<p>For most students: ChatGPT in study mode and NotebookLM. The first tutors you on anything, and the second turns your own notes into quizzes. Add Gemini or Claude when you have a specific need. Learn to write clear prompts first, since that improves every tool; start with <a href=\"blog-prompt-writing-basics\">prompt writing basics</a> and then build a timetable with <a href=\"blog-how-to-use-ai-to-make-a-study-plan\">an AI study plan</a>.</p><p>If you want a certificate that shows you understand AI itself, see our list of <a href=\"blog-free-ai-courses-with-certificates\">free AI courses with certificates</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the best free AI for students?",
+   "a": "ChatGPT with study mode is the best all-round free choice, and NotebookLM is the best for revising from your own notes. Many students use both."
+  },
+  {
+   "q": "Are these AI tools really free?",
+   "a": "Yes. ChatGPT, NotebookLM, Gemini and Claude all have free plans. Each has limits on usage or features, and paid plans are optional."
+  },
+  {
+   "q": "Can I use AI tools for homework?",
+   "a": "You can use them to understand and practise. Whether you can use AI output in submitted work depends on your school's policy, so check before you do."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenAI unveils Study Mode, Implicator",
+   "url": "https://www.implicator.ai/openai-unveils-study-mode-to-curb-cheating-and-reclaim-trust-in-the-classroom/"
+  },
+  {
+   "title": "Is NotebookLM free?, NLM Tools",
+   "url": "https://www.nlmtools.com/blog/is-notebooklm-free"
+  },
+  {
+   "title": "AI study modes compared, Glasp",
+   "url": "https://glasp.ai/articles/ai-study-modes-compared"
+  },
+  {
+   "title": "Best free AI chatbots tested, Tom's Guide",
+   "url": "https://www.tomsguide.com/ai/i-tested-the-best-free-ai-chatbots-these-are-the-ones-you-should-sign-up-for"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-chatgpt-vs-gemini-vs-claude-free-plans",
+   "title": "ChatGPT vs Gemini vs Claude free plans"
+  },
+  {
+   "href": "blog-how-to-use-notebooklm-for-studying",
+   "title": "How to use NotebookLM for studying"
+  },
+  {
+   "href": "blog-free-ai-courses-with-certificates",
+   "title": "Free AI courses with certificates"
+  }
+ ]
+}
