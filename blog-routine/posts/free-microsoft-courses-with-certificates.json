@@ -1,0 +1,91 @@
+{
+ "slug": "free-microsoft-courses-with-certificates",
+ "category": "free-courses",
+ "title": "Free Microsoft Courses and Certificates for Students",
+ "h1": "Free Microsoft Courses and Certificates: What Students Can Get for Free",
+ "description": "Microsoft Learn training is free, and Applied Skills credentials cost nothing. See which certificates are free, which exams are paid and how to pay less.",
+ "published": "2026-11-11",
+ "modified": "2026-11-11",
+ "read_min": 7,
+ "card_summary": "Microsoft Learn is free and so are Applied Skills credentials. Certification exams are paid, but students can cut the cost.",
+ "lead": "All training on Microsoft Learn is free, and Microsoft Applied Skills credentials are free to earn. Microsoft Certifications such as Azure Fundamentals are different: the study material is free, but the exam is paid. Students can lower that cost through academic pricing, Virtual Training Days and occasional voucher offers. So the honest answer is that Microsoft courses are free, some credentials are free, and certifications usually are not.",
+ "takeaways": [
+  "Microsoft Learn's learning paths are free and cover the full syllabus of each exam.",
+  "Applied Skills are lab-based credentials with a free online assessment.",
+  "Fundamentals certifications need a paid exam but never expire.",
+  "Verified students get reduced exam prices in most countries, though not in India or China."
+ ],
+ "sections": [
+  {
+   "id": "types",
+   "h2": "What is free and what is paid at Microsoft?",
+   "html": "<div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Type</th><th>Cost</th><th>What you get</th></tr></thead><tbody><tr><td>Microsoft Learn modules and paths</td><td>Free</td><td>Lessons, sandboxes, progress badges on your profile</td></tr><tr><td>Applied Skills</td><td>Free</td><td>A verifiable credential after a lab assessment</td></tr><tr><td>Fundamentals certifications</td><td>Paid exam</td><td>A certification that does not expire</td></tr><tr><td>Associate and higher certifications</td><td>Paid exam</td><td>A certification renewed yearly online for free</td></tr></tbody></table></div><p>People often mix these up. A badge for finishing a Learn module shows activity on your profile. An Applied Skills credential or a certification is something an employer can verify.</p>"
+  },
+  {
+   "id": "learn",
+   "h2": "What can you study for free on Microsoft Learn?",
+   "html": "<p>Almost everything Microsoft tests. Each certification has an official learning path with reading, short videos, knowledge checks and often a free sandbox where you use real Azure services without a card. Popular starting points for students are Azure Fundamentals, AI fundamentals, Power BI data analysis and security fundamentals.</p><p>The AI route changed in 2026. <a href=\"https://pasqualepillitteri.it/en/news/25070/free-microsoft-ai-courses-certifications-guide\" rel=\"noopener\">Pasquale Pillitteri's guide to free Microsoft AI courses</a>, checked in October 2026, confirms that the AI-900 exam was retired on 30 June 2026 and replaced by AI-901. We explain that change in our <a href=\"blog-ai-900-retired-ai-901-guide\">AI-900 and AI-901 guide</a>. The same source notes that entry-level certifications do not expire, while higher-level ones renew each year with a free online assessment.</p>"
+  },
+  {
+   "id": "applied",
+   "h2": "What are Microsoft Applied Skills?",
+   "html": "<p>Applied Skills are smaller credentials that test one practical task, such as building an AI agent or configuring a service. You complete a lab in a real environment instead of answering multiple-choice questions. A student who earned one describes the process on <a href=\"https://dev.to/gracelee087/i-got-a-microsoft-certification-for-free-heres-how-applied-skills-review-5cf9\" rel=\"noopener\">DEV Community</a>: when you pass, you get a shareable badge and an online-verifiable certificate, and the assessment is free.</p><p>Microsoft also runs promotions around them. Its <a href=\"https://learn.microsoft.com/en-us/credentials/support/microsoft-credentials-ai-challenge-sweepstakes-frequently-asked-questions\" rel=\"noopener\">Credentials AI Challenge FAQ</a> describes three free AI-focused Applied Skills credentials offered in early 2026, with a draw for half-price exam vouchers. Offers like this come and go, so check Microsoft Learn's credentials pages for what is open now.</p><p>For a student CV, an Applied Skills credential is a strong free option because it proves you did something hands-on.</p>"
+  },
+  {
+   "id": "exams",
+   "h2": "How can students pay less for Microsoft exams?",
+   "html": "<p>Fundamentals exams such as AZ-900 are priced by country. There are three common ways to reduce the fee:</p><ul><li><strong>Student pricing:</strong> <a href=\"https://crucialexams.com/posts/blog/is-microsoft-365-fundamentals-certification-free\" rel=\"noopener\">Crucial Exams</a> explains that verified students receive a discount on fundamentals exams by choosing the student path in their Microsoft Learn profile and completing verification. It adds that this works worldwide except in India and China, which have separate local programmes.</li><li><strong>Virtual Training Days:</strong> free online sessions from Microsoft. Attending one has often come with a discount voucher for the matching exam.</li><li><strong>Your school or university:</strong> many institutions in Microsoft's education programmes give students vouchers. Ask your IT department or computing teacher.</li></ul><p>No route is guaranteed to make the exam free, so plan to pay something unless your school provides a voucher.</p>"
+  },
+  {
+   "id": "start",
+   "h2": "Which Microsoft course should a student start with?",
+   "html": "<ul><li><strong>Interested in cloud:</strong> the Azure Fundamentals path. Compare it with Amazon's option in <a href=\"blog-az-900-vs-aws-cloud-practitioner\">AZ-900 vs AWS Cloud Practitioner</a>.</li><li><strong>Interested in AI:</strong> the AI fundamentals path and a free AI Applied Skills lab.</li><li><strong>Interested in data:</strong> the Power BI data analyst path, which also appears in our list of <a href=\"blog-free-data-analytics-courses-with-certificates\">free data analytics courses</a>.</li><li><strong>Interested in security:</strong> security, compliance and identity fundamentals, alongside <a href=\"blog-free-cybersecurity-courses-with-certificates\">free cybersecurity courses</a>.</li></ul><p>Finish one path fully before starting another. A completed path with its sandbox exercises teaches more than a profile full of half-finished modules.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Are Microsoft certifications free?",
+   "a": "Usually not. The training on Microsoft Learn is free, but certification exams are paid. Applied Skills credentials are the main Microsoft credential you can earn for free."
+  },
+  {
+   "q": "Do Microsoft fundamentals certifications expire?",
+   "a": "No. Fundamentals certifications such as Azure Fundamentals do not expire. Higher-level certifications are renewed each year with a free online assessment."
+  },
+  {
+   "q": "Is Microsoft Learn free for everyone?",
+   "a": "Yes. Anyone can use Microsoft Learn's modules and learning paths for free with a Microsoft account, with no subscription or trial."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Free Microsoft AI courses and certifications, the 2026 guide, Pasquale Pillitteri",
+   "url": "https://pasqualepillitteri.it/en/news/25070/free-microsoft-ai-courses-certifications-guide"
+  },
+  {
+   "title": "Is Microsoft 365 Fundamentals certification free?, Crucial Exams",
+   "url": "https://crucialexams.com/posts/blog/is-microsoft-365-fundamentals-certification-free"
+  },
+  {
+   "title": "Applied Skills review, DEV Community",
+   "url": "https://dev.to/gracelee087/i-got-a-microsoft-certification-for-free-heres-how-applied-skills-review-5cf9"
+  },
+  {
+   "title": "Microsoft Credentials AI Challenge FAQ, Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/credentials/support/microsoft-credentials-ai-challenge-sweepstakes-frequently-asked-questions"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-ai-900-retired-ai-901-guide",
+   "title": "AI-900 retired: the AI-901 guide"
+  },
+  {
+   "href": "blog-az-900-vs-aws-cloud-practitioner",
+   "title": "AZ-900 vs AWS Cloud Practitioner"
+  },
+  {
+   "href": "blog-free-ai-courses-with-certificates",
+   "title": "Free AI courses with certificates"
+  }
+ ]
+}
