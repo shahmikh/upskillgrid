@@ -467,13 +467,7 @@ TOOL_GROUPS = [
     ("cs", "Computer Science", "Quick helpers for CS students", "g-rose", "code", "Binary Converter"),
 ]
 GROUP = {g[0]: g for g in TOOL_GROUPS}
-COMING_SOON = [
-    ("grades", "UCAS Tariff Points Calculator", "Turn A Level, IB and BTEC grades into UCAS points.", "cap"),
-    ("grades", "GPA Converter", "Convert percentages and UK grades to a 4.0 GPA.", "swap"),
-    ("study", "Exam Countdown Planner", "Enter your exam date and topics, get a day-by-day plan.", "cal"),
-    ("study", "Pomodoro Study Timer", "Focus timer with breaks, made for revision sessions.", "timer"),
-    ("cs", "Binary, Hex and Decimal Converter", "Convert numbers between bases with the working shown.", "bits"),
-]
+COMING_SOON = []  # unfinished tools are not listed on the site; drafts live in blog-routine/drafts
 
 
 def tool_tile(t):
@@ -519,32 +513,35 @@ def build_tools(tools):
     cat_cards = []
     for gid, gname, gblurb, gc, icon, featured in TOOL_GROUPS:
         n_live = sum(1 for t in tools if t.get("group") == gid)
+        if not n_live:
+            continue
         n_all = n_live + sum(1 for c in COMING_SOON if c[0] == gid)
         cat_cards.append("""<a href="#all-tools" class="th-cat {gc}-bg" data-jump-cat="{gid}"><span class="thc-icon">{icon}</span><span class="thc-count">{n} tool{pl}</span><span class="thc-name">{name}</span><span class="thc-blurb">{blurb}</span><span class="thc-feat"><span>{fl}</span><b>{feat}</b></span></a>""".format(
             gc=gc, gid=gid, icon=ICONS[icon], n=n_all, pl="" if n_all == 1 else "s", name=esc(gname), blurb=esc(gblurb), feat=esc(featured),
             fl="Featured" if n_live else "Next up"))
     tabs = '<button type="button" class="th-tab" data-cat="all" aria-pressed="true">All tools</button>' + "".join(
-        '<button type="button" class="th-tab" data-cat="%s" aria-pressed="false"><span class="th-tab-ic">%s</span>%s</button>' % (g[0], ICONS[g[4]], esc(g[1])) for g in TOOL_GROUPS)
+        '<button type="button" class="th-tab" data-cat="%s" aria-pressed="false"><span class="th-tab-ic">%s</span>%s</button>' % (g[0], ICONS[g[4]], esc(g[1])) for g in TOOL_GROUPS
+        if any(t.get("group") == g[0] for t in tools))
     grid = "".join(tool_tile(t) for t in tools) + "".join(soon_tile(*c) for c in COMING_SOON)
     body = """<section class="th-hero">
   <span class="th-shape s1"></span><span class="th-shape s2"></span><span class="th-shape s3"></span><span class="th-shape s4"></span><span class="th-shape s5"></span>
   <div class="container th-hero-in">
     <p class="eyebrow">Free tools · No sign-up</p>
     <h1>Free tools that make studying <mark>simpler</mark></h1>
-    <p class="th-sub">Score calculators, grade converters and study planners, built by a computer science tutor. Every tool shows its working.</p>
+    <p class="th-sub">Exam score calculators for AP and IB students, built by a computer science tutor. Every tool shows its working.</p>
     <form class="th-search" id="th-search" role="search" autocomplete="off">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input type="search" id="th-q" placeholder="Search tools: AP, GPA, UCAS, binary..." aria-label="Search tools" role="combobox" aria-controls="th-suggest" aria-expanded="false">
+      <input type="search" id="th-q" placeholder="Search tools: AP score, IB points..." aria-label="Search tools" role="combobox" aria-controls="th-suggest" aria-expanded="false">
       <button type="submit" class="btn btn--primary">Search</button>
       <ul id="th-suggest" class="th-suggest" role="listbox" hidden></ul>
     </form>
-    <p class="th-try-chips">Popular: <button type="button" data-fill="AP">AP score</button><button type="button" data-fill="UCAS">UCAS points</button><button type="button" data-fill="GPA">GPA</button><button type="button" data-fill="binary">Binary</button></p>
+    <p class="th-try-chips">Popular: <button type="button" data-fill="AP">AP score</button><button type="button" data-fill="IB">IB points</button></p>
     <div class="th-cats">{cats}</div>
   </div>
 </section>
 {quick}
 <section class="section th-all" id="all-tools"><div class="container">
-  <div class="th-head"><h2>All tools</h2><p>{live} live · {soon} on the way</p></div>
+  <div class="th-head"><h2>All tools</h2><p>{live} live</p></div>
   <div class="th-tabs" role="group" aria-label="Filter tools">{tabs}</div>
   <div class="th-grid">{grid}</div>
   <p class="th-empty" hidden>No tool matches that yet. <a href="contact">Ask us to build it</a>.</p>

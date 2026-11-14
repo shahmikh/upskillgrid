@@ -1,0 +1,92 @@
+{
+  "slug": "ucas-tariff-points-calculator",
+  "name": "UCAS Tariff Points Calculator",
+  "tagline": "Turn your A Level grades into UCAS tariff points in seconds.",
+  "group": "grades",
+  "icon_svg": "cap",
+  "tags": [
+    "UCAS",
+    "A Level"
+  ],
+  "byline_role": "Computer Science tutor",
+  "title": "UCAS Tariff Points Calculator for A Levels (Free)",
+  "h1": "UCAS tariff points calculator for A Levels",
+  "description": "Free UCAS tariff points calculator. Add your A Level grades from A* to E to get your total points, with each grade's value shown.",
+  "published": "2026-11-14",
+  "modified": "2026-11-14",
+  "read_min": 4,
+  "card_summary": "Add your A Level grades to get your total UCAS tariff points, with each grade's value shown.",
+  "lead": "Choose a grade for each A Level subject and the calculator adds up your UCAS tariff points as you change them. Each grade has a fixed value, so you can see exactly where your total comes from.",
+  "takeaways": [
+    "Each A Level grade is worth a fixed number of points, from 56 for an A* down to 16 for an E.",
+    "AAA totals 144 points, and AAB totals 136.",
+    "IB and BTEC points come from separate tables, so add those yourself.",
+    "Many courses ask for specific grades, so check each course's entry requirements."
+  ],
+  "sections": [
+    {
+      "id": "how-points-work",
+      "h2": "How are UCAS tariff points calculated?",
+      "html": "<p>UCAS tariff points add up the points from each qualification on your application, so universities can compare A Levels, IB and BTEC on one scale. For A Levels, every grade has a fixed number of points, and your total is the sum across your subjects. The official tables are published by UCAS in its <a href=\"https://www.ucas.com/media/205216/download\">tariff tables</a>.</p>"
+    },
+    {
+      "id": "a-level-points",
+      "h2": "What is each A Level grade worth?",
+      "html": "<table class=\"ucas-table\"><thead><tr><th>Grade</th><th>UCAS points</th></tr></thead><tbody><tr><td>A*</td><td>56</td></tr><tr><td>A</td><td>48</td></tr><tr><td>B</td><td>40</td></tr><tr><td>C</td><td>32</td></tr><tr><td>D</td><td>24</td></tr><tr><td>E</td><td>16</td></tr></tbody></table><p>A Level points run from 56 for an A* down to 16 for an E. Three A grades add up to 144, which is the figure people usually mean when they say AAA.</p>"
+    },
+    {
+      "id": "other-qualifications",
+      "h2": "What about IB, BTEC and other qualifications?",
+      "html": "<p>This calculator covers A Levels only. IB and BTEC use their own tables, so look up those points and add them to your total yourself. A BTEC is sized like a set of A Levels, and Pearson explains the conversion on its <a href=\"https://qualifications.pearson.com/en/support/support-topics/understanding-our-qualifications/comparing-btec-to-other-qualifications/btec-ucas-points.html\">BTEC UCAS points page</a>.</p>"
+    },
+    {
+      "id": "do-universities-use-points",
+      "h2": "Do universities always ask for points?",
+      "html": "<p>Not always. Many courses list specific grades, such as AAB, so points are a useful way to compare offers rather than a guarantee. <a href=\"https://university.which.co.uk/advice_articles/how-do-i-calculate-ucas-points-based-on-your-predicted-grades\">Which? University</a> shows how predicted grades turn into points. Check each course page for its exact entry requirements.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What are UCAS tariff points?",
+      "a": "UCAS tariff points are a single number that turns your Level 3 grades into a score that universities can compare, whatever qualification you took."
+    },
+    {
+      "q": "How many UCAS points is AAA?",
+      "a": "AAA is 144 points, because an A is worth 48 points at A Level."
+    },
+    {
+      "q": "Does this calculator include IB or BTEC?",
+      "a": "Not yet. It covers A Levels only. For IB or BTEC, find the points in the official tables and add them to your total."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tariff tables, UCAS",
+      "url": "https://www.ucas.com/media/205216/download"
+    },
+    {
+      "title": "Calculating UCAS points from predicted grades, Which? University",
+      "url": "https://university.which.co.uk/advice_articles/how-do-i-calculate-ucas-points-based-on-your-predicted-grades"
+    },
+    {
+      "title": "BTEC UCAS points, Pearson",
+      "url": "https://qualifications.pearson.com/en/support/support-topics/understanding-our-qualifications/comparing-btec-to-other-qualifications/btec-ucas-points.html"
+    }
+  ],
+  "related": [
+    {
+      "href": "blog-ucas-tariff-points-explained",
+      "title": "UCAS tariff points explained"
+    },
+    {
+      "href": "blog-ib-computer-science-new-syllabus-2027",
+      "title": "IB Computer Science new syllabus 2027"
+    },
+    {
+      "href": "tools",
+      "title": "All free tools on UpskillGrid"
+    }
+  ],
+  "widget": "ucascalc",
+  "script": "ucas-tariff-calculator.js"
+}

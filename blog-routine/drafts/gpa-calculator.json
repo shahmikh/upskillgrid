@@ -1,0 +1,88 @@
+{
+  "slug": "gpa-calculator",
+  "name": "GPA Converter",
+  "tagline": "Convert percentages to letter grades and work out your 4.0 GPA.",
+  "group": "grades",
+  "icon_svg": "swap",
+  "tags": [
+    "GPA",
+    "US grades"
+  ],
+  "byline_role": "Computer Science tutor",
+  "title": "GPA Calculator and Percentage Converter (4.0 Scale)",
+  "h1": "GPA calculator and percentage converter (4.0 scale)",
+  "description": "Free GPA calculator for the US 4.0 scale. Enter each course grade and its credit hours to get your GPA, or convert a percentage to a letter.",
+  "published": "2026-11-14",
+  "modified": "2026-11-14",
+  "read_min": 4,
+  "card_summary": "Enter course grades and credit hours to get your 4.0 GPA, or convert a percentage to its letter grade.",
+  "lead": "Pick the letter grade for each course and add its credit hours, and the calculator works out your GPA on the standard 4.0 scale. A percentage converter sits alongside it for turning a mark into a letter grade.",
+  "takeaways": [
+    "On the plus and minus 4.0 scale, an A is 4.0, a B is 3.0 and a C is 2.0.",
+    "Your GPA is your total quality points divided by your total credit hours.",
+    "Percentage cutoffs for letter grades differ between schools, so check yours.",
+    "Schools that use whole letters only will get a different result."
+  ],
+  "sections": [
+    {
+      "id": "how-scale-works",
+      "h2": "How does the 4.0 GPA scale work?",
+      "html": "<p>US colleges turn each letter grade into points, then average those points across your credit hours. <a href=\"https://www.uni2study.com/articles/how-us-grading-and-the-40-gpa-scale-work\">Uni2study sets out the 4.0 scale</a> with the plus and minus values most US colleges use, and the table below follows it.</p><table class=\"ucas-table\"><thead><tr><th>Letter</th><th>GPA points</th></tr></thead><tbody><tr><td>A</td><td>4.0</td></tr><tr><td>A-</td><td>3.7</td></tr><tr><td>B+</td><td>3.3</td></tr><tr><td>B</td><td>3.0</td></tr><tr><td>B-</td><td>2.7</td></tr><tr><td>C+</td><td>2.3</td></tr><tr><td>C</td><td>2.0</td></tr><tr><td>C-</td><td>1.7</td></tr><tr><td>D+</td><td>1.3</td></tr><tr><td>D</td><td>1.0</td></tr><tr><td>D-</td><td>0.7</td></tr><tr><td>F</td><td>0.0</td></tr></tbody></table>"
+    },
+    {
+      "id": "credit-hours",
+      "h2": "How is GPA calculated with credit hours?",
+      "html": "<p>Multiply each course's grade points by its credit hours, add those totals together, then divide by the total credit hours. A 4-credit B (3.0 points) contributes 12 quality points, which counts for more than a 1-credit A. Your cumulative GPA covers every term, not just the latest one.</p>"
+    },
+    {
+      "id": "percent-to-letter",
+      "h2": "How do percentages convert to letter grades?",
+      "html": "<p>Schools set their own cutoffs. A common plus and minus version gives an A for 93 and above, an A- for 90 to 92, a B+ for 87 to 89, and continues down to a D- for 60 to 62, with anything below 60 an F. <a href=\"https://cumgpacalculator.pages.dev/grade-conversion/united-states\">This US grading guide</a> lists the full chart. The percentage converter on this page uses that common version, so check your school's own table if it differs.</p>"
+    },
+    {
+      "id": "whole-letters",
+      "h2": "What if my school does not use plus and minus grades?",
+      "html": "<p>Some schools use only whole letters, so a B+ counts as a 3.0 rather than a 3.3. The calculator uses the plus and minus values, so a school with whole letters will get a different result. Use your registrar's scale in that case.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a good GPA?",
+      "a": "A good GPA depends on the school, the course and what you want to do next. Ask your school or the programme you are applying to for their own benchmark."
+    },
+    {
+      "q": "Is an A+ worth more than an A?",
+      "a": "At most schools, no. Many give both an A+ and an A 4.0 points. A few give an A+ more, so check your school's rules."
+    },
+    {
+      "q": "Can I use this for a weighted GPA?",
+      "a": "Not directly. This calculator uses the standard 4.0 scale. Weighted scales give honors or AP courses extra points, so they need a different calculation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "How US Grading and the 4.0 GPA Scale Work, Uni2study",
+      "url": "https://www.uni2study.com/articles/how-us-grading-and-the-40-gpa-scale-work"
+    },
+    {
+      "title": "US Grading System, Letter Grades and GPA Scale",
+      "url": "https://cumgpacalculator.pages.dev/grade-conversion/united-states"
+    }
+  ],
+  "related": [
+    {
+      "href": "blog-chatgpt-study-mode-guide",
+      "title": "ChatGPT study mode guide"
+    },
+    {
+      "href": "blog-how-to-use-notebooklm-for-studying",
+      "title": "How to use NotebookLM for studying"
+    },
+    {
+      "href": "tools",
+      "title": "All free tools on UpskillGrid"
+    }
+  ],
+  "widget": "gpacalc",
+  "script": "gpa-calculator.js"
+}
