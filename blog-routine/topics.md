@@ -1,6 +1,8 @@
 # Topics
 
 ## Backlog (AI tools, how-tos, free courses, career skills)
+- How to get the free Harvard CS50 certificate, step by step (free-courses) [Search Console demand]
+- Which Google certification courses are actually free (free-courses) [Search Console demand]
 - How to make a short video with free AI tools, step by step (how-to)
 - Best free AI image tools and their usage limits (ai-tools)
 
