@@ -126,6 +126,8 @@ def head(title, desc, path, og_type="website", extra="", ld=None, noindex=False)
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{desc}">
 <meta name="twitter:image" content="{site}/og-image.png">
+<meta name="google-adsense-account" content="ca-pub-3418475253510402">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3418475253510402" crossorigin="anonymous"></script>
 {extra}{ld}</head>
 <body>
 """.format(title=esc(title), desc=esc(desc), url=url, og_type=og_type, site=SITE, extra=extra, ld=ld_html,
@@ -781,6 +783,10 @@ Sitemap: https://upskillgrid.com/sitemap.xml
 """
 
 
+# AdSense seller declaration, served at /ads.txt
+ADS_TXT = "google.com, pub-3418475253510402, DIRECT, f08c47fec0942fa0\n"
+
+
 def main():
     check_only = "--check" in sys.argv
     posts = all_posts()
@@ -826,6 +832,7 @@ def main():
     write("404.html", build_404())
     build_sitemap(posts, tools)
     (PUB / "robots.txt").write_text(ROBOTS, encoding="utf-8")
+    (PUB / "ads.txt").write_text(ADS_TXT, encoding="utf-8")
     print("[ok] site built: %d posts, %d tools, sitemap and robots.txt written" % (len(posts), len(tools)))
 
 
