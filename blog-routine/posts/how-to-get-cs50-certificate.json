@@ -1,0 +1,95 @@
+{
+ "slug": "how-to-get-cs50-certificate",
+ "category": "free-courses",
+ "title": "How to Get the Free CS50 Certificate, Step by Step",
+ "h1": "How to Get the Free Harvard CS50 Certificate, Step by Step",
+ "description": "Earn the free Harvard CS50x certificate: enroll in the gradebook, pass every problem set with 70%, submit the final project and claim it before the deadline.",
+ "published": "2026-11-20",
+ "modified": "2026-11-20",
+ "read_min": 7,
+ "pin": 1,
+ "card_summary": "The exact steps to earn the free CS50x certificate, the 70% rule, the final project checklist and what to do if your certificate does not appear.",
+ "lead": "To get the free CS50 certificate, register for CS50x with edX, enroll in the CS50 gradebook, then score at least 70% on every problem set and the final project before the course deadline. Once your last piece of work is graded, the certificate appears in your gradebook within about four hours and you claim it by typing your name. The current course, CS50x 2026, has a final deadline of 30 June 2027, and you pay nothing unless you want edX's separate verified certificate.",
+ "takeaways": [
+  "The free CS50 Certificate needs every required assignment, including the final project, at 70% or higher.",
+  "You must register with edX even for the free certificate, and you submit work with your GitHub account.",
+  "The CS50x 2026 deadline is 30 June 2027 at 23:59 UTC, and CS50 says it makes no exceptions.",
+  "The certificate shows up in your gradebook about four hours after your last score, and the name you type cannot be changed later.",
+  "The paid edX verified certificate is optional and separate; the free one does not depend on it."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "h2": "What do you need to earn the free CS50 certificate?",
+   "html": "<p>You need a passing score of 70% or more on every required assignment in CS50x: the ten problem sets and the final project. Doing most of the work is not enough, because the <a href=\"https://cs50.harvard.edu/x/2026/faqs/\" rel=\"noopener\">CS50x 2026 FAQ</a> says a week only turns green when every required problem in it passes.</p><p>Here is the full checklist before you start:</p><ul><li>A free edX account. The FAQ is clear that registration with edX is required whichever certificate you want.</li><li>A GitHub account. You use it to log into CS50's online coding environment and to submit work.</li><li>An enrollment in the CS50 gradebook at cs50.me/cs50x, linked to your edX account.</li><li>Time. The FAQ estimates 10 to 20 hours for each week's problem sets.</li></ul><p>There is no exam. CS50x has no final test, so the certificate rests entirely on your submitted code and project.</p><p>This guide focuses on CS50x, Harvard's introduction to computer science. Other CS50 courses use a similar gradebook model, and we list them in <a href=\"blog-free-harvard-courses-with-certificates\">free Harvard courses with certificates</a>.</p>"
+  },
+  {
+   "id": "steps",
+   "h2": "How do you get the CS50 certificate, step by step?",
+   "html": "<p>Follow these steps in order. Each one comes from the <a href=\"https://cs50.harvard.edu/x/2026/faqs/\" rel=\"noopener\">CS50x FAQ</a> or the <a href=\"https://cs50.harvard.edu/x//project/\" rel=\"noopener\">CS50x final project page</a>.</p><ol><li><strong>Register for CS50x on edX.</strong> Choose the free option if edX offers a paid upgrade. Payment is only for the verified certificate.</li><li><strong>Enroll in the gradebook.</strong> Go to cs50.me/cs50x, log in with GitHub and click to enroll. If a gold bar asks you to link your edX account, do it now, not at the end.</li><li><strong>Open the CS50 coding environment.</strong> Log into CS50.dev with the same GitHub username that appears at the top of your gradebook. A mismatch here is a common reason work does not show up.</li><li><strong>Work through each week.</strong> Watch the lecture, then complete that week's problems. Weeks with more than one problem require all of them.</li><li><strong>Test before you submit.</strong> Run check50 on each problem. Your score is 75% correctness, measured by check50, and 25% style, measured by style50.</li><li><strong>Submit with submit50.</strong> Use the slug given in each problem's instructions. You can resubmit as often as you like, and only your latest submission counts.</li><li><strong>Check the gradebook.</strong> A green tick means a problem passed. A red x means it did not, and hovering over it shows your score.</li><li><strong>Finish the final project</strong> (next section), then load cs50.me/cs50x again a few minutes after submitting.</li><li><strong>Claim the certificate.</strong> When everything passes, a green banner appears with a link to your certificate. Type the exact name you want on it, then download it.</li></ol><p>On the \"less comfortable\" and \"more comfortable\" versions of a problem: the 2026 FAQ says the harder version carries no extra credit. If you submit both, the higher score counts.</p>"
+  },
+  {
+   "id": "project",
+   "h2": "What does the CS50 final project need to pass?",
+   "html": "<p>The final project needs three things: a short video, a README.md file and a submission with submit50, all done before the course deadline. The <a href=\"https://cs50.harvard.edu/x//project/\" rel=\"noopener\">final project page</a> spells out each part.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Part</th><th>What CS50 asks for</th><th>Easy mistake</th></tr></thead><tbody><tr><th>Video</th><td>No more than 3 minutes. Open with the project title, your name, GitHub and edX usernames, city and country, and the date you recorded it.</td><td>Setting the video to private. Unlisted is fine, private is not.</td></tr><tr><th>Form</th><td>Submit the video link through CS50's project form.</td><td>Forgetting this step after uploading the video.</td></tr><tr><th>README.md</th><td>Title, video URL and a description of the project. CS50 suggests around 750 words is likely to be enough.</td><td>A thin README. The FAQ names this as a common reason projects fail.</td></tr><tr><th>Code</th><td>Run submit50 cs50/problems/2026/x/project from your project folder.</td><td>A submission over 100MB. Remove large files or follow CS50's fallback steps.</td></tr></tbody></table></div><p>You may work with one or two classmates, but the project's scope must grow with the group. The project page also allows AI tools other than CS50's own for this final project only, as long as you cite them in comments in your code. Students found in breach of the academic honesty policy are removed from the course and lose eligibility for a certificate, so read that policy before using any outside help on problem sets.</p><p>If your project does not appear in the gradebook, the project page suggests resubmitting with only the README.md.</p>"
+  },
+  {
+   "id": "deadline",
+   "h2": "What is the CS50x deadline, and does your work carry over?",
+   "html": "<p>The CS50x 2026 deadline is 30 June 2027 at 23:59 UTC. There are no deadlines for individual problem sets, but the <a href=\"https://cs50.harvard.edu/x/2026/faqs/\" rel=\"noopener\">FAQ</a> says CS50 cannot make exceptions to the course deadline for any reason.</p><p>Carry-over rules matter if you started in an earlier year:</p><ul><li>The current term began on 1 January 2026. Work you submitted during this term carries forward if the course is extended, as long as it scored 70% or more before the deadline.</li><li>Work submitted before the current term began does not carry forward, according to the same FAQ.</li><li>When CS50x moves to a new edition, you can only submit that edition's problems. Work for older editions cannot be submitted for credit.</li></ul><p>The FAQ also describes a yearly gradebook clean-up each January. Because the two rules are worded differently, treat any work from before 2026 as something you may need to redo, and check your gradebook rather than assuming.</p><p>One more practical point: download your certificate as soon as it appears. CS50 does not post printed copies.</p>"
+  },
+  {
+   "id": "verified",
+   "h2": "Should you pay for the edX verified certificate instead?",
+   "html": "<p>Most learners do not need to. The free CS50 Certificate and the edX verified certificate are separate, and you can earn both from the same work. The verified certificate is bought from edX and includes identity checks, so some employers or schools may see it as stronger evidence.</p><p>If you do want it, the <a href=\"https://cs50.harvard.edu/x/2026/faqs/\" rel=\"noopener\">CS50x FAQ</a> gives these rules:</p><ul><li>You can upgrade at any point up to 10 days before the course's final deadline. CS50 recommends doing it before you finish.</li><li>edX receives a list of finishers every three weeks and usually issues certificates within a week, but it can take up to 30 days.</li><li>The verified certificate uses the name on your edX account, so check it before you upgrade.</li><li>Only email CS50's certificates team if more than 30 days have passed since you met every requirement.</li></ul><p>The FAQ does not list a price, so check the current cost on edX before paying.</p>"
+  },
+  {
+   "id": "plan",
+   "h2": "How long does it take to finish CS50x for the certificate?",
+   "html": "<p>Plan for months, not weeks. With ten problem sets at 10 to 20 hours each on CS50's own estimate, plus a final project, the coursework adds up to at least 100 hours.</p><p>Here is an example pace for someone with about 8 hours a week. It is an illustration, not a CS50 schedule:</p><ul><li><strong>Month 1:</strong> Set up edX, the gradebook and GitHub, then finish the first two problem sets. Fixing account problems early saves trouble at the end.</li><li><strong>Months 2 to 5:</strong> About one problem set every two weeks. Expect the middle of the course to be slower, and keep going rather than skipping ahead.</li><li><strong>Month 6:</strong> The last problem sets, then the final project, video and README.</li></ul><p>From tutoring students through IGCSE, A Level and AP Computer Science, my advice is simple: do not leave a hard problem for later. The certificate needs every problem, so one unfinished week close to the deadline can cost you the whole certificate. If you have never coded, CS50's Python course is a gentler first step, which we compare in <a href=\"blog-free-python-courses-with-certificates\">free Python courses with certificates</a>.</p>"
+  },
+  {
+   "id": "missing",
+   "h2": "Why has my CS50 certificate not appeared?",
+   "html": "<p>Usually one requirement is still red or a username does not match. Check these in order:</p><ol><li><strong>Has it been four hours?</strong> The <a href=\"https://cs50.harvard.edu/x/2026/faqs/\" rel=\"noopener\">FAQ</a> says the free certificate appears within approximately four hours of your last required score.</li><li><strong>Is every week green?</strong> One red x in a multi-problem week blocks the whole week.</li><li><strong>Does your GitHub username match?</strong> The username you used on CS50.dev and submit50 must be the one at the top of the gradebook.</li><li><strong>Is your edX account linked?</strong> Look for the gold bar in the gradebook.</li><li><strong>Did the final project register?</strong> Reload cs50.me/cs50x a few minutes after submitting. If it is missing, resubmit with only README.md.</li></ol><p>Type your name carefully when you claim it. CS50 says it cannot change the name on a certificate afterwards.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is the CS50 certificate really free?",
+   "a": "Yes. CS50 issues its own CS50 Certificate at no cost when you pass every required assignment. You still need a free edX account, and the edX verified certificate is a separate paid option."
+  },
+  {
+   "q": "What score do you need to pass CS50x?",
+   "a": "Each assignment needs 70% or higher, combining correctness from check50 and style from style50. Every required problem and the final project must pass, not just 70% of them."
+  },
+  {
+   "q": "Can I use ChatGPT for CS50 problem sets?",
+   "a": "The final project page allows AI tools other than CS50's own only for the final project, with their use cited in your code comments. For problem sets, follow CS50's academic honesty policy, because breaking it removes your eligibility for a certificate."
+  }
+ ],
+ "sources": [
+  {
+   "title": "CS50x 2026 frequently asked questions, Harvard CS50",
+   "url": "https://cs50.harvard.edu/x/2026/faqs/"
+  },
+  {
+   "title": "Final Project, CS50x 2026",
+   "url": "https://cs50.harvard.edu/x//project/"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-free-harvard-courses-with-certificates",
+   "title": "Free Harvard courses with certificates"
+  },
+  {
+   "href": "blog-free-python-courses-with-certificates",
+   "title": "Free Python courses with certificates"
+  },
+  {
+   "href": "blog-free-ai-courses-with-certificates",
+   "title": "Free AI courses with certificates"
+  }
+ ]
+}

@@ -1,12 +1,18 @@
 # Topics
 
 ## Backlog (AI tools, how-tos, free courses, career skills)
-- How to get the free Harvard CS50 certificate, step by step (free-courses) [Search Console demand]
 - Which Google certification courses are actually free (free-courses) [Search Console demand]
 - How to make a short video with free AI tools, step by step (how-to)
 - Best free AI image tools and their usage limits (ai-tools)
+- How students can get GitHub Copilot free, and the rules that apply (ai-tools)
+- How to use spaced repetition (Anki) for computer science revision (how-to)
+- How to write a computer science personal statement for UCAS (how-to)
+- Free SQL courses with certificates (free-courses)
+- Free cloud computing courses with certificates: AWS Skill Builder vs Microsoft Learn (free-courses)
+- Google Cybersecurity Certificate vs CompTIA Security+ (career-skills)
 
 ## Published
+- 2026-11-20 how-to-get-cs50-certificate (free-courses) [Search Console demand; CS50x 2026 deadline 30 June 2027, re-check when CS50x 2027 opens]
 - 2026-08-08 ccna-vs-network-plus (career-skills) [written 2026-11-11, backdated at owner's request]
 - 2026-09-26 security-plus-sy0-801-vs-sy0-701 (career-skills) [written 2026-11-11, backdated at owner's request]
 - 2026-08-17 google-it-support-certificate-vs-comptia-a-plus (career-skills) [written 2026-11-11, backdated at owner's request]
