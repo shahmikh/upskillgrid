@@ -1,0 +1,106 @@
+{
+ "slug": "how-to-make-a-video-with-free-ai-tools",
+ "category": "how-to",
+ "title": "How to Make a Short Video With Free AI Tools",
+ "h1": "How to Make a Short Video With Free AI Tools, Step by Step",
+ "description": "Make a short video for free: write the script with an AI chatbot, generate a few clips in Google Vids, then add captions and a voiceover in Clipchamp.",
+ "published": "2026-11-24",
+ "modified": "2026-11-24",
+ "read_min": 7,
+ "pin": 1,
+ "card_summary": "A five-step free workflow for a 30 to 90 second video: AI script, a few Google Vids clips, your own screen recording, then captions and voiceover in Clipchamp.",
+ "lead": "You can make a short video with free AI tools in five steps: write the script with a free chatbot, generate two or three clips in Google Vids, record your own screen or footage, then add captions, a voiceover and music in Clipchamp and export in 1080p. The free AI clip allowance is small, so the trick is to use AI clips as short cutaways and build the rest of the video from footage you control.",
+ "takeaways": [
+  "Google Vids lets anyone with a personal Google account generate AI video clips at no cost, each between 3 and 15 seconds long.",
+  "The free monthly AI clip allowance is small and Google's own pages give different figures, so plan for only a handful of clips.",
+  "Clipchamp's free personal plan includes auto captions, text to speech voiceovers and noise suppression, with exports up to 1080p.",
+  "Use AI clips as cutaways and build most of the video from a screen recording, slides or your own footage.",
+  "Write and time the script first, then spend AI clips only on the scenes you cannot film, record or show on a slide."
+ ],
+ "sections": [
+  {
+   "id": "tools",
+   "h2": "Which free AI tools do you need to make a short video?",
+   "html": "<p>You need three free tools: an AI chatbot for the script, Google Vids for AI generated clips, and Clipchamp for editing, captions and voiceover. All three work in a browser on a computer, and none of them needs a paid plan for a short video.</p><p>Google Vids is Google's video editor. Google's <a href=\"https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/\" rel=\"noopener\">November 2026 announcement</a> says anyone with a Google account can generate AI video clips in Vids at no cost, now up to 15 seconds each. Clipchamp is Microsoft's video editor, and its <a href=\"https://support.microsoft.com/en-us/topic/feature-comparison-between-clipchamp-s-work-and-personal-versions-8339bac9-e374-4e3b-9c78-8e69576b5fe8\" rel=\"noopener\">feature comparison page</a> lists the AI features that come with the free personal version.</p><div class=\"table-wrap\"><table class=\"post-table\"><thead><tr><th>Job</th><th>Google Vids (free personal account)</th><th>Clipchamp (free personal plan)</th></tr></thead><tbody><tr><th>Generate new AI footage</th><td>Yes, 3 to 15 second clips from a text prompt, in 720p or 1080p</td><td>No</td></tr><tr><th>Auto captions</th><td>Not covered in the pages we checked</td><td>Yes, with an optional SRT download</td></tr><tr><th>AI voiceover</th><td>Uses a monthly credit allowance</td><td>Yes, text to speech</td></tr><tr><th>Clean up audio</th><td>Not covered in the pages we checked</td><td>Yes, noise suppression and auto cut of pauses</td></tr><tr><th>Export</th><td>Download the finished video as MP4</td><td>Up to 1080p, plus YouTube, TikTok and cloud drives</td></tr></tbody></table></div><p>Our view: Vids is the place to make footage you could not film yourself, and Clipchamp is the better free finishing tool because captions and cleanup are clearly part of its free plan. Using both costs nothing and plays to each one's strength.</p>"
+  },
+  {
+   "id": "script",
+   "h2": "How do you write the script with AI?",
+   "html": "<p>Ask a free chatbot for a script with a hook, three points and a closing line, then cut it to the length you need. Read it aloud with a timer before you make anything, because a first draft is almost always longer than the video you want.</p><p>A prompt that works well looks like this:</p><p><em>Write a 60 second video script about how binary numbers work, for 15 year old students. Start with a one sentence hook. Give three short points. End with one line telling viewers what to try next. Mark each scene with [SCENE] and suggest one visual per scene.</em></p><p>The scene markers matter. They turn the script into a shot list, and the shot list tells you which two or three scenes deserve an AI clip and which ones can be a screen recording or a slide. If you want better results from the chatbot, our guide to <a href=\"blog-prompt-writing-basics\">prompt writing basics</a> covers the role, context and format pattern. To pick a chatbot, see our comparison of <a href=\"blog-chatgpt-vs-gemini-vs-claude-free-plans\">ChatGPT, Gemini and Claude free plans</a>.</p><p>Check every fact in the script yourself. Chatbots can state wrong details confidently, and a video spreads a mistake faster than a page of notes.</p>"
+  },
+  {
+   "id": "clips",
+   "h2": "How do you generate AI clips for free in Google Vids?",
+   "html": "<p>Open Google Vids on a computer, choose Create AI videos, type a prompt, set the length between 3 and 15 seconds, and click Generate. The <a href=\"https://support.google.com/docs/answer/16143507?hl=en\" rel=\"noopener\">Google Vids help page on AI video clips</a> gives these steps:</p><ol><li>Go to vids.new on your computer and sign in with your Google account.</li><li>From the start menu, select <strong>Create AI videos</strong>, then <strong>Create</strong> in the side panel.</li><li>Describe the subject, action, camera angle, lighting and tone in the prompt box.</li><li>Click the Omni setting to choose Landscape (16:9) or Portrait (9:16), drag the duration slider, and pick 720p or 1080p.</li><li>Optionally add up to 7 reference images under Ingredients, for example a drawing of a diagram you want animated.</li><li>Select <strong>Generate</strong>, review the clip, then select <strong>Insert</strong> to add it to your Vid.</li><li>When your clips are in place, click <strong>File</strong> and then <strong>Download as MP4</strong>, as the <a href=\"https://support.google.com/a/users/answer/15599399\" rel=\"noopener\">Google Vids best practices guide</a> describes, so you can finish the video in Clipchamp.</li></ol><p>The free allowance is the catch. Google's <a href=\"https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/\" rel=\"noopener\">announcement</a> says free accounts can generate up to three 15 second videos a month, while the <a href=\"https://support.google.com/docs/answer/15609411?hl=en\" rel=\"noopener\">Vids feature availability page</a> expresses the personal account limit as seconds of AI video per month and a separate pool of 50 credits for things like AI voiceovers. Because Google's own pages do not agree, check the counter inside Vids before you start and assume you have only a few clips.</p><p>That shapes the plan. Spend your clips on the moments that need them: an opening shot, a hard to film concept, or a closing visual. Write precise prompts so you do not burn a generation on a retry. Name the camera move (\"slow zoom in\"), the setting and the style in one sentence each.</p><p>Two limits to know. The help page says users in the European Economic Area, the United Kingdom, Switzerland, Illinois and Texas cannot upload and edit their own videos with the AI feature, and the availability page notes that many AI features in Vids are English only for now.</p>"
+  },
+  {
+   "id": "footage",
+   "h2": "What should fill the rest of the video?",
+   "html": "<p>Fill most of the video with footage you make yourself: a screen recording, slides, a whiteboard, or a phone clip. It costs nothing, it has no monthly limit, and it is usually clearer than AI footage for teaching.</p><p>For a tutorial, a screen recording is often the whole video. For a concept explainer, five or six simple slides with a voiceover work well and stay readable on a phone. Export the slides as images and drop them on the timeline in the editor.</p><p>As an example, a 60 second binary numbers video could be planned like this:</p><ul><li>0 to 5 seconds: one AI clip of a row of light switches flicking on and off.</li><li>5 to 45 seconds: three slides showing 1, 2, 4, 8 place values, with a voiceover.</li><li>45 to 55 seconds: a screen recording converting 13 to binary in a calculator.</li><li>55 to 60 seconds: a closing slide with the one thing to try next.</li></ul><p>That plan uses a single AI generation, which leaves the rest of the month's allowance for another video.</p>"
+  },
+  {
+   "id": "edit",
+   "h2": "How do you add captions and a voiceover in Clipchamp?",
+   "html": "<p>Import your clips into Clipchamp, add a text to speech voiceover or your own recording, then turn on auto captions and export in 1080p. Microsoft's <a href=\"https://support.microsoft.com/en-us/topic/feature-comparison-between-clipchamp-s-work-and-personal-versions-8339bac9-e374-4e3b-9c78-8e69576b5fe8\" rel=\"noopener\">Clipchamp feature comparison</a> lists all of these as included in the free personal version.</p><ol><li><strong>Set the shape first.</strong> Choose 9:16 for Shorts, Reels or TikTok and 16:9 for YouTube or a class presentation. Clipchamp's free version supports both, plus square and several other ratios.</li><li><strong>Lay out the timeline</strong> in script order, then trim each clip so no shot lasts longer than its line.</li><li><strong>Add the voice.</strong> Paste each script section into text to speech, or record yourself. If you record, run noise suppression and the auto cut tool, which removes pauses.</li><li><strong>Turn on captions.</strong> Clipchamp creates a transcript and embedded captions. Read them through, because names and technical terms are where automatic captions usually slip.</li><li><strong>Add music</strong> from the free stock library at a low volume under the voice.</li><li><strong>Export at 1080p.</strong> The free plan exports at 480p, 720p or 1080p; 4K is a paid feature.</li></ol><p>Premium templates, premium stock, brand kits and cloud backup of projects are paid extras, but none is needed for a clean short video.</p>"
+  },
+  {
+   "id": "checklist",
+   "h2": "What should you check before you publish?",
+   "html": "<p>Check facts, captions, sound level and the rules of where you are posting. A short list catches most problems:</p><ul><li>Every fact in the script has been checked against a reliable source.</li><li>Captions match the audio word for word, especially names and numbers.</li><li>The voice is clearly louder than the music.</li><li>The first two seconds show what the video is about.</li><li>Text on screen is big enough to read on a phone.</li><li>You say that AI generated clips are AI generated where the platform or your school asks for it.</li></ul><p>On that last point, Google's <a href=\"https://blog.google/products-and-platforms/products/workspace/gemini-omni-in-google-vids/\" rel=\"noopener\">Gemini Omni in Vids announcement</a> says every clip generated in Vids includes an imperceptible SynthID watermark that lets viewers verify it was made with AI. Labeling it yourself is the simpler path.</p><p>If the video is for coursework, check your school's AI policy first. Our guide on <a href=\"blog-do-ai-detectors-work\">whether AI detectors work</a> explains why honesty about AI use is safer than hoping it is not noticed.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Google Vids free for personal Google accounts?",
+   "a": "Yes. Google says anyone with a Google account can use Vids and generate AI video clips at no cost. The number of free AI clips per month is limited, and Google's pages give different figures, so check the allowance shown inside Vids."
+  },
+  {
+   "q": "Can you make AI video clips on a phone?",
+   "a": "Google's help steps for AI clips in Vids start with opening Vids on your computer, so plan to generate clips on a laptop or desktop. You can still film footage on your phone and add it to the edit later."
+  },
+  {
+   "q": "How long can a free AI video clip be in Google Vids?",
+   "a": "Each clip generated from a text prompt can be 3 to 15 seconds long. To make a longer video, combine a few AI clips with your own footage, slides or screen recordings in an editor."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Generate longer AI videos with Omni 1.2 Flash in Google Vids at no cost, Google (5 November 2026)",
+   "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/"
+  },
+  {
+   "title": "Use AI to generate video clips in Google Vids, Google Docs Editors Help",
+   "url": "https://support.google.com/docs/answer/16143507?hl=en"
+  },
+  {
+   "title": "Learn about availability of Gemini features in Google Vids, Google Docs Editors Help",
+   "url": "https://support.google.com/docs/answer/15609411?hl=en"
+  },
+  {
+   "title": "Feature comparison between Clipchamp's work and personal versions, Microsoft Support",
+   "url": "https://support.microsoft.com/en-us/topic/feature-comparison-between-clipchamp-s-work-and-personal-versions-8339bac9-e374-4e3b-9c78-8e69576b5fe8"
+  },
+  {
+   "title": "Anyone can make stunning HD videos with Gemini Omni in Google Vids, Google (23 September 2026)",
+   "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-in-google-vids/"
+  },
+  {
+   "title": "Best practices for Google Vids, Google Workspace Learning Center",
+   "url": "https://support.google.com/a/users/answer/15599399"
+  }
+ ],
+ "related": [
+  {
+   "href": "blog-prompt-writing-basics",
+   "title": "Prompt writing basics"
+  },
+  {
+   "href": "blog-best-free-ai-tools-for-students",
+   "title": "Best free AI tools for students"
+  },
+  {
+   "href": "blog#how-to",
+   "title": "More how-to guides"
+  }
+ ]
+}
