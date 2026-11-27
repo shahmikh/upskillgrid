@@ -2,7 +2,6 @@
 
 ## Backlog (AI tools, how-tos, free courses, career skills)
 - Which Google certification courses are actually free (free-courses) [Search Console demand] [passed over 2026-11-24: overlaps free-google-courses-with-certificates; consider refreshing that post for this query instead]
-- Best free AI image tools and their usage limits (ai-tools)
 - How students can get GitHub Copilot free, and the rules that apply (ai-tools)
 - How to use spaced repetition (Anki) for computer science revision (how-to)
 - How to write a computer science personal statement for UCAS (how-to)
@@ -11,6 +10,7 @@
 - Google Cybersecurity Certificate vs CompTIA Security+ (career-skills)
 
 ## Published
+- 2026-11-27 free-ai-image-tools-usage-limits (ai-tools) [no vendor publishes a free image count; post covers reset patterns from official pages; re-check quarterly]
 - 2026-11-24 how-to-make-a-video-with-free-ai-tools (how-to) [Google Vids free AI clip allowance differs across Google pages; re-check quarterly]
 - 2026-11-20 how-to-get-cs50-certificate (free-courses) [Search Console demand; CS50x 2026 deadline 30 June 2027, re-check when CS50x 2027 opens]
 - 2026-08-08 ccna-vs-network-plus (career-skills) [written 2026-11-11, backdated at owner's request]
